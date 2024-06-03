@@ -5,7 +5,7 @@ const WelcomeComponent = () => {
     const [message, setMessage] = useState('');
 
     const onButtonClick = () => {
-        setMessage('Bienvenue greg');
+        setMessage('Bienvenue gregoire');
     };
 
     return (
