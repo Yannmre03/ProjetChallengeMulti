@@ -5,7 +5,7 @@ import WelcomeMessage from './components/WelcomeMessage';
 export default function App() {
   return (
     <View style={styles.container}>
-      <WelcomeMessage />
+      < WelcomeMessage />
       
       <StatusBar style="auto" />
     </View>
