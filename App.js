@@ -6,16 +6,12 @@ import AccueilPage from './components/accueil';
 import SelectionAnnee from './components/selectionannee';
 
 const Stack = createStackNavigator();
-console.log("stack cree");
 function App() {
   return (
     <NavigationContainer>
-      console.log("in function app");
       <Stack.Navigator initialRouteName="NavAccueil">
         <Stack.Screen name="NavAccueil" component={AccueilPage} />
-        console.log("premier screen cree");
         <Stack.Screen name="NavSelectionAnnee" component={SelectionAnnee} />
-        console.log("2eme screen cree");
       </Stack.Navigator>
     </NavigationContainer>
   );
