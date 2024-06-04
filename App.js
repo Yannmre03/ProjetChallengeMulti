@@ -5,7 +5,7 @@ import AccueilPage from './components/accueil';
 export default function App() {
   return (
     <View style={styles.container}>
-      < AccueilPage />
+      < AccueilPage  />
       
       <StatusBar style="auto" />
     </View>
