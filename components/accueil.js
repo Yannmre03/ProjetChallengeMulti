@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 
-const WelcomeComponent = () => {
+const AccueilPage = () => {
     const [message, setMessage] = useState('');
 
     const onButtonClick = () => {
@@ -28,4 +28,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default WelcomeComponent;
+export default AccueilPage;
