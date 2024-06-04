@@ -1,13 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
-function AccueilPage ({navigation}){
-    console.log("dans accueil");
+function SelectionAnnee ({navigation}) {
+
     return (
-        
         <View style={styles.container}>
-            <Text style={styles.title}>LEARN'IT.</Text>
-            <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavSelectionAnnee')}>
+            <Text style={styles.title}>LEARN'IT 2.0 selection.</Text>
+            <TouchableOpacity style={styles.button}>
                 <Text style={styles.buttonText}>PLAY</Text>
             </TouchableOpacity>
         </View>
@@ -40,4 +39,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default AccueilPage;
+export default SelectionAnnee;
