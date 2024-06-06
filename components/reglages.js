@@ -4,32 +4,28 @@ import { View, Text, TouchableOpacity, StyleSheet, Button, ImageBackground, Imag
 function ReglagesPage ({navigation}){
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Reglages</Text>
-            <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavReglages')}>
-                <Text style={styles.buttonText}>PLAY</Text>
+            <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavAccueil')}>
+                <Text style={styles.buttonText}>Back</Text>
             </TouchableOpacity>
+            <Text style={styles.title}>Reglages</Text>
         </View>
     );
 };
 
 const styles = StyleSheet.create({
-    image: {
-        width: 100,  
-        height: 67,
-        alignItems:'flex-start',
-      },
     button: {
         backgroundColor: 'black',
         paddingHorizontal: 40,
         paddingVertical: 20,
         borderRadius: 5,
-        justifyContent: 'center',
-        alignItems: 'center',
+        alignItems: 'flex-start',
+        marginRight: 200
     },
     buttonText: {
         color: '#fff',
-        fontSize: 48,
-        textAlign: 'center', 
+        fontSize: 24,
+        textAlign: 'flex-start',
+        justifyContent: 'flex-start'
     },
     container: {
         flex: 1,
@@ -39,7 +35,7 @@ const styles = StyleSheet.create({
     title: {
         color: 'black',
         fontSize: 64,
-        marginVertical: 150,
+        marginVertical: 50,
         textAlign: 'center',
         justifyContent: 'center',
         alignItems: 'center'
