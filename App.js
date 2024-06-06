@@ -12,6 +12,7 @@ function App() {
       <Stack.Navigator initialRouteName="NavAccueil">
         <Stack.Screen name="NavAccueil" component={AccueilPage} />
         <Stack.Screen name="NavSelectionAnnee" component={SelectionAnnee} />
+        <Stack.Screen name="NavPremAnnee" component={PremiereAnnee} />
       </Stack.Navigator>
     </NavigationContainer>
   );
