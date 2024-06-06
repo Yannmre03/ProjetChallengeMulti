@@ -4,7 +4,7 @@ import { View, Text, TouchableOpacity, StyleSheet, Button, ImageBackground, Imag
 function AccueilPage ({navigation}){
     return (
         <View style={styles.container}>
-            <TouchableOpacity onPress={() => navigation.navigate('NavSelectionAnnee')}>
+            <TouchableOpacity onPress={() => navigation.navigate('NavReglages')}>
                 <Image
                     source={{uri: 'https://i.postimg.cc/JzMkbvtg/reglages.png'}} //require('../assets/reglages.png')
                     style={styles.image} 
@@ -24,7 +24,6 @@ const styles = StyleSheet.create({
         width: 100,  
         height: 67,
         alignItems:'flex-start',
-        backgroundColor: 'red'
       },
     button: {
         backgroundColor: 'black',
