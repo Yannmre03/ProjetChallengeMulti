@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import AccueilPage from './components/accueil';
 import SelectionAnnee from './components/selectionannee';
 import ReglagesPage from './components/reglages';
+import PremiereAnneePage from './components/PremiereAnnee';
 
 const Stack = createStackNavigator();
 function App() {
@@ -14,7 +15,7 @@ function App() {
         <Stack.Screen name="NavAccueil" component={AccueilPage} />
         <Stack.Screen name="NavSelectionAnnee" component={SelectionAnnee} />
         <Stack.Screen name="NavReglages" component={ReglagesPage} />
-        <Stack.Screen name="NavPremAnnee" component={PremiereAnnee} />
+        <Stack.Screen name="NavPremAnnee" component={PremiereAnneePage} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
-function PremiereAnnee ({navigation}) {
+function PremiereAnneePage ({navigation}) {
 
     return (
         <View style={styles.container}>
@@ -53,4 +53,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default PremiereAnnee;
+export default PremiereAnneePage;
