@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb304a1e-68dc-42dd-9f29-5bf0cb35e99f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/components/accueil.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/accueil.js" afterDir="false" />
-    </list>
+    <list default="true" id="bb304a1e-68dc-42dd-9f29-5bf0cb35e99f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

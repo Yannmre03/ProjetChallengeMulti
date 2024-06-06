@@ -24,7 +24,6 @@ const styles = StyleSheet.create({
         width: 100,  
         height: 67,
         alignItems:'flex-start',
-        backgroundColor: 'red'
       },
     button: {
         backgroundColor: 'black',
