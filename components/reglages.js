@@ -5,7 +5,7 @@ function ReglagesPage ({navigation}){
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Reglages</Text>
-            <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavSelectionAnnee')}>
+            <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavReglages')}>
                 <Text style={styles.buttonText}>PLAY</Text>
             </TouchableOpacity>
         </View>
