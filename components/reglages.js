@@ -1,17 +1,10 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Button, ImageBackground, Image } from 'react-native';
 
-function AccueilPage ({navigation}){
+function ReglagesPage ({navigation}){
     return (
         <View style={styles.container}>
-            <TouchableOpacity onPress={() => navigation.navigate('NavSelectionAnnee')}>
-                <Image
-                    source={{uri: 'https://i.postimg.cc/JzMkbvtg/reglages.png'}} //require('../assets/reglages.png')
-                    style={styles.image} 
-                    resizeMode='contain'
-                />
-            </TouchableOpacity>
-            <Text style={styles.title}>LEARN'IT</Text>
+            <Text style={styles.title}>Reglages</Text>
             <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavSelectionAnnee')}>
                 <Text style={styles.buttonText}>PLAY</Text>
             </TouchableOpacity>
@@ -55,4 +48,4 @@ const styles = StyleSheet.create({
 
 });
 
-export default AccueilPage;
+export default ReglagesPage;
