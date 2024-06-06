@@ -6,7 +6,7 @@ function SelectionAnnee ({navigation}) {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Je suis en : </Text>
-            <TouchableOpacity style={styles.button2}>
+            <TouchableOpacity style={styles.button2} onPress={() => navigation.navigate('NavPremAnnee')}>
                 <Text style={styles.buttonText}>1ère année</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.button}>

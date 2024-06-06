@@ -5,15 +5,15 @@ function PremiereAnneePage ({navigation}) {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Je suis en : </Text>
+            <Text style={styles.title}>Choisi la matière que tu veux étudier</Text>
             <TouchableOpacity style={styles.button2}>
-                <Text style={styles.buttonText}>1ère année</Text>
+                <Text style={styles.buttonText}>Matière 1</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.button}>
-                <Text style={styles.buttonText}>2ème année</Text>
+                <Text style={styles.buttonText}>Matière 2</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.button}>
-                <Text style={styles.buttonText}>3ème année</Text>
+                <Text style={styles.buttonText}>Matière 3</Text>
             </TouchableOpacity>
         </View>
     );
@@ -48,7 +48,8 @@ const styles = StyleSheet.create({
     },
     title: {
         color: 'black',
-        fontSize: 64,
+        
+        fontSize: 45,
         marginBottom: 150
     }
 });
