@@ -6,7 +6,7 @@ function PremiereAnneePage ({navigation}) {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Choisi la matière que tu veux étudier</Text>
-            <TouchableOpacity style={styles.button2}>
+            <TouchableOpacity style={styles.button2} onPress={() => navigation.navigate('NavQuizz')}>
                 <Text style={styles.buttonText}>Matière 1</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.button}>
