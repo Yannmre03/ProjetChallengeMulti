@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 
 const WelcomeComponent = () => {
-    const [message, setMessage] = useState('');
+    const [message, setMessage] = useState('s');
 
     const onButtonClick = () => {
         setMessage('Bienvenue Grceegoire');

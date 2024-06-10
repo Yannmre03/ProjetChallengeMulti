@@ -1,21 +1,32 @@
 import React, { useState } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import { ScrollView, View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
 function PremiereAnneePage ({navigation}) {
 
     return (
-        <View style={styles.container}>
-            <Text style={styles.title}>Choisi la matière que tu veux étudier</Text>
-            <TouchableOpacity style={styles.button2}>
-                <Text style={styles.buttonText}>Matière 1</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.button}>
-                <Text style={styles.buttonText}>Matière 2</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.button}>
-                <Text style={styles.buttonText}>Matière 3</Text>
-            </TouchableOpacity>
-        </View>
+        <ScrollView contentContainerStyle={styles.container}>
+            <View style={styles.container}>
+                <Text style={styles.title}>Choisi la matière que tu veux étudier</Text>
+                <TouchableOpacity style={styles.button}>
+                    <Text style={styles.buttonText}>Maths Abs</Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.button}>
+                    <Text style={styles.buttonText}>Thermo</Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.button}>
+                    <Text style={styles.buttonText}>Elec</Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.button}>
+                    <Text style={styles.buttonText}>Chimie</Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.button}>
+                    <Text style={styles.buttonText}>CDS</Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.button}>
+                    <Text style={styles.buttonText}>OMI</Text>
+                </TouchableOpacity>
+            </View>
+        </ScrollView>
     );
 };
 
@@ -37,20 +48,21 @@ const styles = StyleSheet.create({
     buttonText: {
         color: '#fff',
         fontSize: 48,
-        textAlign: 'center', 
+        textAlign: 'center'
     },
     container: {
-        flex: 1,
-        justifyContent: 'center',
+        
         alignItems: 'center',
         padding: 20,
         backgroundColor: '#EBE5DA'
     },
     title: {
         color: 'black',
-        
+        textAlign: 'center',
+        justifyContent: 'center',
+        alignItems: 'center',
         fontSize: 45,
-        marginBottom: 150
+        marginBottom: 50
     }
 });
 
