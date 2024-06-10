@@ -1,19 +1,16 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
-function SelectionAnnee ({navigation}) {
+function ChoixCoursExercicesPage ({navigation}) {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Je suis en : </Text>
-            <TouchableOpacity style={styles.button2} onPress={() => navigation.navigate('NavPremAnnee')}>
-                <Text style={styles.buttonText}>1ère année</Text>
+            <Text style={styles.title}>Veux-tu t'exercer ou apprendre?</Text>
+            <TouchableOpacity style={styles.button2}>
+                <Text style={styles.buttonText}>cours</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.button}>
-                <Text style={styles.buttonText}>2ème année</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.button}>
-                <Text style={styles.buttonText}>3ème année</Text>
+                <Text style={styles.buttonText} onPress={() => navigation.navigate('NavQuizz')}>s'exercer</Text>
             </TouchableOpacity>
         </View>
     );
@@ -21,18 +18,18 @@ function SelectionAnnee ({navigation}) {
 
 const styles = StyleSheet.create({
     button: {
-        backgroundColor: 'grey',
+        backgroundColor: 'black',
         paddingHorizontal: 40,
         paddingVertical: 20,
-        borderRadius: 5,
+        borderRadius: 20,
         marginVertical: 10,
     },
     button2: {
-        backgroundColor: 'black',
-        paddingHorizontal: 55,
+        backgroundColor: 'grey',
+        paddingHorizontal: 40,
         paddingVertical: 20,
-        borderRadius: 5,
-        marginVertical: 10
+        borderRadius: 20,
+        marginVertical: 10,
     },
     buttonText: {
         color: '#fff',
@@ -48,9 +45,10 @@ const styles = StyleSheet.create({
     },
     title: {
         color: 'black',
-        fontSize: 64,
+        
+        fontSize: 45,
         marginBottom: 150
     }
 });
 
-export default SelectionAnnee;
+export default ChoixCoursExercicesPage;

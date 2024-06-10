@@ -32,7 +32,7 @@ function PremiereAnneePage ({navigation}) {
 
 const styles = StyleSheet.create({
     button: {
-        backgroundColor: 'black',
+        backgroundColor: 'grey',
         paddingHorizontal: 40,
         paddingVertical: 20,
         borderRadius: 5,

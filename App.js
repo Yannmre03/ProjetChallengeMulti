@@ -6,6 +6,9 @@ import AccueilPage from './components/accueil';
 import SelectionAnnee from './components/selectionannee';
 import ReglagesPage from './components/reglages';
 import PremiereAnneePage from './components/PremiereAnnee';
+import QuizzPage from './components/quizz';
+import FinQuizzPage from './components/finQuizz';
+import ChoixCoursExercicesPage from './components/choixCoursExercices';
 
 const Stack = createStackNavigator();
 function App() {
@@ -16,6 +19,9 @@ function App() {
         <Stack.Screen name="NavSelectionAnnee" component={SelectionAnnee} />
         <Stack.Screen name="NavReglages" component={ReglagesPage} />
         <Stack.Screen name="NavPremAnnee" component={PremiereAnneePage} />
+        <Stack.Screen name="NavQuizz" component={QuizzPage} />
+        <Stack.Screen name="NavFinQuizz" component={FinQuizzPage} />
+        <Stack.Screen name="NavChoixCoursExercices" component={ChoixCoursExercicesPage} />
       </Stack.Navigator>
     </NavigationContainer>
   );
