@@ -1,19 +1,16 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
-function PremiereAnneePage ({navigation}) {
+function ChoixCoursExercicesPage ({navigation}) {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Choisi la matière que tu veux étudier</Text>
-            <TouchableOpacity style={styles.button2} onPress={() => navigation.navigate('NavChoixCoursExercices')}>
-                <Text style={styles.buttonText}>Matière 1</Text>
+            <Text style={styles.title}>Veux-tu t'exercer ou apprendre?</Text>
+            <TouchableOpacity style={styles.button2}>
+                <Text style={styles.buttonText}>cours</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.button}>
-                <Text style={styles.buttonText}>Matière 2</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.button}>
-                <Text style={styles.buttonText}>Matière 3</Text>
+                <Text style={styles.buttonText} onPress={() => navigation.navigate('NavQuizz')}>s'exercer</Text>
             </TouchableOpacity>
         </View>
     );
@@ -21,18 +18,18 @@ function PremiereAnneePage ({navigation}) {
 
 const styles = StyleSheet.create({
     button: {
-        backgroundColor: 'grey',
+        backgroundColor: 'black',
         paddingHorizontal: 40,
         paddingVertical: 20,
-        borderRadius: 5,
+        borderRadius: 20,
         marginVertical: 10,
     },
     button2: {
-        backgroundColor: 'black',
-        paddingHorizontal: 55,
+        backgroundColor: 'grey',
+        paddingHorizontal: 40,
         paddingVertical: 20,
-        borderRadius: 5,
-        marginVertical: 10
+        borderRadius: 20,
+        marginVertical: 10,
     },
     buttonText: {
         color: '#fff',
@@ -54,4 +51,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default PremiereAnneePage;
+export default ChoixCoursExercicesPage;

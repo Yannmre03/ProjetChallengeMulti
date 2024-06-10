@@ -8,5 +8,25 @@
       {"id": "4", "text": "0"}
     ], 
     "bonneReponse" : "2"
+  },
+  "quiz2": {
+    "question": "Que font 3 + 3 ?",
+    "reponses": [
+      {"id": "1", "text": "3"},
+      {"id": "2", "text": "4"},
+      {"id": "3", "text": "6"},
+      {"id": "4", "text": "0"}
+    ], 
+    "bonneReponse" : "3"
+  },
+  "quiz3": {
+    "question": "Que font 1 + 1 ?",
+    "reponses": [
+      {"id": "1", "text": "2"},
+      {"id": "2", "text": "4"},
+      {"id": "3", "text": "8"},
+      {"id": "4", "text": "0"}
+    ], 
+    "bonneReponse" : "1"
   }
 }
