@@ -7,8 +7,8 @@ function PremiereAnneePage ({navigation}) {
         <ScrollView contentContainerStyle={styles.container}>
             <View style={styles.container}>
                 <Text style={styles.title}>Choisi la matière que tu veux étudier</Text>
-                <TouchableOpacity style={styles.button}>
-                    <Text style={styles.buttonText}>Maths Abs</Text>
+                <TouchableOpacity style={styles.button}  onPress={() => navigation.navigate('NavQuizz')}>
+                    <Text style={styles.buttonText}>Maths Abs </Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.button}>
                     <Text style={styles.buttonText}>Thermo</Text>
