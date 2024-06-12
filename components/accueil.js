@@ -46,7 +46,8 @@ const styles = StyleSheet.create({
     title: {
         color: 'black',
         fontSize: 64,
-        marginVertical: 150,
+        marginVertical: 150,  
+        fontFamily: 'LuckiestGuy',  
         textAlign: 'center',
         justifyContent: 'center',
         alignItems: 'center'
