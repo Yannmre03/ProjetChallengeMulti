@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
-function ChoixCoursExercicesPage ({navigation}) {
+function ChoixCoursExercicesPage ({route, navigation}) {
 
     return (
         <View style={styles.container}>
