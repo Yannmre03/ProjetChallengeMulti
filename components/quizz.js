@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, FlatList, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet, FlatList, TouchableOpacity, ScrollView } from 'react-native';
 import quizData from '../data.json'; // Assurez-vous que le chemin vers le fichier data.json est correct
 
 function QuizzPage({ navigation }) {
@@ -43,7 +43,6 @@ function QuizzPage({ navigation }) {
             navigation.navigate('NavFinQuizz', { finalScore: score, totalQuestions });
         }
     };
-    
 
     const renderItem = ({ item }) => (
         <TouchableOpacity
@@ -60,20 +59,22 @@ function QuizzPage({ navigation }) {
             <View style={styles.scoreContainer}>
                 <Text style={styles.scoreText}>Score: {score}</Text>
             </View>
-            <Text style={styles.title}>{question}</Text>
-            <FlatList
-                data={reponses}
-                renderItem={renderItem}
-                keyExtractor={item => item.id}
-                numColumns={2}
-            />
-            <TouchableOpacity
-                style={styles.buttonSuivant}
-                onPress={handleNextQuiz}
-                disabled={!answered}  // Activer le bouton seulement si une réponse a été donnée
-            >
-                <Text style={styles.buttonText}>Suivant</Text>
-            </TouchableOpacity>
+            <ScrollView contentContainerStyle={styles.scrollContainer}>
+                <Text style={styles.title}>{question}</Text>
+                <FlatList
+                    data={reponses}
+                    renderItem={renderItem}
+                    keyExtractor={item => item.id}
+                    numColumns={2}
+                />
+                <TouchableOpacity
+                    style={styles.buttonSuivant}
+                    onPress={handleNextQuiz}
+                    disabled={!answered}  // Activer le bouton seulement si une réponse a été donnée
+                >
+                    <Text style={styles.buttonText}>Suivant</Text>
+                </TouchableOpacity>
+            </ScrollView>
         </View>
     );
 }
@@ -81,20 +82,23 @@ function QuizzPage({ navigation }) {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        padding: 20,
-        backgroundColor: '#EBE5DA'
+        backgroundColor: '#EBE5DA',
     },
     scoreContainer: {
         alignSelf: 'flex-end',  // Positionner le score en haut à droite
         marginRight: 10,
-        marginTop: 10
+        marginTop: 10,
     },
     scoreText: {
         fontSize: 24,
         fontWeight: 'bold',
-        color: 'black'
+        color: 'black',
+    },
+    scrollContainer: {
+        flexGrow: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 20,
     },
     buttonSuivant: {
         backgroundColor: 'black',
@@ -124,7 +128,8 @@ const styles = StyleSheet.create({
         color: 'black',
         fontSize: 32,
         marginTop: 20,
-        marginBottom: 20
+        marginBottom: 20,
+        textAlign: 'center',
     }
 });
 
