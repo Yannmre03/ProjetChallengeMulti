@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Quelle est la définition de la période d'une onde lumineuse ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La durée pendant laquelle la lumière reste constante"
+        },
+        {
+          "id": "2",
+          "text": "Le temps pour que le champ électrique fasse une rotation complète"
+        },
+        {
+          "id": "3",
+          "text": "Le temps pour compléter un cycle de variation du champ électrique"
+        },
+        {
+          "id": "4",
+          "text": "La distance parcourue par la lumière pendant un cycle"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz2": {
+      "question": "Comment la lumière se propage-t-elle dans un milieu homogène ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "En spirale"
+        },
+        {
+          "id": "2",
+          "text": "En ligne droite"
+        },
+        {
+          "id": "3",
+          "text": "En suivant un motif ondulatoire"
+        },
+        {
+          "id": "4",
+          "text": "En changeant constamment de direction"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz3": {
+      "question": "Quelle est la conséquence si le premier milieu est plus réfringent que le second ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Le rayon réfracté se rapproche de la normale"
+        },
+        {
+          "id": "2",
+          "text": "Le rayon réfracté s'éloigne de la normale"
+        },
+        {
+          "id": "3",
+          "text": "Le rayon réfracté est totalement réfléchi"
+        },
+        {
+          "id": "4",
+          "text": "Aucune déviation du rayon n'occurs"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz4": {
+      "question": "Qu'est-ce que la réflexion totale ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La lumière est complètement absorbée par le milieu"
+        },
+        {
+          "id": "2",
+          "text": "La lumière est complètement transmise à travers le milieu"
+        },
+        {
+          "id": "3",
+          "text": "La lumière est complètement réfléchie à la surface de séparation"
+        },
+        {
+          "id": "4",
+          "text": "La lumière traverse le milieu sans être réfléchie ni réfractée"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz5": {
+      "question": "Que caractérise une lentille convergente par rapport à son effet sur les rayons lumineux ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Elle focalise les rayons lumineux"
+        },
+        {
+          "id": "2",
+          "text": "Elle disperse les rayons lumineux"
+        },
+        {
+          "id": "3",
+          "text": "Elle inverse la direction des rayons lumineux"
+        },
+        {
+          "id": "4",
+          "text": "Elle polarise les rayons lumineux"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz6": {
+      "question": "Quelle est la relation entre la distance focale image (f′) et le foyer principal image (F′) pour une lentille convergente ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "f′=OF′"
+        },
+        {
+          "id": "2",
+          "text": "f' = 1/(OF')"
+        },
+        {
+          "id": "3",
+          "text": "f′=2×OF′"
+        },
+        {
+          "id": "4",
+          "text": "f' = (OF')/2"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz7": {
+      "question": "Comment la position d'un objet par rapport à une lentille affecte-t-elle la nature de l'image formée ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un objet à l'infini forme une image au foyer"
+        },
+        {
+          "id": "2",
+          "text": "Un objet au foyer forme une image à l'infini"
+        },
+        {
+          "id": "3",
+          "text": "Un objet entre le foyer et la lentille forme une image agrandie"
+        },
+        {
+          "id": "4",
+          "text": "Toutes les réponses précédentes sont correctes"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz8": {
+      "question": "Quelle est la conséquence de l'application de la loi de Snell-Descartes pour un rayon lumineux passant de l'air (n1 = 1) à l'eau (n2 = 1.33)",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Le rayon lumineux est totalement réfléchi à l'interface"
+        },
+        {
+          "id": "2",
+          "text": "Le rayon lumineux est absorbé par l'eau"
+        },
+        {
+          "id": "3",
+          "text": "Le rayon lumineux se rapproche de la normale"
+        },
+        {
+          "id": "4",
+          "text": "Le rayon lumineux s'éloigne de la normale"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz9": {
+      "question": "Qu'est-ce que la réflexion totale et sous quelles conditions se produit-elle ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Quand le rayon passe d'un milieu à indice élevé à un milieu à indice faible et que l'angle d'incidence dépasse l'angle critique"
+        },
+        {
+          "id": "2",
+          "text": "Quand le rayon passe d'un milieu à indice faible à un milieu à indice élevé, quel que soit l'angle d'incidence"
+        },
+        {
+          "id": "3",
+          "text": "Quand le rayon incident forme un angle de 90 degrés avec la normale"
+        },
+        {
+          "id": "4",
+          "text": "Quand le rayon incident et le rayon réfléchi sont perpendiculaires"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz10": {
+      "question": "Comment varie l'indice de réfraction avec la fréquence de la lumière selon le document ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Plus la fréquence est haute, plus l'indice de réfraction est faible"
+        },
+        {
+          "id": "2",
+          "text": "L'indice de réfraction ne dépend pas de la fréquence de la lumière"
+        },
+        {
+          "id": "3",
+          "text": "Plus la fréquence est basse, plus l'indice de réfraction est élevé"
+        },
+        {
+          "id": "4",
+          "text": "Plus la fréquence de la lumière est grande, plus l'indice de réfraction est élevé"
+        }
+      ],
+      "bonneReponse": "4"
+    }
+  }

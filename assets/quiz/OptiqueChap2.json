@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Qu'est-ce qu'une lentille mince ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un milieu transparent bordé par au moins un dioptre sphérique"
+        },
+        {
+          "id": "2",
+          "text": "Un milieu transparent avec une épaisseur significative comparée à son diamètre"
+        },
+        {
+          "id": "3",
+          "text": "Un milieu opaque utilisé pour bloquer la lumière"
+        },
+        {
+          "id": "4",
+          "text": "Un instrument pour mesurer l'intensité lumineuse"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz2": {
+      "question": "Quelle est la différence entre une lentille convergente et une lentille divergente ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une lentille convergente disperse les rayons lumineux, tandis qu'une lentille divergente les concentre"
+        },
+        {
+          "id": "2",
+          "text": "Une lentille convergente concentre les rayons lumineux, tandis qu'une lentille divergente les disperse"
+        },
+        {
+          "id": "3",
+          "text": "Une lentille convergente et une lentille divergente augmentent toutes deux la vitesse de la lumière"
+        },
+        {
+          "id": "4",
+          "text": "Il n'y a pas de différence notable entre les deux types de lentilles"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz3": {
+      "question": "Quel est le foyer image d'une lentille mince ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Le point où les rayons parallèles à l'axe optique se rencontrent après avoir traversé la lentille"
+        },
+        {
+          "id": "2",
+          "text": "Le point d'où semblent diverger les rayons après avoir traversé la lentille"
+        },
+        {
+          "id": "3",
+          "text": "Le point le plus éloigné de la lentille sur l'axe optique"
+        },
+        {
+          "id": "4",
+          "text": "Le centre de la lentille mince"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz4": {
+      "question": "Comment la vergence d'une lentille est-elle exprimée ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "C=f'/2"
+        },
+        {
+          "id": "2",
+          "text": "C=2f′"
+        },
+        {
+          "id": "3",
+          "text": "C=f′, où f′ est la distance focale image"
+        },
+        {
+          "id": "4",
+          "text": "C=1/f′, où f′ est la distance focale image"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz5": {
+      "question": "Quelle est la propriété d'un rayon passant par le centre optique d'une lentille mince ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Il est absorbé par la lentille"
+        },
+        {
+          "id": "2",
+          "text": "Il est dévié à un angle fixe"
+        },
+        {
+          "id": "3",
+          "text": "Il n'est pas dévié"
+        },
+        {
+          "id": "4",
+          "text": "Il est toujours focalisé au foyer image"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz6": {
+      "question": "Quelle est la relation de conjugaison pour une lentille mince ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "(1/p')-(1/p)=2f'"
+        },
+        {
+          "id": "2",
+          "text": "(1/p')×(1/p)=(1/f')"
+        },
+        {
+          "id": "3",
+          "text": "(1/p')+(1/p)=(1/f')"
+        },
+        {
+          "id": "4",
+          "text": "(1/p')-(1/p)=(1/f')"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz7": {
+      "question": "Qu'est-ce que le grandissement d'une image produite par une lentille mince ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Le rapport entre la taille de l'image et celle de l'objet"
+        },
+        {
+          "id": "2",
+          "text": "Le déplacement de l'image par rapport à l'objet"
+        },
+        {
+          "id": "3",
+          "text": "La réduction de la luminosité de l'image par rapport à l'objet"
+        },
+        {
+          "id": "4",
+          "text": "L'augmentation de la distance entre l'image et la lentille par rapport à l'objet"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz8": {
+      "question": "Comment construit-on l'image d'un objet à l'aide d'une lentille convergente ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "En utilisant des rayons passant uniquement par le foyer objet"
+        },
+        {
+          "id": "2",
+          "text": "En utilisant des rayons incident parallèles à l'axe optique et des rayons passant par le centre optique"
+        },
+        {
+          "id": "3",
+          "text": "En utilisant uniquement des rayons divergents"
+        },
+        {
+          "id": "4",
+          "text": "En utilisant des rayons réfractés aléatoirement"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz9": {
+      "question": "Que signifie un grandissement négatif pour une image produite par une lentille mince ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'image est droite"
+        },
+        {
+          "id": "2",
+          "text": "L'image est renversée"
+        },
+        {
+          "id": "3",
+          "text": "L'image est plus grande que l'objet"
+        },
+        {
+          "id": "4",
+          "text": "L'image et l'objet sont de même taille"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz10": {
+      "question": "Qu'est-ce qu'une lentille à bord mince ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une lentille dont l'épaisseur au centre est supérieure à celle aux bords"
+        },
+        {
+          "id": "2",
+          "text": "Une lentille avec des bords non définis"
+        },
+        {
+          "id": "3",
+          "text": "Une lentille dont les bords sont parallèles"
+        },
+        {
+          "id": "4",
+          "text": "Une lentille dont l'épaisseur au centre est inférieure à celle aux bords"
+        }
+      ],
+      "bonneReponse": "4"
+    }
+  }

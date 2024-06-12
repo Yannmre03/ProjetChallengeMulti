@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Quel est l'objet principal de l'étude en optique géométrique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Les interactions électromagnétiques dans les matériaux"
+        },
+        {
+          "id": "2",
+          "text": "Les phénomènes perçus par l'œil causés par la lumière"
+        },
+        {
+          "id": "3",
+          "text": "Les structures moléculaires influençant la lumière"
+        },
+        {
+          "id": "4",
+          "text": "Les réactions chimiques résultant de l'exposition à la lumière"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz2": {
+      "question": "Quelle est la vitesse de la lumière dans le vide ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "3×10^6 m/s"
+        },
+        {
+          "id": "2",
+          "text": "3×10^8 m/s"
+        },
+        {
+          "id": "3",
+          "text": "2.99792458×10^8 m/s"
+        },
+        {
+          "id": "4",
+          "text": "3,0111×10^8 m/s"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz3": {
+      "question": "Quelle loi régit la réflexion de la lumière à l'interface de deux milieux ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Loi de Snell-Descartes"
+        },
+        {
+          "id": "2",
+          "text": "Loi de Newton"
+        },
+        {
+          "id": "3",
+          "text": "Loi de Hooke"
+        },
+        {
+          "id": "4",
+          "text": "Loi de Coulomb"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz4": {
+      "question": "Comment la longueur d'onde de la lumière dans un milieu est-elle calculée par rapport à celle dans le vide ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "λ=λ0/n"
+        },
+        {
+          "id": "2",
+          "text": "λ = λ0×n"
+        },
+        {
+          "id": "3",
+          "text": "λ=λ0/(n²)"
+        },
+        {
+          "id": "4",
+          "text": "λ=5λ0/2n"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz5": {
+      "question": "Quelle est la relation entre les sinus des angles d'incidence et de réfraction, connue sous le nom de loi de Snell-Descartes ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "n1​i1​=n2​i2​"
+        },
+        {
+          "id": "2",
+          "text": "n1​tan(i1​)=n2​tan(i2​)"
+        },
+        {
+          "id": "3",
+          "text": "n1cos⁡(i1)=n2cos⁡(i2)"
+        },
+        {
+          "id": "4",
+          "text": "n1​sin(i1​)=n2​sin(i2​)"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz6": {
+      "question": "Quel est le principe fondamental de l'optique géométrique concernant le chemin de la lumière dans un milieu homogène ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La lumière se propage en ligne droite"
+        },
+        {
+          "id": "2",
+          "text": "La lumière se propage en spirale"
+        },
+        {
+          "id": "3",
+          "text": "La lumière se propage en arcs"
+        },
+        {
+          "id": "4",
+          "text": "La lumière se propage en zigzag"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz7": {
+      "question": "Qu'est-ce qu'un dioptre en optique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un instrument pour mesurer la réfraction de la lumière"
+        },
+        {
+          "id": "2",
+          "text": "Une surface séparant deux milieux de différents indices de réfraction"
+        },
+        {
+          "id": "3",
+          "text": "Un dispositif pour bloquer la lumière"
+        },
+        {
+          "id": "4",
+          "text": "Une unité de mesure de la puissance de réfraction"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz8": {
+      "question": "ue se passe-t-il lorsqu'un rayon lumineux incident atteint l'angle limite d'incidence dans le phénomène de réflexion totale ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Le rayon est totalement réfracté"
+        },
+        {
+          "id": "2",
+          "text": "Le rayon est partiellement réfléchi"
+        },
+        {
+          "id": "3",
+          "text": "Le rayon est totalement réfléchi"
+        },
+        {
+          "id": "4",
+          "text": "Le rayon est absorbé"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz9": {
+      "question": "Quelle condition caractérise une transformation isobare pour un rayon lumineux traversant un dioptre ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Le rayon lumineux change de direction mais reste dans le même plan"
+        },
+        {
+          "id": "2",
+          "text": "Le rayon lumineux reste dans le même plan et les angles d'incidence et de réflexion sont égaux"
+        },
+        {
+          "id": "3",
+          "text": "Le rayon lumineux ne change pas de plan mais son intensité varie"
+        },
+        {
+          "id": "4",
+          "text": "Aucune des réponses précédentes"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz10": {
+      "question": "Qu'implique la propriété d'isotropie d'un milieu en optique géométrique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Le milieu présente la même réfraction dans toutes les directions"
+        },
+        {
+          "id": "2",
+          "text": "Le milieu absorbe la lumière uniformément dans toutes les directions"
+        },
+        {
+          "id": "3",
+          "text": "Le milieu présente des propriétés magnétiques variables"
+        },
+        {
+          "id": "4",
+          "text": "Le milieu présente des propriétés électriques uniformes"
+        }
+      ],
+      "bonneReponse": "1"
+    }
+  }
