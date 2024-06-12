@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Qu'est ce qu'un oxydant dans une réaction redox ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une espèce qui cède des électrons"
+        },
+        {
+          "id": "2",
+          "text": "Une espèce qui capte des électrons"
+        },
+        {
+          "id": "3",
+          "text": "Une espèce qui ne participe pas au transfert d'électrons"
+        },
+        {
+          "id": "4",
+          "text": "Une espèce qui est uniquement consommée"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz2": {
+      "question": "Quel est le role du réducteur dans une réaction redox ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Il capte les électrons"
+        },
+        {
+          "id": "2",
+          "text": "Il libère des électrons"
+        },
+        {
+          "id": "3",
+          "text": "Il stabilise l'échange d'électrons sans y participer"
+        },
+        {
+          "id": "4",
+          "text": "Il transforme les ions positifs en neutres"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz3": {
+      "question": "Quelle est la demi-équation correcte pour la réduction du cuivre ? ",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Cu(s) → Cu²⁺ + 2 e⁻"
+        },
+        {
+          "id": "2",
+          "text": "Cu²⁺ + 2 e⁻ → Cu(s)"
+        },
+        {
+          "id": "3",
+          "text": "Cu → Cu²⁺ + e⁻"
+        },
+        {
+          "id": "4",
+          "text": "Cu²⁺ → Cu + 2 e⁻"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz4": {
+      "question": "Que signifie le terme \"Nombre d'oxydation\" ? ",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Le nombre total d'électrons dans un atome"
+        },
+        {
+          "id": "2",
+          "text": "La charge nette d'un ion"
+        },
+        {
+          "id": "3",
+          "text": "Le degré d'oxydation ou de réduction d'un élément dans un composé"
+        },
+        {
+          "id": "4",
+          "text": "La quantité d'énergie libérée lors d'une réaction redox"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz5": {
+      "question": "Comment calcule-t-on le potentiel standard d'un couple redox ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "En mesurant la quantité d'énergie nécessaire pour briser les liaisons"
+        },
+        {
+          "id": "2",
+          "text": "En utilisant la différence de potentiel entre deux demi-réactions"
+        },
+        {
+          "id": "3",
+          "text": "En déterminant la différence entre les potentiels d'oxydation et de réduction"
+        },
+        {
+          "id": "4",
+          "text": "En utilisant l'équation de Nernst à des conditions standard"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz6": {
+      "question": "Qu'est ce qu'une réaction redox ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une réaction où seulement l'oxydation se produit"
+        },
+        {
+          "id": "2",
+          "text": "Une réaction où seulement la réduction se produit"
+        },
+        {
+          "id": "3",
+          "text": "Une réaction impliquant le transfert d'électrons entre deux espèces"
+        },
+        {
+          "id": "4",
+          "text": "Une réaction qui ne change pas les états d'oxydation"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz7": {
+      "question": "Comment l'addition d'electrons affecte-t-elle un oxydant ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Il devient réduit"
+        },
+        {
+          "id": "2",
+          "text": "Il devient plus oxydé"
+        },
+        {
+          "id": "3",
+          "text": "Il perd des électrons supplémentaires"
+        },
+        {
+          "id": "4",
+          "text": "Il ne subit aucun changement chimique"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz8": {
+      "question": "Quel est le role de l'equation de Nerdst dans les réactions redox ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Elle prédit la vitesse de réaction"
+        },
+        {
+          "id": "2",
+          "text": "Elle calcule le pH de la solution"
+        },
+        {
+          "id": "3",
+          "text": "Elle détermine le potentiel d'électrode sous n'importe quelle condition"
+        },
+        {
+          "id": "4",
+          "text": "Elle mesure la concentration des réactifs"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz9": {
+      "question": "Que représente le potentiel standard d'un couple redox ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La capacité de l'oxydant à capter des électrons à conditions standards"
+        },
+        {
+          "id": "2",
+          "text": "La capacité maximale de libérer de l'énergie"
+        },
+        {
+          "id": "3",
+          "text": "L'énergie minimale nécessaire pour démarrer la réaction"
+        },
+        {
+          "id": "4",
+          "text": "Le pH auquel la réaction est neutre"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz10": {
+      "question": "Qu'est ce que la force electromotrice fem dans le contexte d'une pile ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La différence de potentiel entre les deux demi-cellules"
+        },
+        {
+          "id": "2",
+          "text": "La résistance de la pile à l'électricité"
+        },
+        {
+          "id": "3",
+          "text": "La capacité de la pile à maintenir un courant constant"
+        },
+        {
+          "id": "4",
+          "text": "L'énergie totale produite par la pile"
+        }
+      ],
+      "bonneReponse": "1"
+    }
+  }

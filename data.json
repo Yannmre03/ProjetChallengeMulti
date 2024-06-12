@@ -1,5 +1,5 @@
 {
-  "quiz1": {
+  "quiz": {
     "question": "Que font 2 + 2 ?",
     "reponses": [
       {"id": "1", "text": "3"},

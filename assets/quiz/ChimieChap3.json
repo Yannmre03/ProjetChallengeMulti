@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Qu'est ce qu'une réaction  à l'équilibre ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Quand tous les réactifs sont consommés"
+        },
+        {
+          "id": "2",
+          "text": "Quand il n'y a plus de modification des conditions du système"
+        },
+        {
+          "id": "3",
+          "text": "Quand la réaction ne produit plus de produits"
+        },
+        {
+          "id": "4",
+          "text": "Quand la température du système atteint un maximum"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz2": {
+      "question": "Que représente la pression partielle d'un gaz dans un mélange ? ",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La pression qu'exercerait le gaz s'il occupait seul tout le volume du mélange"
+        },
+        {
+          "id": "2",
+          "text": "La somme des pressions de tous les gaz présents"
+        },
+        {
+          "id": "3",
+          "text": "La différence entre la pression totale et la pression du gaz considéré"
+        },
+        {
+          "id": "4",
+          "text": "La pression qu'exercerait le gaz à température double"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz3": {
+      "question": "Comment l'activité chimique d'un soluté est elle généralement exprimée ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Par sa pression partielle divisée par la pression standard"
+        },
+        {
+          "id": "2",
+          "text": "Par son volume divisé par le volume total"
+        },
+        {
+          "id": "3",
+          "text": "Par sa concentration divisée par une concentration de référence"
+        },
+        {
+          "id": "4",
+          "text": "Par sa masse divisée par la masse totale"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz4": {
+      "question": "Qu'est ce que le quotient réactionnel Qr indique ? ",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La vitesse de la réaction à l'équilibre"
+        },
+        {
+          "id": "2",
+          "text": "La constante d'équilibre à température constante"
+        },
+        {
+          "id": "3",
+          "text": "La concentration des produits uniquement"
+        },
+        {
+          "id": "4",
+          "text": "L'état d'avancement de la réaction à un moment donné"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz5": {
+      "question": "Que signifie un K>10^4 pour une réaction chimique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La réaction n'est pas favorisée"
+        },
+        {
+          "id": "2",
+          "text": "La réaction est en équilibre"
+        },
+        {
+          "id": "3",
+          "text": "La réaction est considérée comme totale"
+        },
+        {
+          "id": "4",
+          "text": "La réaction est lente"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz6": {
+      "question": "Quel est l'effet d'une augmentation de la pression sur l'équilibre d'une réaction produisant moins de moles de gaz que les réactifs ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'équilibre est déplacé vers les réactifs"
+        },
+        {
+          "id": "2",
+          "text": "L'équilibre est déplacé vers les produits"
+        },
+        {
+          "id": "3",
+          "text": "Aucun effet sur l'équilibre"
+        },
+        {
+          "id": "4",
+          "text": "L'équilibre est déplacé alternativement entre les réactifs et les produits"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz7": {
+      "question": "Que se passe-t-il si Qr<K dans une réaction chimique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La réaction est à l'équilibre"
+        },
+        {
+          "id": "2",
+          "text": "La réaction évolue dans le sens des réactifs"
+        },
+        {
+          "id": "3",
+          "text": "Aucune évolution ne se produit"
+        },
+        {
+          "id": "4",
+          "text": "La réaction évolue dans le sens des produits"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz8": {
+      "question": "Selon le principe de Le Châtelier, que se passe-t-il si la température augmente pour une réaction exothermique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'équilibre se déplace vers les réactifs"
+        },
+        {
+          "id": "2",
+          "text": "L'équilibre se déplace vers les produits"
+        },
+        {
+          "id": "3",
+          "text": "La température n'affecte pas l'équilibre"
+        },
+        {
+          "id": "4",
+          "text": "L'équilibre reste constant"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz9": {
+      "question": "Quelle est realtion entre Qr et K pour que la réaction progresse dans le sens direct, pour atteindre l'équilibre ? ",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Qr>K"
+        },
+        {
+          "id": "2",
+          "text": "Qr=K"
+        },
+        {
+          "id": "3",
+          "text": "Qr<K"
+        },
+        {
+          "id": "4",
+          "text": "Qr=-K"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz10": {
+      "question": "En utilisant la loi de Van't Hoff, si K augmente, c'est par ce que : ",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La variation d'enthalpie libre standard >0"
+        },
+        {
+          "id": "2",
+          "text": "La variation d'enthalpie libre standard <0"
+        },
+        {
+          "id": "3",
+          "text": "La variation d'enthalpie libre standard =0"
+        },
+        {
+          "id": "4",
+          "text": "a variation d'enthalpie libre standard =K"
+        }
+      ],
+      "bonneReponse": "1"
+    }
+  }

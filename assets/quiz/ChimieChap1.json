@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Qu'est ce que la quantité de matière n ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une grandeur proportionnelle au volume"
+        },
+        {
+          "id": "2",
+          "text": "Une grandeur proportionnelle au nombre de particules identiques"
+        },
+        {
+          "id": "3",
+          "text": "Un nombre exprimé en litres"
+        },
+        {
+          "id": "4",
+          "text": "Une unité de mesure de la densité"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz2": {
+      "question": "Qu'est ce que représente le nombre d'avogadro Na ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Le nombre d'atomes dans un gramme de carbone-12"
+        },
+        {
+          "id": "2",
+          "text": "La densité d'une substance"
+        },
+        {
+          "id": "3",
+          "text": "Le nombre d'atomes dans une mole de substance"
+        },
+        {
+          "id": "4",
+          "text": "La masse d'une mole de molécules"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz3": {
+      "question": "Quelle est l'expression correcte pour calculer la masse molaire M d'une molécule ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "M=n/m"
+        },
+        {
+          "id": "2",
+          "text": "M=n*m"
+        },
+        {
+          "id": "3",
+          "text": "M=Na/n"
+        },
+        {
+          "id": "4",
+          "text": "M=m/n"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz4": {
+      "question": "Qu'est ce que la fraction molaire ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un rapport de masses"
+        },
+        {
+          "id": "2",
+          "text": "Un rapport de volumes"
+        },
+        {
+          "id": "3",
+          "text": "Une grandeur sans dimension qui représente la proportion d'une espèce"
+        },
+        {
+          "id": "4",
+          "text": "Une mesure de la concentration molaire"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz5": {
+      "question": "Comment la concentration molaire est-elle exprimée ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "En mol/L"
+        },
+        {
+          "id": "2",
+          "text": "En g/L"
+        },
+        {
+          "id": "3",
+          "text": "En particules par mole"
+        },
+        {
+          "id": "4",
+          "text": "En kg/m3"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz6": {
+      "question": "Quelle est la relation entrela masse volumique et la densité ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La densité est le rapport de la masse volumique d'un composé par celle de l'eau"
+        },
+        {
+          "id": "2",
+          "text": "La densité est le produit de la masse volumique par le volume"
+        },
+        {
+          "id": "3",
+          "text": "La masse volumique est toujours plus petite que la densité"
+        },
+        {
+          "id": "4",
+          "text": "Aucune des réponses précédentes"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz7": {
+      "question": "Que signifie les coefficients stoechiométriques dans une équation bilan ? ",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La quantité de chaleur produite"
+        },
+        {
+          "id": "2",
+          "text": "Le nombre de molécules impliquées"
+        },
+        {
+          "id": "3",
+          "text": "Les proportions entre les quantités de réactifs consommés et de produits formés"
+        },
+        {
+          "id": "4",
+          "text": "La vitesse de la réaction"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz8": {
+      "question": "Coomment définit-on l'avancement maximal d'une réaction ? ",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "C'est la quantité maximale de produit que l'on peut obtenir"
+        },
+        {
+          "id": "2",
+          "text": "C'est la quantité initiale du réactif limitant divisée par son coefficient stœchiométrique"
+        },
+        {
+          "id": "3",
+          "text": "C'est la quantité de réactif restant à la fin de la réaction"
+        },
+        {
+          "id": "4",
+          "text": "C'est le moment où tous les réactifs sont entièrement consommés"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz9": {
+      "question": "Qu'est ce que le coefficient de dissociation ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La proportion de réactif non dissocié"
+        },
+        {
+          "id": "2",
+          "text": "La proportion de réactif dissocié par rapport à la quantité initiale"
+        },
+        {
+          "id": "3",
+          "text": "Le nombre de molécules formées après dissociation"
+        },
+        {
+          "id": "4",
+          "text": "La vitesse de dissociation d'une réaction"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz10": {
+      "question": "A quoi sert un tableau d'avancement ? ",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "À suivre la pression au cours d'une réaction"
+        },
+        {
+          "id": "2",
+          "text": "À déterminer les quantités de matière des réactifs et des produits à différents temps de la réaction"
+        },
+        {
+          "id": "3",
+          "text": "À mesurer la température d'une réaction"
+        },
+        {
+          "id": "4",
+          "text": "À identifier les réactifs limitants"
+        }
+      ],
+      "bonneReponse": "2"
+    }
+}

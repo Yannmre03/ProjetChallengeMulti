@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Quelle est la formule de la loi des gaz parfaits ? ",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "P = nRT/V"
+        },
+        {
+          "id": "2",
+          "text": "PV = nRT"
+        },
+        {
+          "id": "3",
+          "text": "V = nRT/P"
+        },
+        {
+          "id": "4",
+          "text": "R = PV/nT"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz2": {
+      "question": "Qu'est ce qu'une transformation isochore ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une transformation où la pression reste constante"
+        },
+        {
+          "id": "2",
+          "text": "Une transformation où la température reste constante"
+        },
+        {
+          "id": "3",
+          "text": "Une transformation où le volume reste constant"
+        },
+        {
+          "id": "4",
+          "text": "Une transformation sans transfert de chaleur"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz3": {
+      "question": "Quel est l'état satndard d'un composé ? ",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'état où il est soumis à une température extrême"
+        },
+        {
+          "id": "2",
+          "text": "L'état où il est sous haute pression"
+        },
+        {
+          "id": "3",
+          "text": "L'état où il est le moins stable, indépendamment de la pression"
+        },
+        {
+          "id": "4",
+          "text": "L'état le plus stable sous une pression de 1 bar"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz4": {
+      "question": "Comment exprimer la variation d'énergie interne ΔU pour un système fermé, de chaleur Q et de travail W ? ",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "ΔU=Q−W"
+        },
+        {
+          "id": "2",
+          "text": "ΔU=Q+W"
+        },
+        {
+          "id": "3",
+          "text": "ΔU=W/Q"
+        },
+        {
+          "id": "4",
+          "text": "ΔU=Q*W"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz5": {
+      "question": "Quelle est la signification de ΔH<0 dans une réaction chimique ? ",
+      "reponses": [
+        {
+          "id": "1",
+          "text": " La réaction est endothermique"
+        },
+        {
+          "id": "2",
+          "text": "La réaction est exothermique"
+        },
+        {
+          "id": "3",
+          "text": "La réaction ne change pas la température"
+        },
+        {
+          "id": "4",
+          "text": "La réaction absorbe le volume"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz6": {
+      "question": "Pour une transfomation à pression constante, comment s'exprime la variation d'enthalpie ΔH ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "ΔH=ΔU+PΔV"
+        },
+        {
+          "id": "2",
+          "text": "ΔH=ΔU-PΔV"
+        },
+        {
+          "id": "3",
+          "text": "ΔH=ΔU+VΔP"
+        },
+        {
+          "id": "4",
+          "text": "ΔH=ΔU/PΔV"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz7": {
+      "question": "Quel type de système n'échange ni matière ni energie avec son environement ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Système ouvert"
+        },
+        {
+          "id": "2",
+          "text": "Système fermé"
+        },
+        {
+          "id": "3",
+          "text": "Système isolé"
+        },
+        {
+          "id": "4",
+          "text": "Système contrôlé"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz8": {
+      "question": "Quel est le principe du seconde principe ? ",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'entropie d'un système isolé diminue"
+        },
+        {
+          "id": "2",
+          "text": "L'entropie d'un système isolé reste constante"
+        },
+        {
+          "id": "3",
+          "text": "L'entropie d'un système fermé augmente"
+        },
+        {
+          "id": "4",
+          "text": "L'entropie d'un système ouvert augmente"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz9": {
+      "question": "Que mesure l'enthalpie libre de Gibbs ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'énergie totale disponible pour effectuer un travail"
+        },
+        {
+          "id": "2",
+          "text": "La quantité totale d'énergie interne"
+        },
+        {
+          "id": "3",
+          "text": "La variation de pression dans le système"
+        },
+        {
+          "id": "4",
+          "text": "L'énergie perdue sous forme de chaleur"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz10": {
+      "question": "Quelle est la conséquence de ΔG<0 dans une réaction chimique ? ",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La réaction est à l'équilibre"
+        },
+        {
+          "id": "2",
+          "text": "La réaction est non spontanée"
+        },
+        {
+          "id": "3",
+          "text": "La réaction est spontanée"
+        },
+        {
+          "id": "4",
+          "text": "La réaction nécessite un catalyseur"
+        }
+      ],
+      "bonneReponse": "3"
+    }
+}
