@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Quelle est la définition d'un acide selon la théorie de Bronsted-Lowry ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une espèce qui accepte un proton"
+        },
+        {
+          "id": "2",
+          "text": "Une espèce qui donne un proton"
+        },
+        {
+          "id": "3",
+          "text": "Une espèce qui donne un électron"
+        },
+        {
+          "id": "4",
+          "text": "Une espèce qui accepte un électron"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz2": {
+      "question": "Qu'est ce qu'un ampholyte ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une substance qui peut seulement agir comme un acide"
+        },
+        {
+          "id": "2",
+          "text": "Une substance qui peut seulement agir comme une base"
+        },
+        {
+          "id": "3",
+          "text": "Une substance qui peut agir comme un acide ou une base"
+        },
+        {
+          "id": "4",
+          "text": "Une substance qui ne peut ni donner ni accepter un proton"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz3": {
+      "question": "Comment le pH est-il défini ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "pH = log [OH⁻]"
+        },
+        {
+          "id": "2",
+          "text": "pH = -log [H₃O⁺]"
+        },
+        {
+          "id": "3",
+          "text": "pH = -log [OH⁻]"
+        },
+        {
+          "id": "4",
+          "text": "pH = log [H₃O⁺]"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz4": {
+      "question": "Quel est le produit ionique de l'eau à 25°C ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "10^−14"
+        },
+        {
+          "id": "2",
+          "text": "10^−7"
+        },
+        {
+          "id": "3",
+          "text": "1"
+        },
+        {
+          "id": "4",
+          "text": "10^−10"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz5": {
+      "question": "Quelle est la formule utilisée pour calculer la constante d'acidité Ka ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Ka=([H3​O+][OH−]​)/[AH]"
+        },
+        {
+          "id": "2",
+          "text": "Ka=[AH][A−]"
+        },
+        {
+          "id": "3",
+          "text": "Ka=[AH]​/([A−][H3​O+])"
+        },
+        {
+          "id": "4",
+          "text": "Ka=([A−][H3O+])/[AH]"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz6": {
+      "question": "Quelle condition caractérise une solution neutre à 25°C ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "[H₃O⁺] > [OH⁻]"
+        },
+        {
+          "id": "2",
+          "text": "[H₃O⁺] < [OH⁻]"
+        },
+        {
+          "id": "3",
+          "text": "[H₃O⁺] = [OH⁻]"
+        },
+        {
+          "id": "4",
+          "text": "[H₃O⁺] = 0"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz7": {
+      "question": "Que signifie un pKa faible ? ",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'acide est faible"
+        },
+        {
+          "id": "2",
+          "text": "L'acide est fort"
+        },
+        {
+          "id": "3",
+          "text": "La base est forte"
+        },
+        {
+          "id": "4",
+          "text": "La base est faible"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz8": {
+      "question": "Comment le pH affecte-t-il la prédominance des formes acides et basiques d'un ampholyte?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "pH > pKa, la forme acide prédomine"
+        },
+        {
+          "id": "2",
+          "text": "pH = 0, la forme basique prédomine"
+        },
+        {
+          "id": "3",
+          "text": "pH < pKa, la forme acide prédomine"
+        },
+        {
+          "id": "4",
+          "text": "pKa = 0, la forme acide prédomine"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz9": {
+      "question": "Quelle relation existe-t-il entre le pH et le pKa dans une soliution tampon ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "pH = pKa"
+        },
+        {
+          "id": "2",
+          "text": "pH = pKa + log([Base]/[Acide])"
+        },
+        {
+          "id": "3",
+          "text": "pH = pKa + log([Acide]/[Base])"
+        },
+        {
+          "id": "4",
+          "text": "pH = pKa - log([Base]/[Acide])"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz10": {
+      "question": "Quel est le critère pour que la réaction acidobasique soit spontanée ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "pKa de l'acide réactif doit être inférieur au pKa de l'acide produit"
+        },
+        {
+          "id": "2",
+          "text": "pKa de l'acide réactif doit être supérieur au pKa de l'acide produit"
+        },
+        {
+          "id": "3",
+          "text": "Le pKa de la base réactive doit être supérieur au pKa de la base produite"
+        },
+        {
+          "id": "4",
+          "text": "Le pKa de la base réactive doit être inférieur au pKa de la base produite"
+        }
+      ],
+      "bonneReponse": "1"
+    }
+  }

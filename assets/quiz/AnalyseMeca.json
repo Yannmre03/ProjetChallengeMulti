@@ -1,0 +1,905 @@
+{
+    "quiz1": {
+      "question": "﻿Quel est l'objectif principal de l'analyse fonctionnelle ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Modéliser un système de manière structurée pour favoriser la compréhension et les analyses critiques"
+        },
+        {
+          "id": "2",
+          "text": "Développer un prototype sans tenir compte des besoins des utilisateurs"
+        },
+        {
+          "id": "3",
+          "text": "Déterminer le coût de production d'un produit"
+        },
+        {
+          "id": "4",
+          "text": "Étudier uniquement l'aspect esthétique d'un produit"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz2": {
+      "question": "Quelle est la méthode utilisée pour exprimer le besoin dans l'analyse fonctionnelle externe ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Diagramme FAST"
+        },
+        {
+          "id": "2",
+          "text": "Diagramme pieuvre"
+        },
+        {
+          "id": "3",
+          "text": "Méthode A.P.T.E"
+        },
+        {
+          "id": "4",
+          "text": "Méthode SADT"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz3": {
+      "question": "Quelle est la différence principale entre l'analyse fonctionnelle externe et interne ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'analyse externe se concentre sur les fonctions de service du point de vue du client, tandis que l'analyse interne se concentre sur les fonctions techniques du point de vue du concepteur"
+        },
+        {
+          "id": "2",
+          "text": "L'analyse externe examine uniquement l'aspect financier, tandis que l'analyse interne se concentre sur l'esthétique"
+        },
+        {
+          "id": "3",
+          "text": "L'analyse externe est utilisée uniquement pour les produits électroniques, tandis que l'analyse interne est utilisée pour les produits mécaniques"
+        },
+        {
+          "id": "4",
+          "text": "L'analyse externe est effectuée après la production, tandis que l'analyse interne est effectuée avant la conception"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz4": {
+      "question": "Qu'est-ce qu'un critère d'appréciation dans le cahier des charges fonctionnel ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une caractéristique technique du produit"
+        },
+        {
+          "id": "2",
+          "text": "Une mesure de la manière dont une fonction est remplie ou une contrainte respectée"
+        },
+        {
+          "id": "3",
+          "text": "Un élément esthétique du produit"
+        },
+        {
+          "id": "4",
+          "text": "Une méthode de fabrication du produit"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz5": {
+      "question": "Quelle est la première étape de la méthode A.P.T.E pour exprimer le besoin ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Quantifier le besoin"
+        },
+        {
+          "id": "2",
+          "text": "Caractériser le besoin"
+        },
+        {
+          "id": "3",
+          "text": "Valider le besoin "
+        },
+        {
+          "id": "4",
+          "text": "Verbaliser le besoin "
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz6": {
+      "question": "Quel est l'objectif principal de l'analyse fonctionnelle ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Modéliser un système de manière structurée pour favoriser la compréhension et les analyses critiques"
+        },
+        {
+          "id": "2",
+          "text": "Développer un prototype sans tenir compte des besoins des utilisateurs"
+        },
+        {
+          "id": "3",
+          "text": "Déterminer le coût de production d'un produit"
+        },
+        {
+          "id": "4",
+          "text": "Étudier uniquement l'aspect esthétique d'un produit"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz7": {
+      "question": "Quelle méthode est utilisée pour décrire les fonctions de service et les contraintes d'un produit du point de vue du client ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Méthode SADT"
+        },
+        {
+          "id": "2",
+          "text": "Méthode FAST"
+        },
+        {
+          "id": "3",
+          "text": "Méthode A.P.T.E"
+        },
+        {
+          "id": "4",
+          "text": "Diagramme pieuvre"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz8": {
+      "question": "Quelle est la principale différence entre l'analyse fonctionnelle externe et interne ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'analyse externe se concentre sur les fonctions de service du point de vue du client, tandis que l'analyse interne se concentre sur les fonctions techniques du point de vue du concepteur"
+        },
+        {
+          "id": "2",
+          "text": "L'analyse externe examine uniquement l'aspect financier, tandis que l'analyse interne se concentre sur l'esthétique"
+        },
+        {
+          "id": "3",
+          "text": "L'analyse externe est utilisée uniquement pour les produits électroniques, tandis que l'analyse interne est utilisée pour les produits mécaniques"
+        },
+        {
+          "id": "4",
+          "text": "L'analyse externe est effectuée après la production, tandis que l'analyse interne est effectuée avant la conception"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz9": {
+      "question": "Qu'est-ce qu'un diagramme pieuvre ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un outil de modélisation des liaisons mécaniques"
+        },
+        {
+          "id": "2",
+          "text": "Un diagramme pour analyser les flux de matière et d'énergie"
+        },
+        {
+          "id": "3",
+          "text": "Un outil pour identifier les fonctions de service et les contraintes en relation avec l'environnement du système"
+        },
+        {
+          "id": "4",
+          "text": "Un schéma cinématique de l'architecture d'un produit"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz10": {
+      "question": "Quel est le rôle principal du cahier des charges fonctionnel (CdCF) ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Décrire le processus de fabrication en détail"
+        },
+        {
+          "id": "2",
+          "text": "Formaliser et valider les besoins en termes de fonctions de service et contraintes"
+        },
+        {
+          "id": "3",
+          "text": "Définir les coûts associés à chaque étape de production"
+        },
+        {
+          "id": "4",
+          "text": "Documenter les spécifications esthétiques du produit"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz11": {
+      "question": "Quelle est la définition d'un système selon la norme NF E 90 001 ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un ensemble de composants électroniques connectés entre eux"
+        },
+        {
+          "id": "2",
+          "text": "Une association de sous-systèmes constituant un tout organique complexe destiné à remplir une fonction générale"
+        },
+        {
+          "id": "3",
+          "text": "Un groupe de machines industrielles travaillant en synchronisation"
+        },
+        {
+          "id": "4",
+          "text": "Un réseau de communication entre plusieurs ordinateurs"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz12": {
+      "question": "Qu'est-ce que la matière d’œuvre dans le contexte de l'analyse fonctionnelle ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Les matériaux utilisés pour construire un produit"
+        },
+        {
+          "id": "2",
+          "text": "Les déchets générés lors de la production"
+        },
+        {
+          "id": "3",
+          "text": "Le produit final après la production"
+        },
+        {
+          "id": "4",
+          "text": "Ce sur quoi agit le système afin d'en modifier les caractéristiques de forme ou d'arrangement"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz13": {
+      "question": "Quelle est la différence principale entre la fonction principale et la fonction de contrainte d'un produit ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La fonction principale est celle pour laquelle le produit est créé, tandis que la fonction de contrainte est imposée par l'environnement extérieur"
+        },
+        {
+          "id": "2",
+          "text": "La fonction principale concerne l'esthétique du produit, tandis que la fonction de contrainte concerne la fonctionnalité"
+        },
+        {
+          "id": "3",
+          "text": "La fonction principale est définie par le client, tandis que la fonction de contrainte est définie par le concepteur"
+        },
+        {
+          "id": "4",
+          "text": "La fonction principale est obligatoire, tandis que la fonction de contrainte est optionnelle"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz14": {
+      "question": "Quel outil est utilisé pour identifier les fonctions de service et les contraintes en relation avec l'environnement du système ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Méthode SADT"
+        },
+        {
+          "id": "2",
+          "text": "Diagramme pieuvre"
+        },
+        {
+          "id": "3",
+          "text": "Diagramme FAST"
+        },
+        {
+          "id": "4",
+          "text": "Bête à cornes"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz15": {
+      "question": "Quelle méthode d'analyse fonctionnelle est utilisée pour formaliser l'architecture d'un produit en identifiant les fonctions techniques des sous-ensembles ou composants ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Méthode A.P.T.E"
+        },
+        {
+          "id": "2",
+          "text": "Diagramme pieuvre"
+        },
+        {
+          "id": "3",
+          "text": "Méthode SADT"
+        },
+        {
+          "id": "4",
+          "text": "Diagramme FAST"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz16": {
+      "question": "Quelle est la fonction principale d'un capteur dans un système automatisé ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Générer de l'énergie pour les actionneurs"
+        },
+        {
+          "id": "2",
+          "text": "Convertir des signaux physiques en signaux électriques"
+        },
+        {
+          "id": "3",
+          "text": "Stocker des données pour le traitement futur"
+        },
+        {
+          "id": "4",
+          "text": "Contrôler directement les opérations mécaniques"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz17": {
+      "question": "Quel est le rôle de l'actionneur dans une chaîne d'énergie ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Traiter l'information reçue des capteurs"
+        },
+        {
+          "id": "2",
+          "text": "Stocker l'énergie pour une utilisation ultérieure"
+        },
+        {
+          "id": "3",
+          "text": "Convertir l'énergie en une forme utile pour exécuter des actions physiques"
+        },
+        {
+          "id": "4",
+          "text": "Réduire la consommation d'énergie du système"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz18": {
+      "question": "Quelle est la fonction de l'unité de traitement dans un système automatisé ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Fournir de l'énergie aux composants du système"
+        },
+        {
+          "id": "2",
+          "text": "Transmettre des informations sans traitement"
+        },
+        {
+          "id": "3",
+          "text": "Exécuter physiquement les tâches attribuées au système"
+        },
+        {
+          "id": "4",
+          "text": "Coder, traiter, mémoriser, restituer, et communiquer l'information"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz19": {
+      "question": "Qu'est-ce qu'un pré-actionneur ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un dispositif qui ajuste les paramètres des actionneurs avant leur activation"
+        },
+        {
+          "id": "2",
+          "text": "Un composant qui convertit les ordres de faible énergie en actions contrôlables pour les actionneurs"
+        },
+        {
+          "id": "3",
+          "text": "Un mécanisme qui génère des ordres de contrôle pour les actionneurs"
+        },
+        {
+          "id": "4",
+          "text": "Une interface utilisateur pour régler les actionneurs manuellement"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz20": {
+      "question": "À quoi sert une chaîne d'acquisition dans un système automatisé ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "À acquérir, transférer, stocker et traiter l'information"
+        },
+        {
+          "id": "2",
+          "text": "À acquérir et à stocker des pièces physiques pour le montage"
+        },
+        {
+          "id": "3",
+          "text": "À acquérir de nouveaux actionneurs et capteurs pour le système"
+        },
+        {
+          "id": "4",
+          "text": "À surveiller et réguler la consommation d'énergie du système"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz21": {
+      "question": "PARTIE 2",
+      "reponses": [
+        {
+          "id": "1",
+          "text": ""
+        },
+        {
+          "id": "2",
+          "text": ""
+        },
+        {
+          "id": "3",
+          "text": ""
+        },
+        {
+          "id": "4",
+          "text": ""
+        }
+      ],
+      "bonneReponse": null
+    },
+    "quiz22": {
+      "question": "Quel est l'objectif de l'étude des liaisons mécaniques usuelles ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Comprendre le fonctionnement électrique des systèmes"
+        },
+        {
+          "id": "2",
+          "text": "Analyser la résistance des matériaux"
+        },
+        {
+          "id": "3",
+          "text": "Décrire les interactions entre solides et leurs degrés de liberté"
+        },
+        {
+          "id": "4",
+          "text": "Développer de nouveaux matériaux composites"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz23": {
+      "question": "Qu'est-ce qu'un torseur cinématique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un ensemble de forces agissant sur un mécanisme"
+        },
+        {
+          "id": "2",
+          "text": "La description des efforts thermiques dans un solide"
+        },
+        {
+          "id": "3",
+          "text": "La représentation du champ de vecteurs vitesse d’un solide"
+        },
+        {
+          "id": "4",
+          "text": "Une méthode de calcul de la résistance des matériaux"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz24": {
+      "question": "Comment une liaison pivot est-elle généralement représentée dans un mécanisme ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Par une connexion fixe sans rotation"
+        },
+        {
+          "id": "2",
+          "text": "Par un axe permettant la rotation autour d'un seul axe"
+        },
+        {
+          "id": "3",
+          "text": "Par une interface glissante entre deux pièces"
+        },
+        {
+          "id": "4",
+          "text": "Par un assemblage de plusieurs roulements"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz25": {
+      "question": "Que représente le dessin d'ensemble dans un contexte industriel ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une vue détaillée de chaque composant"
+        },
+        {
+          "id": "2",
+          "text": "Un assemblage complet des différentes pièces"
+        },
+        {
+          "id": "3",
+          "text": "Un diagramme des forces agissant sur le système"
+        },
+        {
+          "id": "4",
+          "text": "Un schéma électrique des composants"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz26": {
+      "question": "Quelle est la première étape dans l'analyse fonctionnelle d'un système mécanique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Définition des fonctions de service"
+        },
+        {
+          "id": "2",
+          "text": "Identification des sous-systèmes"
+        },
+        {
+          "id": "3",
+          "text": "Choix des matériaux"
+        },
+        {
+          "id": "4",
+          "text": "Simulation des mouvements"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz27": {
+      "question": "Qu'est-ce qu'une vue éclatée ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un diagramme montrant l'interaction des forces"
+        },
+        {
+          "id": "2",
+          "text": "Une représentation détaillée des composants internes"
+        },
+        {
+          "id": "3",
+          "text": "Une projection des différentes pièces, montrant leur assemblage"
+        },
+        {
+          "id": "4",
+          "text": "Une destruction contrôlée du prototype pour tester sa durabilité"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz28": {
+      "question": "Quelle liaison mécanique limite tous les mouvements sauf la rotation autour d'un axe ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Liaison encastrement"
+        },
+        {
+          "id": "2",
+          "text": "Liaison glissière"
+        },
+        {
+          "id": "3",
+          "text": "Liaison sphérique"
+        },
+        {
+          "id": "4",
+          "text": "Liaison pivot"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz29": {
+      "question": "Quel est l'usage principal des hachures dans un dessin technique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Représenter la matière coupée dans les sections"
+        },
+        {
+          "id": "2",
+          "text": "Indiquer les dimensions des objets"
+        },
+        {
+          "id": "3",
+          "text": "Définir les trajectoires de mouvement"
+        },
+        {
+          "id": "4",
+          "text": "Marquer les zones d'assemblage"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz30": {
+      "question": "Quelle liaison permet un mouvement de translation uniquement ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Liaison pivot"
+        },
+        {
+          "id": "2",
+          "text": "Liaison encastrement"
+        },
+        {
+          "id": "3",
+          "text": "Liaison glissière"
+        },
+        {
+          "id": "4",
+          "text": "Liaison linéaire annulaire"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz31": {
+      "question": "Dans quelle phase le dessin de définition est-il le plus utilisé ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Conception initiale"
+        },
+        {
+          "id": "2",
+          "text": "Analyse détaillée"
+        },
+        {
+          "id": "3",
+          "text": "Fabrication"
+        },
+        {
+          "id": "4",
+          "text": "Maintenance"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz32": {
+      "question": "Que spécifie le cartouche dans un dessin industriel ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Les spécifications électriques des composants"
+        },
+        {
+          "id": "2",
+          "text": "Les informations de base comme le propriétaire et la date d'édition"
+        },
+        {
+          "id": "3",
+          "text": "Les instructions détaillées pour l'assemblage"
+        },
+        {
+          "id": "4",
+          "text": "Les codes couleur utilisés dans le dessin"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz33": {
+      "question": "Quel élément standard est utilisé pour réunir plusieurs pièces mécaniquement ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Vis"
+        },
+        {
+          "id": "2",
+          "text": "Lubrifiant"
+        },
+        {
+          "id": "3",
+          "text": "Colle industrielle"
+        },
+        {
+          "id": "4",
+          "text": "Peinture"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz34": {
+      "question": "Quelle est la fonction principale des rondelles dans les assemblages ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Augmenter la friction"
+        },
+        {
+          "id": "2",
+          "text": "Décorer l'assemblage"
+        },
+        {
+          "id": "3",
+          "text": "Empêcher le desserrage"
+        },
+        {
+          "id": "4",
+          "text": "Augmenter les surfaces de contact et répartir la charge"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz35": {
+      "question": "Comment un système pignon-crémallière modifie-t-il le mouvement ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Convertit le mouvement linéaire en mouvement circulaire"
+        },
+        {
+          "id": "2",
+          "text": "Convertit le mouvement circulaire en mouvement linéaire"
+        },
+        {
+          "id": "3",
+          "text": "Augmente la vitesse de rotation sans changer la direction"
+        },
+        {
+          "id": "4",
+          "text": "Réduit le frottement entre deux surfaces mobiles"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz36": {
+      "question": "Quel est le but de la modélisation cinématique des mécanismes ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Simuler les réactions chimiques dans un système"
+        },
+        {
+          "id": "2",
+          "text": "Analyser les propriétés thermodynamiques"
+        },
+        {
+          "id": "3",
+          "text": "Comprendre les mouvements possibles et les interactions entre solides"
+        },
+        {
+          "id": "4",
+          "text": "Étudier la conductivité électrique des matériaux"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz37": {
+      "question": "Qu'est-ce qu'une section dans un dessin technique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une représentation de la surface externe de la pièce"
+        },
+        {
+          "id": "2",
+          "text": "Une vue montrant l'intérieur ou la section d'une pièce"
+        },
+        {
+          "id": "3",
+          "text": "Un plan montrant uniquement les composants électriques"
+        },
+        {
+          "id": "4",
+          "text": "Une description textuelle du processus de fabrication"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz38": {
+      "question": "Quel rôle joue le plan de coupe dans la création d'une vue en coupe ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Il indique où la pièce doit être coupée pour l'inspection"
+        },
+        {
+          "id": "2",
+          "text": "Il montre la direction du flux de matériau"
+        },
+        {
+          "id": "3",
+          "text": "Il guide le processus de soudage"
+        },
+        {
+          "id": "4",
+          "text": "Il spécifie l'angle de vision pour l'inspection"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz39": {
+      "question": "Comment la nomenclature est-elle utilisée dans les dessins industriels ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Pour lister toutes les pièces et composants d'un système"
+        },
+        {
+          "id": "2",
+          "text": "Pour donner les instructions de montage"
+        },
+        {
+          "id": "3",
+          "text": "Pour décrire les propriétés optiques des matériaux"
+        },
+        {
+          "id": "4",
+          "text": "Pour spécifier les tolérances dimensionnelles"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz40": {
+      "question": "Quel est l'usage des traits mixtes «fin» dans un dessin industriel ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Pour représenter les axes, plans de symétrie, et plans de coupe"
+        },
+        {
+          "id": "2",
+          "text": "Pour indiquer les surfaces de contact"
+        },
+        {
+          "id": "3",
+          "text": "Pour montrer les trajets des câbles électriques"
+        },
+        {
+          "id": "4",
+          "text": "Pour délimiter les zones dangereuses sur la machine"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz41": {
+      "question": "Quelle est la première étape pour élaborer un schéma cinématique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Colorier les classes d’équivalence sur le plan d’ensemble"
+        },
+        {
+          "id": "2",
+          "text": "Préciser la phase d’étude du mécanisme"
+        },
+        {
+          "id": "3",
+          "text": "Relier par un trait les groupes ayant des contacts"
+        },
+        {
+          "id": "4",
+          "text": "Nommer chacune des Classes d’Équivalence Cinématique (CEC)"
+        }
+      ],
+      "bonneReponse": "2"
+    }
+  }
+  

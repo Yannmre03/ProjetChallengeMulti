@@ -1,0 +1,442 @@
+{
+    "quiz1": {
+      "question": "﻿\"Que permet l'atelier \"\"Part Design\"\" dans CATIA V5 ?\"",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Créer des assemblages de pièces"
+        },
+        {
+          "id": "2",
+          "text": "Créer des objets 3D à partir d'esquisses 2D"
+        },
+        {
+          "id": "3",
+          "text": "Effectuer des analyses de contrainte"
+        },
+        {
+          "id": "4",
+          "text": "Modifier des dessins 2D"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz2": {
+      "question": "Quel est le rôle de la fonction \"Zoom\" dans CATIA V5 ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Déplacer la vue"
+        },
+        {
+          "id": "2",
+          "text": "Agrandir une partie de l'esquisse"
+        },
+        {
+          "id": "3",
+          "text": "Pivoter l'objet"
+        },
+        {
+          "id": "4",
+          "text": "Modifier les propriétés de l'objet"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz3": {
+      "question": "Quelle est la touche utilisée pour annuler une commande en cours dans CATIA V5 ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Echap"
+        },
+        {
+          "id": "2",
+          "text": "Ctrl + Z"
+        },
+        {
+          "id": "3",
+          "text": "Alt + F4"
+        },
+        {
+          "id": "4",
+          "text": "Shift + Delete"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz4": {
+      "question": "Comment une esquisse peut-elle devenir sur-contrainte ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Par l'ajout de contraintes géométriques incompatibles"
+        },
+        {
+          "id": "2",
+          "text": "En utilisant trop de lignes"
+        },
+        {
+          "id": "3",
+          "text": "En omettant des dimensions"
+        },
+        {
+          "id": "4",
+          "text": "En dupliquant des éléments"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz5": {
+      "question": "Quelle opération n'est PAS possible avec les transformations dans CATIA V5 ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Translation"
+        },
+        {
+          "id": "2",
+          "text": "Symétrie"
+        },
+        {
+          "id": "3",
+          "text": "Subdivision"
+        },
+        {
+          "id": "4",
+          "text": "Rotation"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz6": {
+      "question": "Comment les pièces sont-elles assemblées dans l'atelier \"Assembly Design\" ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Par contraintes géométriques"
+        },
+        {
+          "id": "2",
+          "text": "Par fusion directe"
+        },
+        {
+          "id": "3",
+          "text": "Par collage"
+        },
+        {
+          "id": "4",
+          "text": "Par ajustement automatique"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz7": {
+      "question": "Qu'est-ce qu'une \"sur-contrainte\" dans une esquisse CATIA ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une contrainte nécessaire pour la conception"
+        },
+        {
+          "id": "2",
+          "text": "Une contrainte excessive qui peut causer des erreurs"
+        },
+        {
+          "id": "3",
+          "text": "Un type spécial de contrainte pour les assemblages"
+        },
+        {
+          "id": "4",
+          "text": "Une méthode pour sécuriser les esquisses complexes"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz8": {
+      "question": "Comment vérifier si un contour d'esquisse est fermé ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "En utilisant l'outil de mesure"
+        },
+        {
+          "id": "2",
+          "text": "En colorant l'esquisse"
+        },
+        {
+          "id": "3",
+          "text": "En appliquant une extrusion"
+        },
+        {
+          "id": "4",
+          "text": "En cherchant des points non reliés"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz9": {
+      "question": "Quelle est la conséquence d'une esquisse non fermée lors de la création de volumes ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Le volume sera plus léger"
+        },
+        {
+          "id": "2",
+          "text": "Le volume sera créé avec des défauts"
+        },
+        {
+          "id": "3",
+          "text": "Le volume ne peut pas être créé"
+        },
+        {
+          "id": "4",
+          "text": "Le volume sera automatiquement fermé"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz10": {
+      "question": "Quelle est la fonction de la boussole dans CATIA V5 ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Mesurer des distances"
+        },
+        {
+          "id": "2",
+          "text": "Dessiner des esquisses"
+        },
+        {
+          "id": "3",
+          "text": "Orienter la vue 3D"
+        },
+        {
+          "id": "4",
+          "text": "Contrôler les animations"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz11": {
+      "question": "Quelle est la première étape pour démarrer une esquisse dans \"Part Design\" ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Choisir une surface plane"
+        },
+        {
+          "id": "2",
+          "text": "Dessiner un contour"
+        },
+        {
+          "id": "3",
+          "text": "Sélectionner un outil de dessin"
+        },
+        {
+          "id": "4",
+          "text": "Définir les dimensions"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz12": {
+      "question": "Comment les composants d’habillage sont-ils appliqués dans CATIA V5 ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Sur un volume existant"
+        },
+        {
+          "id": "2",
+          "text": "Indépendamment de tout autre composant"
+        },
+        {
+          "id": "3",
+          "text": "Avant la création de l’esquisse"
+        },
+        {
+          "id": "4",
+          "text": "Uniquement en phase finale de conception"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz13": {
+      "question": "Quel outil est utilisé pour insérer un composant existant dans un assemblage ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'outil \"Fusion\""
+        },
+        {
+          "id": "2",
+          "text": "L'outil \"Insertion de composant existant\""
+        },
+        {
+          "id": "3",
+          "text": "L'outil \"Création rapide\""
+        },
+        {
+          "id": "4",
+          "text": "L'outil \"Nouveau solide\""
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz14": {
+      "question": "Quelle est l'action de la commande \"Mise à jour\" dans l'atelier Assembly Design ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Elle sauvegarde le projet"
+        },
+        {
+          "id": "2",
+          "text": "Elle optimise la performance du logiciel"
+        },
+        {
+          "id": "3",
+          "text": "Elle vérifie les erreurs dans l'assemblage"
+        },
+        {
+          "id": "4",
+          "text": "Elle actualise la position des pièces après l'application de contraintes"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz15": {
+      "question": "Quelle touche du clavier est utilisée pour annuler une action dans CATIA V5 ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Ctrl"
+        },
+        {
+          "id": "2",
+          "text": "Alt"
+        },
+        {
+          "id": "3",
+          "text": "Shift"
+        },
+        {
+          "id": "4",
+          "text": "Ctrl + Z"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz16": {
+      "question": "Quel est l'outil utilisé pour contrôler l'orientation des vues 3D dans CATIA V5 ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Les raccourcis souris"
+        },
+        {
+          "id": "2",
+          "text": "L'outil de déplacement"
+        },
+        {
+          "id": "3",
+          "text": "La boussole"
+        },
+        {
+          "id": "4",
+          "text": "La barre de menu"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz17": {
+      "question": "Dans quel atelier de CATIA V5 peut-on créer des assemblages de différentes pièces mécaniques ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Part Design"
+        },
+        {
+          "id": "2",
+          "text": "Assembly Design"
+        },
+        {
+          "id": "3",
+          "text": "Sketcher"
+        },
+        {
+          "id": "4",
+          "text": "Shape Design"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz18": {
+      "question": "Comment appelle-t-on l'action de créer un volume à partir d'une esquisse plane par extrusion ou révolution ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Modélisation"
+        },
+        {
+          "id": "2",
+          "text": "Sculpture"
+        },
+        {
+          "id": "3",
+          "text": "Génération de composant issu d’un contour"
+        },
+        {
+          "id": "4",
+          "text": "Création d’habillage"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz19": {
+      "question": "Quelle fonction permet de visualiser l'effet des modifications en temps réel dans l'atelier Assembly Design ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Mise à jour"
+        },
+        {
+          "id": "2",
+          "text": "Preview"
+        },
+        {
+          "id": "3",
+          "text": "Actualiser"
+        },
+        {
+          "id": "4",
+          "text": "Récapitulatif"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz20": {
+      "question": "Qu'est-ce que l'arborescence de la pièce dans CATIA V5 ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un outil de mesure des dimensions de la pièce"
+        },
+        {
+          "id": "2",
+          "text": "Un diagramme représentant la structure logique de l'assemblage"
+        },
+        {
+          "id": "3",
+          "text": "Une liste déroulante des composants de l'assemblage"
+        },
+        {
+          "id": "4",
+          "text": "Un résumé textuel des opérations effectuées"
+        }
+      ],
+      "bonneReponse": "2"
+    }
+  }
