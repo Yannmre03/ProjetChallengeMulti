@@ -19,6 +19,7 @@ function ChoixCoursExercicesPage ({navigation}) {
 const styles = StyleSheet.create({
     button: {
         backgroundColor: 'black',
+        fontFamily: 'LuckiestGuy',
         paddingHorizontal: 40,
         paddingVertical: 20,
         borderRadius: 20,
@@ -26,6 +27,7 @@ const styles = StyleSheet.create({
     },
     button2: {
         backgroundColor: 'grey',
+        fontFamily: 'LuckiestGuy',
         paddingHorizontal: 40,
         paddingVertical: 20,
         borderRadius: 20,
@@ -34,6 +36,7 @@ const styles = StyleSheet.create({
     buttonText: {
         color: '#fff',
         fontSize: 48,
+        fontFamily: 'LuckiestGuy',
         textAlign: 'center', 
     },
     container: {
@@ -45,7 +48,7 @@ const styles = StyleSheet.create({
     },
     title: {
         color: 'black',
-        
+        fontFamily: 'LuckiestGuy',
         fontSize: 45,
         marginBottom: 150
     }

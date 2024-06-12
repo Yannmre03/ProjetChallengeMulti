@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
     score: {
         color: 'black',
         fontSize: 30,
+        fontFamily: 'LuckiestGuy',
         marginBottom: 50
     },
     button2: {
@@ -38,12 +39,15 @@ const styles = StyleSheet.create({
     buttonText: {
         color: '#fff',
         fontSize: 48,
+        fontFamily: 'LuckiestGuy',
         textAlign: 'center', 
     },
     title: {
         color: 'black',
         fontSize: 64,
+        fontFamily: 'LuckiestGuy',
         marginBottom: 50
+        
     }
 });
 

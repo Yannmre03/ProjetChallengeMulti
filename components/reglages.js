@@ -24,6 +24,7 @@ const styles = StyleSheet.create({
     buttonText: {
         color: '#fff',
         fontSize: 24,
+        fontFamily: 'LuckiestGuy',
         textAlign: 'flex-start',
         justifyContent: 'flex-start'
     },
@@ -38,6 +39,7 @@ const styles = StyleSheet.create({
         marginVertical: 50,
         textAlign: 'center',
         justifyContent: 'center',
+        fontFamily: 'LuckiestGuy',
         alignItems: 'center'
     }
 

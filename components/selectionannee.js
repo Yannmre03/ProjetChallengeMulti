@@ -37,7 +37,8 @@ const styles = StyleSheet.create({
     buttonText: {
         color: '#fff',
         fontSize: 48,
-        textAlign: 'center', 
+        fontFamily: 'LuckiestGuy',
+        textAlign: 'center'
     },
     container: {
         flex: 1,
@@ -49,6 +50,7 @@ const styles = StyleSheet.create({
     title: {
         color: 'black',
         fontSize: 64,
+        fontFamily: 'LuckiestGuy',
         marginBottom: 150
     }
 });

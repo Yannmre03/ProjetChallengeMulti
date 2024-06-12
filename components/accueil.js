@@ -37,6 +37,7 @@ const styles = StyleSheet.create({
         color: '#fff',
         fontSize: 48,
         textAlign: 'center', 
+        fontFamily: 'LuckiestGuy',
     },
     container: {
         flex: 1,

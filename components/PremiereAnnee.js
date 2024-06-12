@@ -48,6 +48,7 @@ const styles = StyleSheet.create({
     buttonText: {
         color: '#fff',
         fontSize: 48,
+        fontFamily: 'LuckiestGuy',
         textAlign: 'center'
     },
     container: {
@@ -61,6 +62,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         justifyContent: 'center',
         alignItems: 'center',
+        fontFamily: 'LuckiestGuy',
         fontSize: 45,
         marginBottom: 50
     }
