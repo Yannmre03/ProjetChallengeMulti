@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Qu'est-ce qu'un prisme en optique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un outil utilisé pour focaliser la lumière en un point"
+        },
+        {
+          "id": "2",
+          "text": "Un appareil de mesure de la longueur d'onde"
+        },
+        {
+          "id": "3",
+          "text": "Une source lumineuse à base de LED"
+        },
+        {
+          "id": "4",
+          "text": "Un milieu transparent limité par deux dioptres plans non parallèles utilisé pour réfracter ou disperser la lumière"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz2": {
+      "question": "Comment fonctionne la dispersion de la lumière par un prisme ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Elle concentre toutes les couleurs en un seul point"
+        },
+        {
+          "id": "2",
+          "text": "Elle sépare la lumière blanche en ses composantes spectrales"
+        },
+        {
+          "id": "3",
+          "text": "Elle diminue l'intensité de la lumière incidente"
+        },
+        {
+          "id": "4",
+          "text": "Elle convertit la lumière UV en lumière visible"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz3": {
+      "question": "Quelle formule décrit la relation entre l'angle d'incidence i et l'angle de réfraction r pour le premier dioptre d'un prisme ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "n1​+sin(i)=n2​+sin(r)"
+        },
+        {
+          "id": "2",
+          "text": "n1​×tan(i)=n2​×tan(r)"
+        },
+        {
+          "id": "3",
+          "text": "n1​×cos(i)=n2​×cos(r)"
+        },
+        {
+          "id": "4",
+          "text": "n1​×sin(i)=n2​×sin(r)"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz4": {
+      "question": "Qu'est-ce qui caractérise un angle de déviation minimale dans un prisme ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "C'est lorsque l'angle d'incidence est égal à l'angle de réfraction"
+        },
+        {
+          "id": "2",
+          "text": "C'est lorsque l'angle d'incidence est maximum"
+        },
+        {
+          "id": "3",
+          "text": "C'est lorsque l'angle de réfraction est minimum"
+        },
+        {
+          "id": "4",
+          "text": "C'est lorsque l'angle d'incidence est égal à l'angle d'émergence"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz5": {
+      "question": "Comment varie l'indice de réfraction d'un prisme avec la longueur d'onde selon la relation de Cauchy ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "n = A + (B/(λ ²))"
+        },
+        {
+          "id": "2",
+          "text": "n = A×λ  + B"
+        },
+        {
+          "id": "3",
+          "text": "n = (A/λ)  + B"
+        },
+        {
+          "id": "4",
+          "text": "n = (A/(λ²))  + B"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz6": {
+      "question": "Quel est l'effet de l'indice de réfraction variable sur les couleurs lors de la dispersion par un prisme ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Toutes les couleurs sont déviées de la même manière"
+        },
+        {
+          "id": "2",
+          "text": "Les couleurs avec une longueur d'onde plus courte sont plus déviées"
+        },
+        {
+          "id": "3",
+          "text": "Les couleurs avec une longueur d'onde plus longue sont plus déviées"
+        },
+        {
+          "id": "4",
+          "text": "L'indice de réfraction n'affecte pas la déviation des couleurs"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz7": {
+      "question": "Que démontre l'expérience de Newton avec un prisme ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Que le prisme crée des couleurs à partir de la lumière blanche"
+        },
+        {
+          "id": "2",
+          "text": "Que la lumière blanche est composée de plusieurs couleurs, qui peuvent être séparées par dispersion"
+        },
+        {
+          "id": "3",
+          "text": "Que la lumière blanche peut être complètement absorbée par le prisme"
+        },
+        {
+          "id": "4",
+          "text": "Que le prisme peut transformer la lumière blanche en lumière ultraviolette"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz8": {
+      "question": "Quelle est l'importance de l'angle au sommet du prisme, noté A, dans la déviation de la lumière ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Il n'a aucun effet sur la déviation de la lumière"
+        },
+        {
+          "id": "2",
+          "text": "Plus l'angle A est petit, plus la lumière est déviée"
+        },
+        {
+          "id": "3",
+          "text": "Plus l'angle A est grand, plus la lumière est déviée"
+        },
+        {
+          "id": "4",
+          "text": "L'angle A détermine seulement la couleur du prisme, pas la déviation"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz9": {
+      "question": "Comment mesure-t-on l'indice de réfraction d'un prisme à partir de l'angle de déviation minimale Dm​ ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "En utilisant la formule n=sin⁡((A+Dm)/2)"
+        },
+        {
+          "id": "2",
+          "text": "En utilisant la formule n=sin⁡(im)/sin⁡(rm)"
+        },
+        {
+          "id": "3",
+          "text": "En utilisant la formule n=sin⁡((A+Dm)/2)/sin(A/2)"
+        },
+        {
+          "id": "4",
+          "text": "En calculant directement à partir de Dm​ sans autres mesures"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz10": {
+      "question": "Quelle est la conséquence de la dispersion de la lumière dans des applications pratiques comme la spectroscopie ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Elle permet de mesurer la température d'un objet"
+        },
+        {
+          "id": "2",
+          "text": "Elle permet d'identifier les substances chimiques en analysant les spectres lumineux"
+        },
+        {
+          "id": "3",
+          "text": "Elle est principalement utilisée pour améliorer la résolution des microscopes"
+        },
+        {
+          "id": "4",
+          "text": "Elle n'a pas de conséquences pratiques notables"
+        }
+      ],
+      "bonneReponse": "2"
+    }
+  }
