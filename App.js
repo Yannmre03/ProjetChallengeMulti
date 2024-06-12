@@ -9,6 +9,8 @@ import PremiereAnneePage from './components/PremiereAnnee';
 import QuizzPage from './components/quizz';
 import FinQuizzPage from './components/finQuizz';
 import ChoixCoursExercicesPage from './components/choixCoursExercices';
+import * as Font from 'expo-font';
+import * as SplashScreen from 'expo-splash-screen';
 
 const Stack = createStackNavigator();
 function App() {
