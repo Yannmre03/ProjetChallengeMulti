@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, FlatList, TouchableOpacity, ScrollView } from 'react-native';
+import { View, Text, StyleSheet, FlatList, TouchableOpacity, ScrollView, Image } from 'react-native';
 import quizData from '../data.json'; // Assurez-vous que le chemin vers le fichier data.json est correct
 
 function QuizzPage({ navigation }) {
@@ -44,13 +44,21 @@ function QuizzPage({ navigation }) {
         }
     };
 
+    const renderContent = (content) => {
+        if (content.startsWith('http')) {
+            return <Image source={{ uri: content }} style={styles.image} />;
+        } else {
+            return <Text style={styles.buttonText}>{content}</Text>;
+        }
+    };
+
     const renderItem = ({ item }) => (
         <TouchableOpacity
             style={[styles.button, { backgroundColor: getBackgroundColor(item.id) }]}
             onPress={() => handlePress(item.id)}
             disabled={answered}
         >
-            <Text style={styles.buttonText}>{item.text}</Text>
+            {renderContent(item.text)}
         </TouchableOpacity>
     );
 
@@ -60,7 +68,7 @@ function QuizzPage({ navigation }) {
                 <Text style={styles.scoreText}>Score: {score}</Text>
             </View>
             <ScrollView contentContainerStyle={styles.scrollContainer}>
-                <Text style={styles.title}>{question}</Text>
+                {renderContent(question)}
                 <FlatList
                     data={reponses}
                     renderItem={renderItem}
@@ -92,7 +100,6 @@ const styles = StyleSheet.create({
     scoreText: {
         fontSize: 24,
         fontWeight: 'bold',
-        fontFamily: 'LuckiestGuy',
         color: 'black',
     },
     scrollContainer: {
@@ -113,7 +120,7 @@ const styles = StyleSheet.create({
     },
     button: {
         backgroundColor: 'black',
-        paddingHorizontal: 55,
+        paddingHorizontal: 25,
         paddingVertical: 20,
         borderRadius: 50,
         marginVertical: 20,
@@ -123,16 +130,19 @@ const styles = StyleSheet.create({
     buttonText: {
         color: '#fff',
         fontSize: 24,
-        fontFamily: 'LuckiestGuy',
         textAlign: 'center',
     },
     title: {
         color: 'black',
         fontSize: 32,
-        fontFamily: 'LuckiestGuy',
         marginTop: 20,
         marginBottom: 20,
         textAlign: 'center',
+    },
+    image: {
+        width: 100,
+        height: 100,
+        resizeMode: 'contain',
     }
 });
 

@@ -28,5 +28,25 @@
       {"id": "4", "text": "0"}
     ], 
     "bonneReponse" : "1"
+  },
+  "quiz4": {
+    "question": "https://i.postimg.cc/JzMkbvtg/reglages.png",
+    "reponses": [
+      {"id": "1", "text": "https://i.postimg.cc/JzMkbvtg/reglages.png"},
+      {"id": "2", "text": "https://i.postimg.cc/JzMkbvtg/reglages.png"},
+      {"id": "3", "text": "https://i.postimg.cc/JzMkbvtg/reglages.png"},
+      {"id": "4", "text": "https://i.postimg.cc/JzMkbvtg/reglages.png"}
+    ], 
+    "bonneReponse" : "1"
+  },
+  "quiz5": {
+    "question": "Comment fonctionne la conjonction de deux propositions P et Q ?",
+    "reponses": [
+      {"id": "1", "text": "Vraie si l'une des propositions est vraie"},
+      {"id": "2", "text": "Fausse si les deux propositions sont fausses"},
+      {"id": "3", "text": "Vraie si au moins une des deux propositions est vraie"},
+      {"id": "4", "text": "Fausse seulement si P est vraie"}
+    ], 
+    "bonneReponse" : "3"
   }
 }
