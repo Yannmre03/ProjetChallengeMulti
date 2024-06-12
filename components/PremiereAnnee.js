@@ -6,23 +6,23 @@ function PremiereAnneePage ({navigation}) {
     return (
         <ScrollView contentContainerStyle={styles.container}>
             <View style={styles.container}>
-                <Text style={styles.title}>Choisi la matière que tu veux étudier</Text>
-                <TouchableOpacity style={styles.button2}  onPress={() => navigation.navigate('NavChoixCoursExercices')}>
+                <Text style={styles.title}>Choisi la matière que tu veuxygyg étudier</Text>
+                <TouchableOpacity style={styles.button2}  onPress={() => navigation.navigate('NavChoixChap', {Matière :"MA"})}>
                     <Text style={styles.buttonText}>Maths Abs </Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.button}>
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavChoixChap', {Matière :"TH"})}>
                     <Text style={styles.buttonText}>Thermo</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.button}>
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavChoixChap', {Matière : "EL"})}>
                     <Text style={styles.buttonText}>Elec</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.button}>
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavChoixChap', {Matière : "CH"})}>
                     <Text style={styles.buttonText}>Chimie</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.button}>
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavChoixChap', {Matière :"CDS"})}>
                     <Text style={styles.buttonText}>CDS</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.button}>
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavChoixChap', {Matière : "OMI"})}>
                     <Text style={styles.buttonText}>OMI</Text>
                 </TouchableOpacity>
             </View>

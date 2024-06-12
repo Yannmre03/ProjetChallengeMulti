@@ -35,12 +35,12 @@ function QuizzPage({ navigation }) {
     };
 
     const handleNextQuiz = () => {
-        const totalQuestions = Object.keys(quizData).length;  // Obtenir le nombre total de questions
-        if (quizIndex < totalQuestions - 1) {
+        const totalQ = Object.keys(quizData).length;  // Obtenir le nombre total de questions
+        if (quizIndex < totalQ - 1) {
             setQuizIndex(quizIndex + 1);  // Passer au quiz suivant
         } else {
             // Naviguer à la page de résultats et passer le score et le nombre total de questions comme paramètres
-            navigation.navigate('NavFinQuizz', { finalScore: score, totalQuestions });
+            navigation.navigate('NavFinQuizz', { finalScore: score, totalQuestions: totalQ });
         }
     };
 

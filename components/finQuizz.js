@@ -16,6 +16,7 @@ function FinQuizzPage({ route, navigation }) {
 }
 
 const styles = StyleSheet.create({
+    
     container: {
         flex: 1,
         justifyContent: 'center',
@@ -26,7 +27,7 @@ const styles = StyleSheet.create({
     score: {
         color: 'black',
         fontSize: 30,
-        fontFamily: 'LuckiestGuy',
+        fontFamily:'LuckiestGuy',
         marginBottom: 50
     },
     button2: {
