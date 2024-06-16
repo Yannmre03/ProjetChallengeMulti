@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
 function ChoixCoursExercicesPage ({route, navigation}) {
-
+    const { Matière, Chap } = route.params;  // Récupère le nom de la matiere choisie et le chapitre
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Veux-tu t'exercer ou apprendre?</Text>
