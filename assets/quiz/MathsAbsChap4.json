@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Qu'est-ce que l'ordre naturel sur R ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une relation qui permet de comparer des ensembles"
+        },
+        {
+          "id": "2",
+          "text": "Une relation définie par x≤y ssi y−x  ∈ R+"
+        },
+        {
+          "id": "3",
+          "text": "Une relation qui n'est pas réflexive"
+        },
+        {
+          "id": "4",
+          "text": "Une relation définie par x≥y ssi y−x  ∈ R+"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz2": {
+      "question": "Quelle propriété ne fait pas partie des propriétés de l'ordre naturel sur R ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Réflexivité"
+        },
+        {
+          "id": "2",
+          "text": "Antisymétrie"
+        },
+        {
+          "id": "3",
+          "text": "Transitivité"
+        },
+        {
+          "id": "4",
+          "text": "Commutativité"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz3": {
+      "question": "Qu'est-ce qu'un majorant d'un ensemble A⊆R ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un élément qui est plus petit que tous les éléments de A"
+        },
+        {
+          "id": "2",
+          "text": "Un élément qui est plus grand que tous les éléments de A"
+        },
+        {
+          "id": "3",
+          "text": "Un élément qui appartient à A"
+        },
+        {
+          "id": "4",
+          "text": "Un élément qui n'appartient pas à A"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz4": {
+      "question": "Quelle est la définition de la borne supérieure d'un ensemble A⊆R ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Le plus petit majorant de A"
+        },
+        {
+          "id": "2",
+          "text": "Le plus petit élément de A"
+        },
+        {
+          "id": "3",
+          "text": "Le plus grand élément de A"
+        },
+        {
+          "id": "4",
+          "text": "Le plus grand minorant de A"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz5": {
+      "question": "Quelle propriété caractérise un espace métrique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Associativité de l'addition"
+        },
+        {
+          "id": "2",
+          "text": "Commutativité de la multiplication"
+        },
+        {
+          "id": "3",
+          "text": "Existence d'une distance définie sur l'ensemble"
+        },
+        {
+          "id": "4",
+          "text": "Existence d'une borne supérieure"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz6": {
+      "question": "Comment est définie la valeur absolue ∣x∣ pour x∈R ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "x si x<0 ; −x si x≥0"
+        },
+        {
+          "id": "2",
+          "text": "−x si x<0 ; x si x≥0"
+        },
+        {
+          "id": "3",
+          "text": "−x si x≤0  ; x si x>0"
+        },
+        {
+          "id": "4",
+          "text": "x si x≤0 ; −x si x>0"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz7": {
+      "question": "Qu'est-ce qu'une suite réelle convergente ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une suite qui tend vers une limite finie"
+        },
+        {
+          "id": "2",
+          "text": "Une suite dont les termes restent bornés"
+        },
+        {
+          "id": "3",
+          "text": "Une suite qui tend vers l'infini"
+        },
+        {
+          "id": "4",
+          "text": "Une suite qui n'a pas de limite"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz8": {
+      "question": "Quelle est la définition d'une fonction continue en x0​ ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "lim(x→x0):​​f(x)=f(x0​)"
+        },
+        {
+          "id": "2",
+          "text": "lim(x→x0):​​f(x)≠f(x0​)"
+        },
+        {
+          "id": "3",
+          "text": "lim(x→x0):​​f(x) n'existe pas"
+        },
+        {
+          "id": "4",
+          "text": "lim(x→x0):​​f(x)=0"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz9": {
+      "question": "Quelle est la caractéristique d'une fonction continue sur un intervalle I ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La fonction est dérivable en tout point de I"
+        },
+        {
+          "id": "2",
+          "text": "La fonction est croissante en tout point de "
+        },
+        {
+          "id": "3",
+          "text": "La fonction est constante sur I"
+        },
+        {
+          "id": "4",
+          "text": "La fonction est continue en tout point de I"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz10": {
+      "question": "Quelle est la caractérisation séquentielle de la continuité ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Pour toute suite (un​) convergeant vers x0​, lim(n→∞):f(un)=f(x0)"
+        },
+        {
+          "id": "2",
+          "text": "Pour toute suite (un​) convergeant vers x0​, lim(n→∞):f(un)≠f(x0)"
+        },
+        {
+          "id": "3",
+          "text": "Pour toute suite (un​) convergeant vers x0​, lim(n→∞):f(un) n'existe pas"
+        },
+        {
+          "id": "4",
+          "text": "Pour toute suite (un​) convergeant vers x0​, lim(⁡n→∞):f(un)=0"
+        }
+      ],
+      "bonneReponse": "1"
+    }
+  }

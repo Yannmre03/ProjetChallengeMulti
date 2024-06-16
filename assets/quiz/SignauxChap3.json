@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Quelle est la solution générale de l'équation du mouvement pour un oscillateur harmonique simple ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "x(t)=Asin(ω0t)+Bcos(ω0t)"
+        },
+        {
+          "id": "2",
+          "text": "x(t)=Asin(ω0​t+ϕ)"
+        },
+        {
+          "id": "3",
+          "text": "x(t)=Acos(ω0​t+ϕ)"
+        },
+        {
+          "id": "4",
+          "text": "x(t)=Acos(ω0​t+ϕ)+Bsin(ω0​t+ϕ)"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz2": {
+      "question": "Qu'est-ce qu'une oscillation libre non-amortie ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une oscillation qui diminue avec le temps"
+        },
+        {
+          "id": "2",
+          "text": "Une oscillation qui augmente avec le temps"
+        },
+        {
+          "id": "3",
+          "text": "Une oscillation qui se maintient sans diminution d'amplitude"
+        },
+        {
+          "id": "4",
+          "text": "Une oscillation forcée par une source extérieure"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz3": {
+      "question": "Quelle est la définition de la pulsation propre ω0​ d'un oscillateur harmonique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La fréquence à laquelle un oscillateur forcé résonne"
+        },
+        {
+          "id": "2",
+          "text": "La vitesse angulaire maximale atteinte par l'oscillateur"
+        },
+        {
+          "id": "3",
+          "text": "La fréquence angulaire des oscillations libres sans amortissement"
+        },
+        {
+          "id": "4",
+          "text": "La fréquence des oscillations en présence de frottement"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz4": {
+      "question": "Quelle est l'unité de la raideur 𝑘 d'un ressort dans le système international (SI) ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Newton (N)"
+        },
+        {
+          "id": "2",
+          "text": "Pascal (Pa)"
+        },
+        {
+          "id": "3",
+          "text": "Newton par mètre (N/m)"
+        },
+        {
+          "id": "4",
+          "text": "Joule (J)"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz5": {
+      "question": "Quel type de force est la force de rappel d'un ressort ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Force non-conservative"
+        },
+        {
+          "id": "2",
+          "text": "Force conservative"
+        },
+        {
+          "id": "3",
+          "text": "Force de friction"
+        },
+        {
+          "id": "4",
+          "text": "Force de gravité"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz6": {
+      "question": "Quelle est l'énergie potentielle élastique d'un oscillateur harmonique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Ep​=1/2​*mv²"
+        },
+        {
+          "id": "2",
+          "text": "Ep​=1/2​*kx²"
+        },
+        {
+          "id": "3",
+          "text": "Ep​=1/2*​kx"
+        },
+        {
+          "id": "4",
+          "text": "Ep​=​kx²"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz7": {
+      "question": "Quel est le comportement d'un oscillateur harmonique simple en absence de toute force extérieure et de frottement ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Il arrête de bouger"
+        },
+        {
+          "id": "2",
+          "text": "Il continue d'osciller avec une amplitude croissante"
+        },
+        {
+          "id": "3",
+          "text": "Il continue d'osciller indéfiniment avec une amplitude constante"
+        },
+        {
+          "id": "4",
+          "text": "Il oscille de manière chaotique"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz8": {
+      "question": "Quelle est la définition d'une oscillation harmonique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une oscillation qui suit une trajectoire circulaire"
+        },
+        {
+          "id": "2",
+          "text": "Une oscillation dont la force de rappel est proportionnelle au déplacement"
+        },
+        {
+          "id": "3",
+          "text": "Une oscillation qui ne dépend pas de la masse de l'oscillateur"
+        },
+        {
+          "id": "4",
+          "text": "Une oscillation amortie par une force de frottement"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz9": {
+      "question": "Quelle est la principale caractéristique d'un système oscillant autour d'une position d'équilibre stable ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Il cesse de bouger après un certain temps"
+        },
+        {
+          "id": "2",
+          "text": "Il s'éloigne de plus en plus de sa position d'équilibre"
+        },
+        {
+          "id": "3",
+          "text": "Il ne revient jamais à sa position d'équilibre"
+        },
+        {
+          "id": "4",
+          "text": "Il revient toujours à sa position d'équilibre après être perturbé"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz10": {
+      "question": "Qu'est-ce qui différencie une oscillation libre non-amortie d'une oscillation libre amortie ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La présence ou l'absence de frottement"
+        },
+        {
+          "id": "2",
+          "text": "La présence d'une force externe appliquée en continu"
+        },
+        {
+          "id": "3",
+          "text": "La variation de la masse de l'oscillateur"
+        },
+        {
+          "id": "4",
+          "text": "Le changement de la raideur du ressort"
+        }
+      ],
+      "bonneReponse": "1"
+    }
+  }

@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Qu'est ce que le 2nd principe de la thermodynamique exprime ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'énergie dans un système fermé reste constante"
+        },
+        {
+          "id": "2",
+          "text": "L'entropie d'un système isolé ne peut qu'augmenter ou rester constante"
+        },
+        {
+          "id": "3",
+          "text": "La chaleur d'un système est toujours conservée"
+        },
+        {
+          "id": "4",
+          "text": "La pression dans un système fermé reste constante"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz2": {
+      "question": "Quelle formule décrit l'augmentation de l'entropie due aux transferts de chaleur ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "ΔS=Q*T"
+        },
+        {
+          "id": "2",
+          "text": "ΔS=Q/T"
+        },
+        {
+          "id": "3",
+          "text": "ΔS=Q+T"
+        },
+        {
+          "id": "4",
+          "text": "ΔS=T/Q"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz3": {
+      "question": "Quelle est la caractéristique d'une transformation isentropique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La température reste constante"
+        },
+        {
+          "id": "2",
+          "text": "L'entropie reste constante"
+        },
+        {
+          "id": "3",
+          "text": "La pression reste constante"
+        },
+        {
+          "id": "4",
+          "text": "Le volume reste constant"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz4": {
+      "question": "Comment la variation de l'entropie ΔS est-elle exprimée dans une transformation adiabatique réversible pour un gaz parfait ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "ΔS=nCpln(Tf/​Ti)​​−nRln(Pf/​Pi)​​"
+        },
+        {
+          "id": "2",
+          "text": "ΔS=nCvln(Tf/​Ti)​​+nRln(Vf/​Vi)​​"
+        },
+        {
+          "id": "3",
+          "text": "ΔS=nCpln(Pf/​Pi)​​−nRln(Vf/​Vi)​​"
+        },
+        {
+          "id": "4",
+          "text": "ΔS=nCvln(Pf/​Pi)​​+nRln(Tf/​Ti)​​"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz5": {
+      "question": "Quelle loi relie la pression et la température pour une transformation isentropique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Loi de Charles"
+        },
+        {
+          "id": "2",
+          "text": "Loi de Gay-Lussac"
+        },
+        {
+          "id": "3",
+          "text": "Loi de Boyle-Mariotte"
+        },
+        {
+          "id": "4",
+          "text": "Loi de Laplace"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz6": {
+      "question": "Qu'es ce que l'entropie ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une mesure du désordre ou de la disponibilité énergétique dans un système"
+        },
+        {
+          "id": "2",
+          "text": "Une forme d'énergie conservée dans des processus thermodynamiques"
+        },
+        {
+          "id": "3",
+          "text": "Un type d'énergie potentielle stockée dans les liaisons chimiques"
+        },
+        {
+          "id": "4",
+          "text": "Une constante qui mesure la température d'un système"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz7": {
+      "question": "Quelle phrase décrit le mieux une transformation irréversible ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'entropie reste constante"
+        },
+        {
+          "id": "2",
+          "text": "L'entropie diminue"
+        },
+        {
+          "id": "3",
+          "text": "L'entropie augmente"
+        },
+        {
+          "id": "4",
+          "text": "L'entropie est transférée sans changement"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz8": {
+      "question": "Comment le terme d'échange d'entropie Sech est-il calculé pour un transfert thermique Q à travers une frontière à température T ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Sech​=Q/T​"
+        },
+        {
+          "id": "2",
+          "text": "Sech​=Q*T"
+        },
+        {
+          "id": "3",
+          "text": "Sech​=T/Q"
+        },
+        {
+          "id": "4",
+          "text": "Sech​=T+Q"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz9": {
+      "question": "Quel est le role de l'entropie dans le 2nd principe de la thermodynamique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Elle mesure la quantité de travail réalisable dans un système"
+        },
+        {
+          "id": "2",
+          "text": "Elle indique la quantité d'énergie sous forme de chaleur transférée"
+        },
+        {
+          "id": "3",
+          "text": "Elle détermine la direction naturelle des processus physiques"
+        },
+        {
+          "id": "4",
+          "text": "Elle calcule la pression exercée par un système fermé"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz10": {
+      "question": "Quelle est la conséquence d'une augmentation de l'entropie sur un système isolé ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Le système devient moins ordonné"
+        },
+        {
+          "id": "2",
+          "text": "Le système devient plus efficace énergétiquement"
+        },
+        {
+          "id": "3",
+          "text": "Le système conserve plus d'énergie interne"
+        },
+        {
+          "id": "4",
+          "text": "Le système retourne à son état initial plus facilement"
+        }
+      ],
+      "bonneReponse": "1"
+    }
+  }

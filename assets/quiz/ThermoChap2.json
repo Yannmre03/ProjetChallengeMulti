@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Que dit la théorie cinétique concernant le mouvement des particules d'un gaz ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Les particules sont immobiles et interagissent à distance"
+        },
+        {
+          "id": "2",
+          "text": "Les particules ont des trajectoires circulaires"
+        },
+        {
+          "id": "3",
+          "text": "Les particules se déplacent uniquement sous l'effet de forces externes"
+        },
+        {
+          "id": "4",
+          "text": "Les particules sont en mouvement permanent et soumises à des chocs incessants"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz2": {
+      "question": "Comment la théorie cinétique explique-t-elle la pression d'un gaz ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Par la gravité agissant sur les particules"
+        },
+        {
+          "id": "2",
+          "text": "Par les chocs des particules contre les parois du conteneur"
+        },
+        {
+          "id": "3",
+          "text": "Par l'attraction électromagnétique entre les particules"
+        },
+        {
+          "id": "4",
+          "text": "Par les variations de température au sein du gaz"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz3": {
+      "question": "Qu'est ce que la température cinétique d'un gaz ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La moyenne de l'énergie cinétique des particules"
+        },
+        {
+          "id": "2",
+          "text": "La température à laquelle les particules du gaz cessent de se mouvoir"
+        },
+        {
+          "id": "3",
+          "text": "La température mesurée par un thermomètre ordinaire"
+        },
+        {
+          "id": "4",
+          "text": "La température relative entre différents gaz"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz4": {
+      "question": "Quelle est la relation entre la vitesse quadratique moyenne des particules d'un gaz et sa température ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "νq​= √(3*kB*T/m)"
+        },
+        {
+          "id": "2",
+          "text": "νq=kB*T/m"
+        },
+        {
+          "id": "3",
+          "text": "νq​=3*kB​*T/m"
+        },
+        {
+          "id": "4",
+          "text": "νq​= √(kB*T/3m)"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz5": {
+      "question": "Comment est exprimée l'energie cinétique microscopique moyenne d'une particule dans un gaz monoatomique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "(3/2)*kB*​T"
+        },
+        {
+          "id": "2",
+          "text": "(1/2)*mv²"
+        },
+        {
+          "id": "3",
+          "text": "kB​T"
+        },
+        {
+          "id": "4",
+          "text": "(5/2)*kB​*T"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz6": {
+      "question": "Quelle hypothèse est fondamentale pour la théorie cinétique des gaz parfaits ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Les particules d'un gaz parfait n'interagissent pas à distance"
+        },
+        {
+          "id": "2",
+          "text": "Toutes les particules ont des vitesses différentes"
+        },
+        {
+          "id": "3",
+          "text": "Les particules sont affectées par la gravité"
+        },
+        {
+          "id": "4",
+          "text": "Les collisions entre particules sont inélastiques"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz7": {
+      "question": "Qu'est ce que le libre parcours moyen d'une particule dans un gaz ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La distance parcourue par une particule avant de changer de direction"
+        },
+        {
+          "id": "2",
+          "text": "La distance totale parcourue par une particule"
+        },
+        {
+          "id": "3",
+          "text": "La distance parcourue par une particule avant de s'arrêter"
+        },
+        {
+          "id": "4",
+          "text": "La distance moyenne parcourue entre deux chocs"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz8": {
+      "question": "Quel est l'impact des collisions elastiques sur l'énergie cinétique d'un système de particules de gaz ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'énergie cinétique totale augmente"
+        },
+        {
+          "id": "2",
+          "text": "L'énergie cinétique totale diminue"
+        },
+        {
+          "id": "3",
+          "text": "L'énergie cinétique totale est conservée"
+        },
+        {
+          "id": "4",
+          "text": "L'énergie cinétique totale est convertie en énergie potentielle"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz9": {
+      "question": "Quelle est l'unité de mesure de la constante de Boltzmann ? ",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "J/K"
+        },
+        {
+          "id": "2",
+          "text": "N/m2"
+        },
+        {
+          "id": "3",
+          "text": "Pa"
+        },
+        {
+          "id": "4",
+          "text": "W/m2K"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz10": {
+      "question": "Comment la capacité thermique à volume constant (Cv) est-elle définie pour un gaz parfait ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La quantité de chaleur nécessaire pour élever la température du gaz de 1 Kelvin sans changer le volume"
+        },
+        {
+          "id": "2",
+          "text": "La quantité de chaleur nécessaire pour élever la pression du gaz de 1 Pascal sans changer le volume"
+        },
+        {
+          "id": "3",
+          "text": "La quantité de travail nécessaire pour changer le volume du gaz sans changer la température"
+        },
+        {
+          "id": "4",
+          "text": "La quantité de chaleur nécessaire pour changer l'état du gaz sans changer la température"
+        }
+      ],
+      "bonneReponse": "1"
+    }
+  }

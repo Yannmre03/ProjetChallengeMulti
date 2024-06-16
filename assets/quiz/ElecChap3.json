@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Qu'est-ce qu'un condensateur ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un dispositif qui convertit l'énergie électrique en énergie mécanique"
+        },
+        {
+          "id": "2",
+          "text": "Un dipôle qui stocke l'énergie électrique sous forme de champ électrique"
+        },
+        {
+          "id": "3",
+          "text": "Un composant qui résiste au passage du courant électrique"
+        },
+        {
+          "id": "4",
+          "text": "Un générateur de tension électrique"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz2": {
+      "question": "Quelle est l'unité de mesure de la capacité d'un condensateur ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Ohm"
+        },
+        {
+          "id": "2",
+          "text": "Volt"
+        },
+        {
+          "id": "3",
+          "text": "Farad"
+        },
+        {
+          "id": "4",
+          "text": "Watt"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz3": {
+      "question": "Comment la charge stockée dans un condensateur est-elle calculée ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "q=C×U"
+        },
+        {
+          "id": "2",
+          "text": "q=C/U"
+        },
+        {
+          "id": "3",
+          "text": "q=U/C"
+        },
+        {
+          "id": "4",
+          "text": "q=U+Cq"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz4": {
+      "question": "Qu'est-ce que la rigidité diélectrique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La capacité d'un diélectrique à conduire le courant électrique"
+        },
+        {
+          "id": "2",
+          "text": "La résistance d'un diélectrique à des changements de température"
+        },
+        {
+          "id": "3",
+          "text": "La tension maximale que le diélectrique peut supporter sans se rompre"
+        },
+        {
+          "id": "4",
+          "text": "La perméabilité d'un diélectrique au champ magnétique"
+        }
+      ],
+      "bonneReponse": null
+    },
+    "quiz5": {
+      "question": "Quelle formule décrit la relation entre le courant et la tension pour un condensateur ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "i=C×(du/dt)"
+        },
+        {
+          "id": "2",
+          "text": "i=C/(du/dt)"
+        },
+        {
+          "id": "3",
+          "text": "i=(du/dt)/C"
+        },
+        {
+          "id": "4",
+          "text": "i = C × du × dt"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz6": {
+      "question": "Comment l'énergie stockée dans un condensateur est-elle exprimée ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "W=(1/2)​ × Cu²"
+        },
+        {
+          "id": "2",
+          "text": "W=C × u²"
+        },
+        {
+          "id": "3",
+          "text": "W=(1/2) × u²/C"
+        },
+        {
+          "id": "4",
+          "text": "W=2 × Cu²"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz7": {
+      "question": "Qu'est-ce qu'une bobine ou self ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un dispositif qui bloque le passage du courant"
+        },
+        {
+          "id": "2",
+          "text": "Un composant qui stocke de l'énergie sous forme de champ magnétique"
+        },
+        {
+          "id": "3",
+          "text": "Un générateur qui crée une tension constante"
+        },
+        {
+          "id": "4",
+          "text": "Un condensateur spécialisé pour les hautes fréquences"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz8": {
+      "question": "Quelle est l'unité de l'inductance ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Henry"
+        },
+        {
+          "id": "2",
+          "text": "Joule"
+        },
+        {
+          "id": "3",
+          "text": "Coulomb"
+        },
+        {
+          "id": "4",
+          "text": "Tesla"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz9": {
+      "question": "Comment l'énergie stockée dans une bobine est-elle calculée ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "W=L × i²"
+        },
+        {
+          "id": "2",
+          "text": "W=2 × Li²"
+        },
+        {
+          "id": "3",
+          "text": "W=(1/2)​ × Li²"
+        },
+        {
+          "id": "4",
+          "text": "W=(1/2) × L/i²"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz10": {
+      "question": "Quelle est la relation pour l'association en série de deux inductances ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Leq​=L1​+L2​"
+        },
+        {
+          "id": "2",
+          "text": "Leq​=(L1​×L2)/(L1​+L2​)​​"
+        },
+        {
+          "id": "3",
+          "text": "Leq​=(L1​/L2)​+(L2​/L1)​"
+        },
+        {
+          "id": "4",
+          "text": "Leq=(1/L1)+(1/L2)"
+        }
+      ],
+      "bonneReponse": "1"
+    }
+  }

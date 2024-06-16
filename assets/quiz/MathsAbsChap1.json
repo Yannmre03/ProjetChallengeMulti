@@ -1,222 +1,223 @@
 {
     "quiz1": {
-      "question": "﻿Quel est l'objet principal de l'étude en optique géométrique ?",
+      "question": "﻿Quelle est la définition d'une proposition en logique ?",
       "reponses": [
         {
           "id": "1",
-          "text": "Les interactions électromagnétiques dans les matériaux"
+          "text": "Un calcul numérique exprimant une opération"
         },
         {
           "id": "2",
-          "text": "Les phénomènes perçus par l'œil causés par la lumière"
+          "text": "Une opinion personnelle"
         },
         {
           "id": "3",
-          "text": "Les structures moléculaires influençant la lumière"
+          "text": "Une question ouverte sans réponse définie"
         },
         {
           "id": "4",
-          "text": "Les réactions chimiques résultant de l'exposition à la lumière"
+          "text": "Un énoncé qui peut être uniquement vrai ou faux"
         }
       ],
-      "bonneReponse": "2"
+      "bonneReponse": "4"
     },
     "quiz2": {
-      "question": "Quelle est la vitesse de la lumière dans le vide ?",
+      "question": "Qu'est-ce qu'une négation en logique ?",
       "reponses": [
         {
           "id": "1",
-          "text": "3×10^6 m/s"
+          "text": "Répéter la même proposition deux fois"
         },
         {
           "id": "2",
-          "text": "3×10^8 m/s"
+          "text": "Affirmer que la proposition est toujours vraie"
         },
         {
           "id": "3",
-          "text": "2.99792458×10^8 m/s"
+          "text": "L'opposé d'une proposition donnée"
         },
         {
           "id": "4",
-          "text": "3,0111×10^8 m/s"
+          "text": "Une proposition avec un doute"
         }
       ],
       "bonneReponse": "3"
     },
     "quiz3": {
-      "question": "Quelle loi régit la réflexion de la lumière à l'interface de deux milieux ?",
+      "question": "Comment fonctionne la conjonction de deux propositions P et Q ?",
       "reponses": [
         {
           "id": "1",
-          "text": "Loi de Snell-Descartes"
+          "text": "Vraie si l'une des propositions est vraie"
         },
         {
           "id": "2",
-          "text": "Loi de Newton"
+          "text": "Vraie si et seulement si les deux propositions sont vraies"
         },
         {
           "id": "3",
-          "text": "Loi de Hooke"
+          "text": "Fausse si et seulement si les deux propositions sont vraies"
         },
         {
           "id": "4",
-          "text": "Loi de Coulomb"
+          "text": "Vraie si les deux propositions sont fausses"
         }
       ],
-      "bonneReponse": "1"
+      "bonneReponse": "2"
     },
     "quiz4": {
-      "question": "Comment la longueur d'onde de la lumière dans un milieu est-elle calculée par rapport à celle dans le vide ?",
+      "question": "Que signifie une disjonction de P et Q ?",
       "reponses": [
         {
           "id": "1",
-          "text": "λ=λ0/n"
+          "text": "Vraie si les deux propositions sont vraies"
         },
         {
           "id": "2",
-          "text": "λ = λ0×n"
+          "text": "Fausse si les deux propositions sont fausses"
         },
         {
           "id": "3",
-          "text": "λ=λ0/(n²)"
+          "text": "Vraie si au moins une des deux propositions est vraie"
         },
         {
           "id": "4",
-          "text": "λ=5λ0/2n"
+          "text": "Fausse seulement si P est vraie"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz5": {
+      "question": "Comment est exprimée l'implication en logique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "P implique Q si la conjonction de P et non Q est fausse"
+        },
+        {
+          "id": "2",
+          "text": "P implique Q si P est fausse et Q est vraie"
+        },
+        {
+          "id": "3",
+          "text": "P implique Q si les deux propositions sont fausses"
+        },
+        {
+          "id": "4",
+          "text": "P implique Q si les deux propositions sont vraies"
         }
       ],
       "bonneReponse": "1"
     },
-    "quiz5": {
-      "question": "Quelle est la relation entre les sinus des angles d'incidence et de réfraction, connue sous le nom de loi de Snell-Descartes ?",
+    "quiz6": {
+      "question": "Quel est le résultat d'une équivalence entre P et Q ?",
       "reponses": [
         {
           "id": "1",
-          "text": "n1​i1​=n2​i2​"
+          "text": "Vraie si P et Q ont les mêmes valeurs de vérité"
         },
         {
           "id": "2",
-          "text": "n1​tan(i1​)=n2​tan(i2​)"
+          "text": "Fausse si P et Q ont des valeurs de vérité différentes"
         },
         {
           "id": "3",
-          "text": "n1cos⁡(i1)=n2cos⁡(i2)"
+          "text": "Vraie seulement si P et Q sont toutes deux fausses"
         },
         {
           "id": "4",
-          "text": "n1​sin(i1​)=n2​sin(i2​)"
+          "text": "A et B sont correctes"
         }
       ],
       "bonneReponse": "4"
     },
-    "quiz6": {
-      "question": "Quel est le principe fondamental de l'optique géométrique concernant le chemin de la lumière dans un milieu homogène ?",
-      "reponses": [
-        {
-          "id": "1",
-          "text": "La lumière se propage en ligne droite"
-        },
-        {
-          "id": "2",
-          "text": "La lumière se propage en spirale"
-        },
-        {
-          "id": "3",
-          "text": "La lumière se propage en arcs"
-        },
-        {
-          "id": "4",
-          "text": "La lumière se propage en zigzag"
-        }
-      ],
-      "bonneReponse": "1"
-    },
     "quiz7": {
-      "question": "Qu'est-ce qu'un dioptre en optique ?",
+      "question": "Comment est formulée la contraposée d'une implication P ⇒ Q ?",
       "reponses": [
         {
           "id": "1",
-          "text": "Un instrument pour mesurer la réfraction de la lumière"
+          "text": "¬P ⇒ ¬Q"
         },
         {
           "id": "2",
-          "text": "Une surface séparant deux milieux de différents indices de réfraction"
+          "text": "¬Q ⇒ ¬P"
         },
         {
           "id": "3",
-          "text": "Un dispositif pour bloquer la lumière"
+          "text": "Q ⇒ P"
         },
         {
           "id": "4",
-          "text": "Une unité de mesure de la puissance de réfraction"
+          "text": "P ⇒ ¬Q"
         }
       ],
       "bonneReponse": "2"
     },
     "quiz8": {
-      "question": "ue se passe-t-il lorsqu'un rayon lumineux incident atteint l'angle limite d'incidence dans le phénomène de réflexion totale ?",
+      "question": "Quel quantificateur exprime \"pour tout\" ?",
       "reponses": [
         {
           "id": "1",
-          "text": "Le rayon est totalement réfracté"
+          "text": "∃"
         },
         {
           "id": "2",
-          "text": "Le rayon est partiellement réfléchi"
+          "text": "∅"
         },
         {
           "id": "3",
-          "text": "Le rayon est totalement réfléchi"
+          "text": "A"
         },
         {
           "id": "4",
-          "text": "Le rayon est absorbé"
+          "text": "Aucun des choix précédents"
         }
       ],
-      "bonneReponse": "3"
+      "bonneReponse": "4"
     },
     "quiz9": {
-      "question": "Quelle condition caractérise une transformation isobare pour un rayon lumineux traversant un dioptre ?",
+      "question": "Quelle est la négation de la proposition \"∀x ∈ E, P(x)\" ?",
       "reponses": [
         {
           "id": "1",
-          "text": "Le rayon lumineux change de direction mais reste dans le même plan"
+          "text": "∃x ∈ E, ¬P(x)"
         },
         {
           "id": "2",
-          "text": "Le rayon lumineux reste dans le même plan et les angles d'incidence et de réflexion sont égaux"
+          "text": "∀x ∈ E, ¬P(x)"
         },
         {
           "id": "3",
-          "text": "Le rayon lumineux ne change pas de plan mais son intensité varie"
+          "text": "∃x ∈ E, P(x)"
         },
         {
           "id": "4",
-          "text": "Aucune des réponses précédentes"
-        }
-      ],
-      "bonneReponse": "2"
-    },
-    "quiz10": {
-      "question": "Qu'implique la propriété d'isotropie d'un milieu en optique géométrique ?",
-      "reponses": [
-        {
-          "id": "1",
-          "text": "Le milieu présente la même réfraction dans toutes les directions"
-        },
-        {
-          "id": "2",
-          "text": "Le milieu absorbe la lumière uniformément dans toutes les directions"
-        },
-        {
-          "id": "3",
-          "text": "Le milieu présente des propriétés magnétiques variables"
-        },
-        {
-          "id": "4",
-          "text": "Le milieu présente des propriétés électriques uniformes"
+          "text": "¬∃x ∈ E, P(x)"
         }
       ],
       "bonneReponse": "1"
+    },
+    "quiz10": {
+      "question": "Que démontre un raisonnement par récurrence ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Vérifie que la proposition est fausse pour tout n"
+        },
+        {
+          "id": "2",
+          "text": "Prouve une propriété pour tous les entiers supérieurs ou égaux à un certain nombre"
+        },
+        {
+          "id": "3",
+          "text": "Démontre que la propriété est vraie pour quelques valeurs spécifiques"
+        },
+        {
+          "id": "4",
+          "text": "Prouve une propriété pour tout nombre réel"
+        }
+      ],
+      "bonneReponse": "2"
     }
   }
+  

@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Quelle est l'expression de la solution générale pour un oscillateur en régime pseudo-périodique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "x(t)=Ae (−λt)*cos(ωt+ϕ)"
+        },
+        {
+          "id": "2",
+          "text": "x(t)=Acos(ωt+ϕ)"
+        },
+        {
+          "id": "3",
+          "text": "x(t)=Ae(λt)*cos(ωt+ϕ)"
+        },
+        {
+          "id": "4",
+          "text": "x(t)=Asin(ωt+ϕ)"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz2": {
+      "question": "Quelle est la caractéristique principale d'une oscillation amortie ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'amplitude reste constante"
+        },
+        {
+          "id": "2",
+          "text": "L'amplitude augmente avec le temps"
+        },
+        {
+          "id": "3",
+          "text": "L'amplitude diminue avec le temps"
+        },
+        {
+          "id": "4",
+          "text": "La fréquence augmente avec le temps"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz3": {
+      "question": "Quel terme est introduit dans l'équation du mouvement pour modéliser l'amortissement ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un terme proportionnel à la position"
+        },
+        {
+          "id": "2",
+          "text": "Un terme proportionnel à la vitesse"
+        },
+        {
+          "id": "3",
+          "text": "Un terme proportionnel à l'accélération"
+        },
+        {
+          "id": "4",
+          "text": "Un terme proportionnel au temps"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz4": {
+      "question": "Quelle est la constante de frottement fluide 𝛼 ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une constante représentant la force de rappel du ressort"
+        },
+        {
+          "id": "2",
+          "text": "Une constante représentant l'accélération de la masse"
+        },
+        {
+          "id": "3",
+          "text": "Une constante représentant la résistance due aux frottements"
+        },
+        {
+          "id": "4",
+          "text": "Une constante représentant l'élasticité de la masse"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz5": {
+      "question": "Quel est le régime d'amortissement si le discriminant de l'équation caractéristique est positif ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Régime pseudo-périodique"
+        },
+        {
+          "id": "2",
+          "text": "Régime critique"
+        },
+        {
+          "id": "3",
+          "text": "Régime oscillatoire"
+        },
+        {
+          "id": "4",
+          "text": "Régime apériodique"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz6": {
+      "question": "Qu'est-ce que le temps caractéristique d'amortissement 𝜏?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Le temps nécessaire pour que l'amplitude atteigne sa valeur maximale"
+        },
+        {
+          "id": "2",
+          "text": "Le temps nécessaire pour que l'amplitude diminue de moitié"
+        },
+        {
+          "id": "3",
+          "text": "Le temps nécessaire pour que la vitesse atteigne sa valeur maximale"
+        },
+        {
+          "id": "4",
+          "text": "Le temps nécessaire pour que l'oscillation s'arrête complètement"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz7": {
+      "question": "Qu'est-ce qu'une oscillation en régime critique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une oscillation où l'amplitude diminue très lentement"
+        },
+        {
+          "id": "2",
+          "text": "Une oscillation qui ne passe pas par l'équilibre"
+        },
+        {
+          "id": "3",
+          "text": "Une oscillation où l'amortissement est juste suffisant pour éviter les oscillations"
+        },
+        {
+          "id": "4",
+          "text": "Une oscillation où l'amplitude augmente avec le temps"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz8": {
+      "question": "Comment se caractérise une oscillation en régime pseudo-périodique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Par une oscillation apériodique sans diminution de l'amplitude"
+        },
+        {
+          "id": "2",
+          "text": "Par une oscillation périodique sans amortissement"
+        },
+        {
+          "id": "3",
+          "text": "Par une oscillation critique sans passage par l'équilibre"
+        },
+        {
+          "id": "4",
+          "text": "Par une oscillation périodique avec une diminution exponentielle de l'amplitude"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz9": {
+      "question": "Quelle est la principale différence entre une oscillation amortie et une oscillation non amortie ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La présence d'une force externe"
+        },
+        {
+          "id": "2",
+          "text": "La diminution de l'amplitude avec le temps dans l'oscillation amortie"
+        },
+        {
+          "id": "3",
+          "text": "La constance de la fréquence dans l'oscillation non amortie"
+        },
+        {
+          "id": "4",
+          "text": "L'augmentation de la masse dans l'oscillation amortie"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz10": {
+      "question": "Quel est l'effet de l'amortissement critique sur le mouvement d'un oscillateur harmonique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Le système oscille indéfiniment avec une amplitude constante"
+        },
+        {
+          "id": "2",
+          "text": "Le système revient à sa position d'équilibre sans osciller"
+        },
+        {
+          "id": "3",
+          "text": "Le système oscille avec une amplitude croissante"
+        },
+        {
+          "id": "4",
+          "text": "Le système ne revient jamais à sa position d'équilibre"
+        }
+      ],
+      "bonneReponse": "2"
+    }
+  }

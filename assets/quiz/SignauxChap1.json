@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Combien de dimensions de base sont définies dans le système international (SI) ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "5"
+        },
+        {
+          "id": "2",
+          "text": "6"
+        },
+        {
+          "id": "3",
+          "text": "7"
+        },
+        {
+          "id": "4",
+          "text": "8"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz2": {
+      "question": "Quelle unité est utilisée pour mesurer l'intensité lumineuse dans le système international (SI) ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Lux (lx)"
+        },
+        {
+          "id": "2",
+          "text": "Radian (rad)"
+        },
+        {
+          "id": "3",
+          "text": "Candela (cd)"
+        },
+        {
+          "id": "4",
+          "text": "Lumen (lm)"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz3": {
+      "question": "Quelle est l'unité de base pour la longueur dans le système international (SI) ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Kilogramme (kg)"
+        },
+        {
+          "id": "2",
+          "text": "Mètre (m)"
+        },
+        {
+          "id": "3",
+          "text": "Seconde (s)"
+        },
+        {
+          "id": "4",
+          "text": "Ampère (A)"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz4": {
+      "question": "Quels arguments des fonctions usuelles comme cos, sin, tan doivent être adimensionnés ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Seules les fonctions exponentielles"
+        },
+        {
+          "id": "2",
+          "text": "Toutes les fonctions mathématiques"
+        },
+        {
+          "id": "3",
+          "text": "Seules les fonctions trigonométriques"
+        },
+        {
+          "id": "4",
+          "text": "Toutes les fonctions sauf les logarithmes"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz5": {
+      "question": "Qu'est-ce qu'une grandeur sans dimension ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une grandeur qui ne peut pas être mesurée"
+        },
+        {
+          "id": "2",
+          "text": "Une grandeur qui a une unité propre"
+        },
+        {
+          "id": "3",
+          "text": "Une grandeur qui a une dimension nulle"
+        },
+        {
+          "id": "4",
+          "text": "Une grandeur qui dépend du temps"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz6": {
+      "question": "Quelle est l'unité de base pour la masse dans le système international (SI) ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Gramme (g)"
+        },
+        {
+          "id": "2",
+          "text": "Kilogramme (kg)"
+        },
+        {
+          "id": "3",
+          "text": "Tonne (t)"
+        },
+        {
+          "id": "4",
+          "text": "Milligramme (mg)"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz7": {
+      "question": "Qu'est-ce que le principe de l'analyse dimensionnelle ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un moyen de mesurer les dimensions physiques"
+        },
+        {
+          "id": "2",
+          "text": "Un moyen de vérifier l'homogénéité des équations physiques"
+        },
+        {
+          "id": "3",
+          "text": "Un moyen de convertir des unités"
+        },
+        {
+          "id": "4",
+          "text": "Un moyen de comparer des quantités physiques de différentes dimensions"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz8": {
+      "question": "Quelle est la dimension de l'énergie potentielle gravitationnelle Epp​ ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "[Epp​]=M.L²/T²"
+        },
+        {
+          "id": "2",
+          "text": "[Epp​]=M.L/T²"
+        },
+        {
+          "id": "3",
+          "text": "[Epp​]=M².L²/T²"
+        },
+        {
+          "id": "4",
+          "text": "[Epp​]=M/L².T²"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz9": {
+      "question": "Quelle est la dimension de la constante de décroissance λ dans l'équation N(t)=N0exp(−λt)",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "𝑇^(−1)"
+        },
+        {
+          "id": "2",
+          "text": "T"
+        },
+        {
+          "id": "3",
+          "text": "L"
+        },
+        {
+          "id": "4",
+          "text": "M"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz10": {
+      "question": "Quelle est la dimension de la force F dans l'équation F=ma (où m est la masse et a est l'accélération) ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "[F]=M.L/T²"
+        },
+        {
+          "id": "2",
+          "text": "[F]=M/(L.T ²)"
+        },
+        {
+          "id": "3",
+          "text": "[F]=M.L²/T²"
+        },
+        {
+          "id": "4",
+          "text": "[F]=M.L/T"
+        }
+      ],
+      "bonneReponse": "1"
+    }
+  }

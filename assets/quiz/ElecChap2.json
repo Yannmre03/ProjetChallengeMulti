@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Qu'est-ce qu'une résistance dans le contexte des circuits électriques ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un dispositif qui génère de l'électricité"
+        },
+        {
+          "id": "2",
+          "text": "Un appareil qui mesure la tension"
+        },
+        {
+          "id": "3",
+          "text": "Un composant qui oppose une résistance à l'écoulement du courant"
+        },
+        {
+          "id": "4",
+          "text": "Un câble conducteur qui relie deux composants"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz2": {
+      "question": "Comment la loi d'Ohm est-elle formulée pour un régime continu ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "U = R/I"
+        },
+        {
+          "id": "2",
+          "text": "I = U/R"
+        },
+        {
+          "id": "3",
+          "text": "R = U.I"
+        },
+        {
+          "id": "4",
+          "text": "U = R.I"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz3": {
+      "question": "Quelle est l'unité de mesure de la résistance ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Volt"
+        },
+        {
+          "id": "2",
+          "text": "Watt"
+        },
+        {
+          "id": "3",
+          "text": "Ohm"
+        },
+        {
+          "id": "4",
+          "text": "Ampère"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz4": {
+      "question": "Qu'est-ce que la puissance dissipée par une résistance en régime continu ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "P = U/I"
+        },
+        {
+          "id": "2",
+          "text": "P = U.I"
+        },
+        {
+          "id": "3",
+          "text": "P = U+I"
+        },
+        {
+          "id": "4",
+          "text": "P = U-I"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz5": {
+      "question": "Comment est déterminée la valeur d'une résistance à l'aide du code des couleurs ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Par les trois premiers anneaux sur la résistance"
+        },
+        {
+          "id": "2",
+          "text": "Par le dernier anneau sur la résistance"
+        },
+        {
+          "id": "3",
+          "text": "Par le nombre total des anneaux"
+        },
+        {
+          "id": "4",
+          "text": "Par la couleur du premier anneau uniquement"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz6": {
+      "question": "Qu'est-ce que la résistivité d'un matériau ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La capacité d'un matériau à résister aux changements de température"
+        },
+        {
+          "id": "2",
+          "text": "La résistance qu'offre un matériau à l'écoulement du courant par unité de longueur"
+        },
+        {
+          "id": "3",
+          "text": "La conductivité thermique d'un matériau"
+        },
+        {
+          "id": "4",
+          "text": "L'impédance acoustique d'un matériau"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz7": {
+      "question": "Quelle est la relation entre la résistance et la conductance ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "G = 1/R"
+        },
+        {
+          "id": "2",
+          "text": "R = G/I"
+        },
+        {
+          "id": "3",
+          "text": "G = R.I"
+        },
+        {
+          "id": "4",
+          "text": "R = 1/G"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz8": {
+      "question": "Quel facteur affecte la résistivité d'un matériau ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Sa couleur"
+        },
+        {
+          "id": "2",
+          "text": "Sa température"
+        },
+        {
+          "id": "3",
+          "text": "Sa dureté"
+        },
+        {
+          "id": "4",
+          "text": "Son poids"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz9": {
+      "question": "Comment la puissance dissipée par une résistance peut-elle également être exprimée ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "P = U²/R"
+        },
+        {
+          "id": "2",
+          "text": "P = R/U"
+        },
+        {
+          "id": "3",
+          "text": "P = U/R"
+        },
+        {
+          "id": "4",
+          "text": "P = R²/U"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz10": {
+      "question": "Qu'est-ce qu'un potentiomètre ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un type de résistance qui convertit l'électricité en lumière"
+        },
+        {
+          "id": "2",
+          "text": "Un composant qui diminue la quantité de courant dans un circuit sans changer la tension"
+        },
+        {
+          "id": "3",
+          "text": "Un dispositif utilisé pour augmenter la tension dans un circuit"
+        },
+        {
+          "id": "4",
+          "text": "Un type de résistance dont la valeur peut être ajustée mécaniquement"
+        }
+      ],
+      "bonneReponse": "4"
+    }
+  }

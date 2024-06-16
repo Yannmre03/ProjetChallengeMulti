@@ -1,0 +1,442 @@
+{
+    "quiz1": {
+      "question": "﻿Quelle est l'unité de mesure des angles utilisée en trigonométrie pour mesurer un angle plat ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Degrés"
+        },
+        {
+          "id": "2",
+          "text": "Radians"
+        },
+        {
+          "id": "3",
+          "text": "Gradiens"
+        },
+        {
+          "id": "4",
+          "text": "Tours"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz2": {
+      "question": "Comment convertit-on un angle de degrés en radians ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Multiplier par π et diviser par 180"
+        },
+        {
+          "id": "2",
+          "text": "Multiplier par 180 et diviser par π"
+        },
+        {
+          "id": "3",
+          "text": "Diviser par π et multiplier par 180"
+        },
+        {
+          "id": "4",
+          "text": "Multiplier directement par π"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz3": {
+      "question": "Quelles sont les coordonnées du cosinus et du sinus sur le cercle trigonométrique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "cos(α) pour x, et sin(α) pour y"
+        },
+        {
+          "id": "2",
+          "text": "sin(α) pour x, et cos(α) pour y"
+        },
+        {
+          "id": "3",
+          "text": "tan(α) pour x, et cot(α) pour y"
+        },
+        {
+          "id": "4",
+          "text": "sinh(α) pour x, et cosh(α) pour y"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz4": {
+      "question": "Que représente la tangente de α dans le cercle trigonométrique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Le rapport de l'ordonnée à l'abscisse du point M"
+        },
+        {
+          "id": "2",
+          "text": "L'ordonnée du point d'intersection de la droite (OM) avec la droite verticale x = 1"
+        },
+        {
+          "id": "3",
+          "text": "L'abscisse du point M"
+        },
+        {
+          "id": "4",
+          "text": "La distance du point M à l'origine"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz5": {
+      "question": "Quelle est la période des fonctions sinus et cosinus ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "π/2"
+        },
+        {
+          "id": "2",
+          "text": "π"
+        },
+        {
+          "id": "3",
+          "text": "2 π"
+        },
+        {
+          "id": "4",
+          "text": "4 π"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz6": {
+      "question": "Comment le sinus de π/4 est-il calculé dans un triangle rectangle ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "1/√2"
+        },
+        {
+          "id": "2",
+          "text": "√2/2"
+        },
+        {
+          "id": "3",
+          "text": "01-févr"
+        },
+        {
+          "id": "4",
+          "text": "√3/2"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz7": {
+      "question": "Quelle est la relation entre les fonctions sinus et cosinus pour un angle x ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "cos²(x) + sin²(x) = 1"
+        },
+        {
+          "id": "2",
+          "text": "sin(x) = cos(x)"
+        },
+        {
+          "id": "3",
+          "text": "tan(x) = sin(x)/cos(x)"
+        },
+        {
+          "id": "4",
+          "text": "cos(x) = 1/sin(x)"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz8": {
+      "question": "Que signifie que le cosinus est une fonction paire ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "cos(x) = -sin(x)"
+        },
+        {
+          "id": "2",
+          "text": "cos(x) = sin(x)"
+        },
+        {
+          "id": "3",
+          "text": "cos(-x) = -cos(x)"
+        },
+        {
+          "id": "4",
+          "text": "cos(-x) = cos(x)"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz9": {
+      "question": "Quelle formule de duplication est correcte pour cos(2a) ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "cos(2a) = 2cos²(a) - 1"
+        },
+        {
+          "id": "2",
+          "text": "cos(2a) = cos²(a) - sin²(a)"
+        },
+        {
+          "id": "3",
+          "text": "cos(2a) = 1 - 2sin²(a)"
+        },
+        {
+          "id": "4",
+          "text": "Toutes les réponses précédentes"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz10": {
+      "question": "Comment résoudre l'équation trigonométrique cos(x) = a ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "En trouvant les valeurs x pour lesquelles sin(x) = a"
+        },
+        {
+          "id": "2",
+          "text": "En utilisant le cercle trigonométrique pour trouver les angles correspondants"
+        },
+        {
+          "id": "3",
+          "text": "En multipliant chaque côté de l'équation par 2π"
+        },
+        {
+          "id": "4",
+          "text": "En divisant chaque côté de l'équation par sin(x)"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz11": {
+      "question": "Quelle est la définition d'un nombre complexe ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un nombre réel"
+        },
+        {
+          "id": "2",
+          "text": "Un couple de réels"
+        },
+        {
+          "id": "3",
+          "text": "Une fonction"
+        },
+        {
+          "id": "4",
+          "text": "Une équation"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz12": {
+      "question": "Quel est l'élément noté i dans l'ensemble des nombres complexes ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un nombre réel"
+        },
+        {
+          "id": "2",
+          "text": "Un vecteur"
+        },
+        {
+          "id": "3",
+          "text": "L'unité imaginaire où i² = -1"
+        },
+        {
+          "id": "4",
+          "text": "Une matrice"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz13": {
+      "question": "Comment s'écrit un nombre complexe en forme algébrique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "a/b"
+        },
+        {
+          "id": "2",
+          "text": "ab"
+        },
+        {
+          "id": "3",
+          "text": "a + bi"
+        },
+        {
+          "id": "4",
+          "text": "a - bi"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz14": {
+      "question": "Que représente la partie réelle d'un nombre complexe Z = a + bi ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "b"
+        },
+        {
+          "id": "2",
+          "text": "a"
+        },
+        {
+          "id": "3",
+          "text": "i"
+        },
+        {
+          "id": "4",
+          "text": "bi"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz15": {
+      "question": "Quelle est la condition pour qu'un nombre complexe soit un imaginaire pur ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La partie réelle est nulle"
+        },
+        {
+          "id": "2",
+          "text": "La partie réelle est non nulle"
+        },
+        {
+          "id": "3",
+          "text": "La partie imaginaire est nulle"
+        },
+        {
+          "id": "4",
+          "text": "Le nombre est son propre conjugué"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz16": {
+      "question": "Qu'est-ce que le conjugué d'un nombre complexe Z = a + bi ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "a - bi"
+        },
+        {
+          "id": "2",
+          "text": "a + bi"
+        },
+        {
+          "id": "3",
+          "text": "-a - bi"
+        },
+        {
+          "id": "4",
+          "text": "-a + bi"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz17": {
+      "question": "Quelle est la condition pour qu'un nombre complexe Z soit réel ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Im(Z) = 0"
+        },
+        {
+          "id": "2",
+          "text": "Re(Z) = 0"
+        },
+        {
+          "id": "3",
+          "text": "Z = iZ"
+        },
+        {
+          "id": "4",
+          "text": "Z = -Z"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz18": {
+      "question": "Comment s'écrit le module d'un nombre complexe Z = a + bi ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "a² + b²"
+        },
+        {
+          "id": "2",
+          "text": "a² - b²"
+        },
+        {
+          "id": "3",
+          "text": "a + b"
+        },
+        {
+          "id": "4",
+          "text": "√(a² + b²)"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz19": {
+      "question": "Quelle est la relation entre les modules de deux nombres complexes Z et W lorsqu'on les multiplie ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "|Z| * |W|"
+        },
+        {
+          "id": "2",
+          "text": "|Z| + |W|"
+        },
+        {
+          "id": "3",
+          "text": "|Z| - |W|"
+        },
+        {
+          "id": "4",
+          "text": "|Z/W|"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz20": {
+      "question": "Quelle est la forme trigonométrique d'un nombre complexe Z ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "r(cos(θ) + i sin(θ))"
+        },
+        {
+          "id": "2",
+          "text": "r + θ"
+        },
+        {
+          "id": "3",
+          "text": "r(cos(θ) - i sin(θ))"
+        },
+        {
+          "id": "4",
+          "text": "rθ"
+        }
+      ],
+      "bonneReponse": "1"
+    }
+  }

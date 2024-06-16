@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Qu'est-ce qu'un ensemble en théorie des ensembles ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une collection d'éléments clairement définie mais dépourvue de structure"
+        },
+        {
+          "id": "2",
+          "text": "Un groupe de nombres réels avec des opérations définies"
+        },
+        {
+          "id": "3",
+          "text": "Une structure mathématique avec des éléments hiérarchisés"
+        },
+        {
+          "id": "4",
+          "text": "Un ensemble de points dans un espace géométrique"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz2": {
+      "question": "Comment note-t-on qu'un élément x appartient à un ensemble A ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "x⊆A"
+        },
+        {
+          "id": "2",
+          "text": "x/∈A"
+        },
+        {
+          "id": "3",
+          "text": "x∈A"
+        },
+        {
+          "id": "4",
+          "text": "x∪A"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz3": {
+      "question": "Quelle est la définition de l'ensemble vide ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un ensemble contenant un seul élément"
+        },
+        {
+          "id": "2",
+          "text": "Un ensemble contenant tous les éléments possibles"
+        },
+        {
+          "id": "3",
+          "text": "Un ensemble ne contenant aucun élément"
+        },
+        {
+          "id": "4",
+          "text": "Un ensemble avec des éléments indéfinis"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz4": {
+      "question": "Qu'est-ce qu'un singleton ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un ensemble contenant un seul élément"
+        },
+        {
+          "id": "2",
+          "text": "Un ensemble contenant deux éléments"
+        },
+        {
+          "id": "3",
+          "text": "Un ensemble vide"
+        },
+        {
+          "id": "4",
+          "text": "Un ensemble infini"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz5": {
+      "question": "Comment appelle-t-on l'ensemble de tous les sous-ensembles d'un ensemble A ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'ensemble vide"
+        },
+        {
+          "id": "2",
+          "text": "Le produit cartésien de AAA"
+        },
+        {
+          "id": "3",
+          "text": "L'union de A"
+        },
+        {
+          "id": "4",
+          "text": "L'ensemble des parties de A"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz6": {
+      "question": "Quelle est la définition de l'union de deux ensembles A et B ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'ensemble des éléments appartenant à la fois à A et B"
+        },
+        {
+          "id": "2",
+          "text": "L'ensemble des éléments appartenant soit à A soit à B"
+        },
+        {
+          "id": "3",
+          "text": "L'ensemble des éléments de A qui n'appartiennent pas à B"
+        },
+        {
+          "id": "4",
+          "text": "L'ensemble des éléments de B qui n'appartiennent pas à A"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz7": {
+      "question": "Quelle est la propriété de commutativité pour l'union de deux ensembles A et B ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "A∪(B∪C)=(A∪B)∪C"
+        },
+        {
+          "id": "2",
+          "text": "A∪B=B∪A"
+        },
+        {
+          "id": "3",
+          "text": "A∪B=A"
+        },
+        {
+          "id": "4",
+          "text": "A∪(B∩C)=(A∪B)∩(A∪C)"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz8": {
+      "question": "Quelle est la loi de De Morgan pour les ensembles A et B ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "(A ∪ B)^c = A^c ∪ B^c"
+        },
+        {
+          "id": "2",
+          "text": "(A ∪ B)^c = A^c ∩ B^c"
+        },
+        {
+          "id": "3",
+          "text": "(A ∩ B)^c = A^c ∪ B^c"
+        },
+        {
+          "id": "4",
+          "text": "(A ∩ B)^c = A^c ∩ B^c"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz9": {
+      "question": "Quelle est la définition du produit cartésien de deux ensembles 𝐴 et𝐵 ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'ensemble des éléments appartenant soit à A soit à B"
+        },
+        {
+          "id": "2",
+          "text": "L'ensemble des éléments de A qui n'appartiennent pas à B"
+        },
+        {
+          "id": "3",
+          "text": "L'ensemble des paires ordonnées (a,b) avec a∈A et b∈B"
+        },
+        {
+          "id": "4",
+          "text": "L'ensemble des éléments appartenant à la fois à A et B"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz10": {
+      "question": "Quelle est la définition d'une paire en théorie des ensembles ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un ensemble contenant un seul élément"
+        },
+        {
+          "id": "2",
+          "text": "Un ensemble contenant trois éléments"
+        },
+        {
+          "id": "3",
+          "text": "Un ensemble vide"
+        },
+        {
+          "id": "4",
+          "text": "Un ensemble contenant exactement deux éléments"
+        }
+      ],
+      "bonneReponse": "4"
+    }
+  }

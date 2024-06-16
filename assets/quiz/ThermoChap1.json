@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Quelle est la définition de la thermodynamique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'étude des réactions chimiques à haute température"
+        },
+        {
+          "id": "2",
+          "text": "L'étude des transformations mécaniques seulement"
+        },
+        {
+          "id": "3",
+          "text": "La science qui traite uniquement des systèmes en déséquilibre"
+        },
+        {
+          "id": "4",
+          "text": "La science qui traite des phénomènes dépendant de la température et de ses changements"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz2": {
+      "question": "Quelles sont les principales applications de la thermodynamique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Astronomie et météorologie"
+        },
+        {
+          "id": "2",
+          "text": "Économie et gestion"
+        },
+        {
+          "id": "3",
+          "text": "Piles, batteries et capteurs"
+        },
+        {
+          "id": "4",
+          "text": "Informatique et programmation"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz3": {
+      "question": "Qu'est ce qu'un système thermodynamique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Tout système où il y a mouvement mécanique"
+        },
+        {
+          "id": "2",
+          "text": "Une partie de l'univers que l'on isole pour étude"
+        },
+        {
+          "id": "3",
+          "text": "Un système où il n'y a aucun échange d'énergie"
+        },
+        {
+          "id": "4",
+          "text": "Une partie de l'univers toujours en équilibre"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz4": {
+      "question": "Quels sont les caractéristiques d'un système fermé ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Échange de matière mais pas d'énergie avec l'environnement"
+        },
+        {
+          "id": "2",
+          "text": "Aucun échange ni de matière ni d'énergie avec l'environnement"
+        },
+        {
+          "id": "3",
+          "text": "Échange d'énergie mais pas de matière avec l'environnement"
+        },
+        {
+          "id": "4",
+          "text": "Échanges libres de matière et d'énergie avec l'environnement"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz5": {
+      "question": "Quelle est la masse volumique de l'eau ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "7800 kg/m³"
+        },
+        {
+          "id": "2",
+          "text": "1,2 kg/m³"
+        },
+        {
+          "id": "3",
+          "text": "1000 kg/m³"
+        },
+        {
+          "id": "4",
+          "text": "22,4 kg/m³"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz6": {
+      "question": "Quel état de la matière est décrit comme étant non compact ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Solide"
+        },
+        {
+          "id": "2",
+          "text": "Liquide"
+        },
+        {
+          "id": "3",
+          "text": "Gazeux"
+        },
+        {
+          "id": "4",
+          "text": "Plasma"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz7": {
+      "question": "Quel est le principe 0 de la thermodynamique concernant l'équilibre thermique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Si deux corps sont en équilibre thermique avec un troisième corps, alors ils le sont aussi entre eux"
+        },
+        {
+          "id": "2",
+          "text": "L'énergie totale de l'univers reste constante"
+        },
+        {
+          "id": "3",
+          "text": "L'énergie ne peut ni être créée ni détruite"
+        },
+        {
+          "id": "4",
+          "text": "L'entropie d'un système isolé augmente toujours"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz8": {
+      "question": "Qu'est ce qu'une équation d'état en thermodynamique ? ",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une formule décrivant la conservation de l'énergie"
+        },
+        {
+          "id": "2",
+          "text": "Une relation entre les paramètres d'état d'un système"
+        },
+        {
+          "id": "3",
+          "text": "Une loi décrivant uniquement les changements de phase"
+        },
+        {
+          "id": "4",
+          "text": "Une équation décrivant uniquement des réactions chimiques"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz9": {
+      "question": "Qu'est ce qu'une grandeur intensive ? ",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une grandeur qui dépend de la taille du système"
+        },
+        {
+          "id": "2",
+          "text": "Une grandeur qui augmente avec la température"
+        },
+        {
+          "id": "3",
+          "text": "Une grandeur toujours proportionnelle au volume"
+        },
+        {
+          "id": "4",
+          "text": "Une grandeur qui ne dépend pas de la taille ou de la quantité de matière dans le système"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz10": {
+      "question": "Quelle unité est utilisée pour mesure la pression ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Pascal"
+        },
+        {
+          "id": "2",
+          "text": "Kelvin"
+        },
+        {
+          "id": "3",
+          "text": "Joule"
+        },
+        {
+          "id": "4",
+          "text": "Coulomb"
+        }
+      ],
+      "bonneReponse": "1"
+    }
+  }

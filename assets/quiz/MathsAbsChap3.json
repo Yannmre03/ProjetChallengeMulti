@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Qu'est-ce qu'une application en théorie des ensembles ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une fonction linéaire entre deux espaces vectoriels"
+        },
+        {
+          "id": "2",
+          "text": "Une relation entre deux ensembles où chaque élément du premier ensemble est associé à un unique élément du deuxième ensemble"
+        },
+        {
+          "id": "3",
+          "text": "Une fonction définie uniquement sur les ensembles de nombres réels"
+        },
+        {
+          "id": "4",
+          "text": "Une relation entre trois ensembles quelconques"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz2": {
+      "question": "Comment note-t-on qu'une fonction f va de l'ensemble E à l'ensemble F ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "f : E×F"
+        },
+        {
+          "id": "2",
+          "text": "f ⊂ E∪F"
+        },
+        {
+          "id": "3",
+          "text": "f : E→F"
+        },
+        {
+          "id": "4",
+          "text": "f : E∩F"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz3": {
+      "question": "Quelle est l'image directe d'une partie A par une application f ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'ensemble des antécédents de A"
+        },
+        {
+          "id": "2",
+          "text": "L'ensemble des éléments de F qui ne sont pas dans A"
+        },
+        {
+          "id": "3",
+          "text": "L'ensemble des images des éléments de A par f"
+        },
+        {
+          "id": "4",
+          "text": "L'ensemble des éléments de E qui sont dans A"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz4": {
+      "question": "Quelle est l'image réciproque d'une partie B par une application f ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'ensemble des images de B par f"
+        },
+        {
+          "id": "2",
+          "text": "L'ensemble des éléments de F qui sont dans B"
+        },
+        {
+          "id": "3",
+          "text": "L'ensemble des éléments de E qui ne sont pas dans B"
+        },
+        {
+          "id": "4",
+          "text": "L'ensemble des éléments de E dont les images par f sont dans B"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz5": {
+      "question": "Quelle propriété doit vérifier une application injective ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Tout élément de l'ensemble de départ a plusieurs images"
+        },
+        {
+          "id": "2",
+          "text": "Tout élément de l'ensemble d'arrivée a au moins un antécédent"
+        },
+        {
+          "id": "3",
+          "text": "Tout élément de l'ensemble de départ a un unique antécédent"
+        },
+        {
+          "id": "4",
+          "text": "Tout élément de l'ensemble d'arrivée a au plus un antécédent"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz6": {
+      "question": "Quelle propriété doit vérifier une application surjective ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Tout élément de l'ensemble de départ a plusieurs images"
+        },
+        {
+          "id": "2",
+          "text": "Tout élément de l'ensemble d'arrivée a au moins un antécédent"
+        },
+        {
+          "id": "3",
+          "text": "Tout élément de l'ensemble de départ a un unique antécédent"
+        },
+        {
+          "id": "4",
+          "text": "Tout élément de l'ensemble d'arrivée a au plus un antécédent"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz7": {
+      "question": "Qu'est-ce qu'une application bijective ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une application qui est à la fois injective et surjective"
+        },
+        {
+          "id": "2",
+          "text": "Une application qui est ni injective ni surjective"
+        },
+        {
+          "id": "3",
+          "text": "Une application qui est seulement injective"
+        },
+        {
+          "id": "4",
+          "text": "Une application qui est seulement surjective"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz8": {
+      "question": "Quelle est la composition de deux applications f et g ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L'application qui associe à chaque élément de E son image par f puis par g"
+        },
+        {
+          "id": "2",
+          "text": "L'application qui associe à chaque élément de F son image par g puis par f"
+        },
+        {
+          "id": "3",
+          "text": "L'application qui associe à chaque élément de E son image par g"
+        },
+        {
+          "id": "4",
+          "text": "L'application qui associe à chaque élément de F son image par f"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz9": {
+      "question": "Quelle est la proposition d'associativité de la composition des applications ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "(h∘g)∘f=h∘(g∘f)"
+        },
+        {
+          "id": "2",
+          "text": "h∘(g∘f)=(h∘f)∘g"
+        },
+        {
+          "id": "3",
+          "text": "f∘(g∘h)=(f∘g)∘h"
+        },
+        {
+          "id": "4",
+          "text": "g∘(f∘h)=(g∘f)∘h"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz10": {
+      "question": "Qu'est-ce que l'application identité sur un ensemble E ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une application qui associe à chaque élément de E un élément de F"
+        },
+        {
+          "id": "2",
+          "text": "Une application qui associe à chaque élément de E un élément de E différent de lui-même"
+        },
+        {
+          "id": "3",
+          "text": "Une application qui associe à chaque élément de E lui-même"
+        },
+        {
+          "id": "4",
+          "text": "Une application qui associe à chaque élément de F un élément de E"
+        }
+      ],
+      "bonneReponse": "3"
+    }
+  }

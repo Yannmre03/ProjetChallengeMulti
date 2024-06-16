@@ -1,0 +1,222 @@
+{
+    "quiz1": {
+      "question": "﻿Qu'est-ce qu'un dipôle actif ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un composant qui consomme de l'énergie électrique"
+        },
+        {
+          "id": "2",
+          "text": "Un composant qui transforme une forme d'énergie non électrique en énergie électrique"
+        },
+        {
+          "id": "3",
+          "text": "Un composant qui stocke uniquement de l'énergie électrique"
+        },
+        {
+          "id": "4",
+          "text": "Un composant qui résiste au passage du courant électrique"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz2": {
+      "question": "Quel est un exemple de dipôle actif réversible ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une résistance chauffante"
+        },
+        {
+          "id": "2",
+          "text": "Une diode"
+        },
+        {
+          "id": "3",
+          "text": "Un fusible"
+        },
+        {
+          "id": "4",
+          "text": "Un accumulateur électrique"
+        }
+      ],
+      "bonneReponse": "4"
+    },
+    "quiz3": {
+      "question": "Quelle est la caractéristique principale de la tension à vide d'un dipôle actif ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Elle est égale à zéro lorsque le circuit est ouvert"
+        },
+        {
+          "id": "2",
+          "text": "Elle est égale à la tension maximale que le générateur peut fournir"
+        },
+        {
+          "id": "3",
+          "text": "Elle est nulle lorsque le circuit est en court-circuit"
+        },
+        {
+          "id": "4",
+          "text": "Elle est égale à la tension minimale que le générateur peut fournir"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz4": {
+      "question": "Qu'est-ce que le courant de court-circuit ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Le courant maximal qu'un dipôle actif peut supporter sans dommage"
+        },
+        {
+          "id": "2",
+          "text": "Le courant qui circule quand la tension appliquée est minimale"
+        },
+        {
+          "id": "3",
+          "text": "Le courant qui circule lorsqu'un circuit est fermé directement sans résistance"
+        },
+        {
+          "id": "4",
+          "text": "Le courant qui circule lorsque le générateur est éteint"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz5": {
+      "question": "Comment la puissance transformée par un dipôle actif est-elle généralement utilisée ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Elle est toujours convertie en chaleur seulement"
+        },
+        {
+          "id": "2",
+          "text": "Elle peut être utilisée pour alimenter d'autres composants du circuit"
+        },
+        {
+          "id": "3",
+          "text": "Elle est stockée pour une utilisation ultérieure sans pertes"
+        },
+        {
+          "id": "4",
+          "text": "Elle est utilisée pour diminuer la tension dans le circuit"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz6": {
+      "question": "Qu'est-ce que la linéarisation dans le contexte des dipôles actifs ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Simplifier le comportement d'un dipôle actif en le modélisant comme un élément non linéaire"
+        },
+        {
+          "id": "2",
+          "text": "Traiter le dipôle actif comme une source d'énergie constante"
+        },
+        {
+          "id": "3",
+          "text": "Remplacer une partie non linéaire de la caractéristique d'un dipôle par une droite"
+        },
+        {
+          "id": "4",
+          "text": "Éliminer toutes les résistances du circuit pour simplifier les calculs"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz7": {
+      "question": "Qu'est-ce que le modèle équivalent de Thévenin pour un dipôle actif ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Une représentation avec une source de courant idéale en série avec une résistance"
+        },
+        {
+          "id": "2",
+          "text": "Une représentation avec une source de tension idéale en série avec une résistance"
+        },
+        {
+          "id": "3",
+          "text": "Une représentation avec une source de tension idéale en parallèle avec une résistance"
+        },
+        {
+          "id": "4",
+          "text": "Une représentation avec une source de courant idéale en parallèle avec une résistance"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz8": {
+      "question": "Quelle est la relation entre les modèles équivalents de Thévenin et de Norton ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Ils ne peuvent être utilisés que séparément"
+        },
+        {
+          "id": "2",
+          "text": "Ils sont interchangeables avec des paramètres équivalents"
+        },
+        {
+          "id": "3",
+          "text": "Le modèle de Norton utilise uniquement des résistances variables"
+        },
+        {
+          "id": "4",
+          "text": "Le modèle de Thévenin ne s'applique qu'aux circuits AC"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz9": {
+      "question": "Comment l'association de générateurs en série affecte-t-elle la tension et la résistance interne ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Les tensions s'ajoutent et les résistances internes se multiplient"
+        },
+        {
+          "id": "2",
+          "text": "Les tensions et les résistances internes s'ajoutent"
+        },
+        {
+          "id": "3",
+          "text": "Les tensions se multiplient et les résistances internes s'ajoutent"
+        },
+        {
+          "id": "4",
+          "text": "Les tensions s'ajoutent et les résistances internes se soustraient"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz10": {
+      "question": "Quelle est la principale différence entre les associations en série et en parallèle de générateurs ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "En série, les tensions s'ajoutent, tandis qu'en parallèle, les courants de court-circuit s'ajoutent"
+        },
+        {
+          "id": "2",
+          "text": "En série, les résistances internes diminuent, tandis qu'en parallèle, elles augmentent"
+        },
+        {
+          "id": "3",
+          "text": "En série, les courants de court-circuit diminuent, tandis qu'en parallèle, ils restent constants"
+        },
+        {
+          "id": "4",
+          "text": "En série, les puissances se multiplient, tandis qu'en parallèle, elles s'ajoutent"
+        }
+      ],
+      "bonneReponse": "1"
+    }
+  }

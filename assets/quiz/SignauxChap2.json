@@ -1,0 +1,200 @@
+{
+    "quiz1": {
+      "question": "﻿Quelle est la définition de la cinématique ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Étude des forces et de leurs effets"
+        },
+        {
+          "id": "2",
+          "text": "Étude descriptive du mouvement sans expliquer les causes"
+        },
+        {
+          "id": "3",
+          "text": "Étude des causes du mouvement"
+        },
+        {
+          "id": "4",
+          "text": "Étude de l'énergie des systèmes"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz2": {
+      "question": "Qu'est-ce qu'un référentiel inertiel ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Un référentiel en accélération constante"
+        },
+        {
+          "id": "2",
+          "text": "Un référentiel où tout corps isolé est au repos ou en mouvement rectiligne uniforme"
+        },
+        {
+          "id": "3",
+          "text": "Un référentiel attaché à la Terre"
+        },
+        {
+          "id": "4",
+          "text": "Un référentiel où les lois de Newton ne s'appliquent pas"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz3": {
+      "question": "Quelle est la dimension du vecteur accélération a⃗ ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "L/T"
+        },
+        {
+          "id": "2",
+          "text": "L/T²"
+        },
+        {
+          "id": "3",
+          "text": "M.L/T²"
+        },
+        {
+          "id": "4",
+          "text": "M/T²"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz4": {
+      "question": "Quel principe décrit qu'un corps isolé reste au repos ou en mouvement rectiligne uniforme ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Principe de l'énergie cinétique"
+        },
+        {
+          "id": "2",
+          "text": "Principe de conservation de la masse"
+        },
+        {
+          "id": "3",
+          "text": "Principe d'inertie"
+        },
+        {
+          "id": "4",
+          "text": "Principe de la dynamique"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz5": {
+      "question": "Quelle est l'unité de la force dans le système international (SI) ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Joule (J)"
+        },
+        {
+          "id": "2",
+          "text": "Newton (N)"
+        },
+        {
+          "id": "3",
+          "text": "Pascal (Pa)"
+        },
+        {
+          "id": "4",
+          "text": "Watt (W)"
+        }
+      ],
+      "bonneReponse": "3"
+    },
+    "quiz6": {
+      "question": "Quelle est la définition de la quantité de mouvement p⃗​ ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "La capacité d'un corps à déplacer un objet dans la direction de son mouvement"
+        },
+        {
+          "id": "2",
+          "text": "La résistance d'un corps à la mise en mouvement"
+        },
+        {
+          "id": "3",
+          "text": "L'énergie totale d'un système"
+        },
+        {
+          "id": "4",
+          "text": "La force exercée par un corps en mouvement"
+        }
+      ],
+      "bonneReponse": "1"
+    },
+    "quiz7": {
+      "question": "Quelle est l'unité de l'énergie dans le système international (SI) ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "Newton (N)"
+        },
+        {
+          "id": "2",
+          "text": "Joule (J)"
+        },
+        {
+          "id": "3",
+          "text": "Watt (W)"
+        },
+        {
+          "id": "4",
+          "text": "Pascal (Pa)"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz8": {
+      "question": "Quelle est l'unité de la quantité de mouvement p⃗ ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "kg.m/s²"
+        },
+        {
+          "id": "2",
+          "text": "kg.m/s"
+        },
+        {
+          "id": "3",
+          "text": "m/s"
+        },
+        {
+          "id": "4",
+          "text": "kg"
+        }
+      ],
+      "bonneReponse": "2"
+    },
+    "quiz9": {
+      "question": "Quel est le travail total WAB​ d'une force F⃗ non-constante sur un déplacement arbitraire de A à B ?",
+      "reponses": [
+        {
+          "id": "1",
+          "text": "WAB=∫ F⃗ ⋅ dl⃗"
+        },
+        {
+          "id": "2",
+          "text": "WAB​=F⃗⋅d"
+        },
+        {
+          "id": "3",
+          "text": "WAB​=F⋅d"
+        },
+        {
+          "id": "4",
+          "text": "WAB​=∫F⃗⋅dt⃗"
+        }
+      ],
+      "bonneReponse": "1"
+    }
+  }
