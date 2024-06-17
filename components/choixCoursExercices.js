@@ -10,7 +10,7 @@ function ChoixCoursExercicesPage ({route, navigation}) {
                 <Text style={styles.buttonText}>cours</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.button}>
-                <Text style={styles.buttonText} onPress={() => navigation.navigate('NavQuizz')}>s'exercer</Text>
+                <Text style={styles.buttonText} onPress={() => navigation.navigate('NavQuizz', { Mat : Matière, Chapitre : Chap})}>s'exercer</Text>
             </TouchableOpacity>
         </View>
     );

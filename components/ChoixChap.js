@@ -141,9 +141,18 @@ function ChoixChapPage ({route, navigation}) {
                     <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavChoixCoursExercices', { Matière: "CAT", Chap:1 })}>
                         <Text style={styles.buttonText}>CATIA</Text>
                     </TouchableOpacity>
-                    <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavChoixCoursExercices', { Matière: "CAT",Chap:2 })}>
-                        <Text style={styles.buttonText}>ANALYSE MECA</Text>
+                </View>
+            </ScrollView>
+        );
+    }else if(Matière === "AM") {
+        return (
+            <ScrollView contentContainerStyle={styles.container}>
+                <View style={styles.container}>
+                    <Text style={styles.title}>Choisissez le chapitre</Text>
+                    <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavChoixCoursExercices', { Matière: "AM", Chap:1 })}>
+                        <Text style={styles.buttonText}>CATIA</Text>
                     </TouchableOpacity>
+                    
                 </View>
             </ScrollView>
         );
