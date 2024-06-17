@@ -228,7 +228,8 @@ const styles = StyleSheet.create({
         
         alignItems: 'center',
         padding: 20,
-        backgroundColor: '#EBE5DA'
+        backgroundColor: '#EBE5DA',
+        paddingBottom: 150
     },
     title: {
         color: 'black',
