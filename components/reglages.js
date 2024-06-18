@@ -8,11 +8,19 @@ function ReglagesPage ({navigation}){
                 <Text style={styles.TextRetour}>Retour</Text>
             </TouchableOpacity>
             <Text style={styles.title}>Reglages</Text>
+            <Text style={styles.text}>En cours de développement</Text>
         </View>
     );
 };
 
 const styles = StyleSheet.create({
+    text : {
+        marginTop: 100,
+        color: 'black',
+        fontSize: 30,
+        fontFamily: 'LuckiestGuy',
+        textAlign: 'center'
+    },
     buttonRetour: {
         backgroundColor: 'black',
         paddingHorizontal: 30,
@@ -39,6 +47,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         padding: 20,
+        paddingTop:30,
         backgroundColor: '#EBE5DA'
     },
     title: {
