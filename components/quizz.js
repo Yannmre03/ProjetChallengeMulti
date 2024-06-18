@@ -170,7 +170,86 @@ function QuizzPage({ navigation, route }) {
             {renderContent(item.text)}
         </TouchableOpacity>
     );
-
+    function ShowFiche() {
+        if (Mat === "MA" && Chapitre === 0 && selectedId !== bonneReponse && answered === true) {
+            return (
+                <ScrollView>
+                    <Image
+                        source={{ uri: 'https://i.postimg.cc/Zn0YTCkj/MA0-page-0001.jpg' }}
+                        style={styles.imageFiche}
+                        resizeMode='contain'
+                    />
+                    <Image
+                        source={{ uri: 'https://i.postimg.cc/rsCpnvk2/MA0-page-0002.jpg' }}
+                        style={styles.imageFiche}
+                        resizeMode='contain'
+                    />
+                    <Image
+                        source={{ uri: 'https://i.postimg.cc/mrx0kh9V/MA0-page-0003.jpg' }}
+                        style={styles.imageFiche}
+                        resizeMode='contain'
+                    />
+                    <Image
+                        source={{ uri: 'https://i.postimg.cc/2yc5NnV0/MA0-page-0004.jpg' }}
+                        style={styles.imageFiche}
+                        resizeMode='contain'
+                    />
+                </ScrollView>
+            );
+        }else if (Mat === "MA" && Chapitre === 1 && selectedId !== bonneReponse && answered === true){
+            return (
+                <ScrollView>
+                    <Image
+            source={{uri: 'https://i.postimg.cc/430d06Hw/MA1-page-0001.jpg'}} //require('../assets/reglages.png')
+            style={styles.imageFiche} 
+            resizeMode='contain'
+            />
+                </ScrollView>
+            );
+        }else if (Mat === "MA" && Chapitre === 2 && selectedId !== bonneReponse && answered === true){
+            return (
+                <ScrollView>
+                    <Image
+            source={{uri: 'https://i.postimg.cc/3xKZBvGd/MA2-page-0001.jpg'}} //require('../assets/reglages.png')
+            style={styles.imageFiche} 
+            resizeMode='contain'
+            />
+                </ScrollView>
+            );
+        }else if (Mat === "MA" && Chapitre === 3 && selectedId !== bonneReponse && answered === true){
+            return (
+                <ScrollView>
+                   <Image
+            source={{uri: 'https://i.postimg.cc/GtnqkSry/MA3-page-0001.jpg'}} //require('../assets/reglages.png')
+            style={styles.imageFiche} 
+            resizeMode='contain'
+            />
+            <Image
+            source={{uri: 'https://i.postimg.cc/TwMrSLS8/MA3-page-0002.jpg'}} //require('../assets/reglages.png')
+            style={styles.imageFiche} 
+            resizeMode='contain'
+            />
+                </ScrollView>
+            );
+        }else if (Mat === "MA" && Chapitre === 4 && selectedId !== bonneReponse && answered === true){
+            return (
+                <ScrollView>
+                   <Image
+            source={{uri: 'https://i.postimg.cc/4yrZbGy1/MA4-page-0001.jpg'}} //require('../assets/reglages.png')
+            style={styles.imageFiche} 
+            resizeMode='contain'
+            />
+            <Image
+            source={{uri: 'https://i.postimg.cc/2jq1v8Xh/MA4-page-0002.jpg'}} //require('../assets/reglages.png')
+            style={styles.imageFiche} 
+            resizeMode='contain'
+            />
+                </ScrollView>
+            );
+        }
+        return null; // Ne rien afficher si les conditions ne sont pas remplies
+    }
+    
     return (
         <View style={styles.container}>
             <View style={styles.scoreContainer}>
@@ -198,7 +277,9 @@ function QuizzPage({ navigation, route }) {
                     >
                         <Text style={styles.buttonText}>Suivant</Text>
                     </TouchableOpacity>
+                    
                 </View>
+                <ShowFiche/>
             </ScrollView>
         </View>
     );
@@ -230,6 +311,7 @@ function QuizzPage({ navigation, route }) {
             justifyContent: 'space-between',  // Ensures space between buttons
             width: '100%',  // Full width to allow space distribution
             paddingHorizontal: 0,  // Padding on sides for aesthetic spacing
+            marginBottom: 50
         },
         buttonSuivant: {
             backgroundColor: 'black',
@@ -279,7 +361,12 @@ function QuizzPage({ navigation, route }) {
             color: 'red',
             textAlign: 'center',
             marginTop: 20,
-        }
+        },
+        imageFiche: {
+            width: 310,  
+            height: 439,
+            alignItems:'flex-start',
+          }
     });
     
 

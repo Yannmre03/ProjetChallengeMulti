@@ -9,7 +9,6 @@ function VisualiserPDFPage({ route, navigation }) {
         if (Chap === 0){
             return (
                 <ScrollView contentContainerStyle={styles.container}>
-                <View style={styles.container}>
                     <Image
                     source={{uri: 'https://i.postimg.cc/Zn0YTCkj/MA0-page-0001.jpg'}} //require('../assets/reglages.png')
                     style={styles.image} 
@@ -33,7 +32,6 @@ function VisualiserPDFPage({ route, navigation }) {
                     <TouchableOpacity style={styles.button} onPress={() => navigation.goBack()}>
                         <Text style={styles.buttonText}>Retour</Text>
                     </TouchableOpacity>
-                </View>
                 </ScrollView>
             ); 
         } else if (Chap === 1){
@@ -55,7 +53,6 @@ function VisualiserPDFPage({ route, navigation }) {
         else if (Chap === 2){
             return (
             <ScrollView contentContainerStyle={styles.container}>
-            <View style={styles.container}>
             <Image
             source={{uri: 'https://i.postimg.cc/3xKZBvGd/MA2-page-0001.jpg'}} //require('../assets/reglages.png')
             style={styles.image} 
@@ -64,7 +61,6 @@ function VisualiserPDFPage({ route, navigation }) {
             <TouchableOpacity style={styles.button} onPress={() => navigation.goBack()}>
                         <Text style={styles.buttonText}>Retour</Text>
                     </TouchableOpacity>
-            </View>
             </ScrollView>
             ); 
         }
