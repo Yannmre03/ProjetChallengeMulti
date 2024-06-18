@@ -45,7 +45,7 @@ function PremiereAnneePage ({navigation}) {
 
 const styles = StyleSheet.create({
     button: {
-        backgroundColor: 'grey',
+        backgroundColor: 'black',
         paddingHorizontal: 40,
         paddingVertical: 20,
         borderRadius: 5,
@@ -65,7 +65,8 @@ const styles = StyleSheet.create({
         borderRadius: 5,
         alignItems: 'flex-start',
         marginRight: 200,
-        marginBottom:40
+        marginBottom:40,
+        width: 100
     },
     button2: {
         backgroundColor: 'black',

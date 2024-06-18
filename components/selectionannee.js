@@ -44,7 +44,8 @@ const styles = StyleSheet.create({
         borderRadius: 5,
         alignItems: 'flex-start',
         marginRight: 200,
-        marginBottom:40
+        marginBottom:40,
+        width: 100
     },
     buttonText: {
         color: '#fff',

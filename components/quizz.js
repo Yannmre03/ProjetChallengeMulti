@@ -182,93 +182,105 @@ function QuizzPage({ navigation, route }) {
                     data={reponses}
                     renderItem={renderItem}
                     keyExtractor={item => item.id}
-                    numColumns={2}
+                    numColumns={1}
                 />
-                <TouchableOpacity
-                    style={styles.buttonSuivant}
-                    onPress={handleNextQuiz}
-                    disabled={!answered}  // Activer le bouton seulement si une réponse a été donnée
-                >
-                    <Text style={styles.buttonText}>Suivant</Text>
-                </TouchableOpacity>
-                <TouchableOpacity style={styles.buttonRetour} onPress={() => navigation.goBack()}>
-                    <Text style={styles.buttonText}>Retour</Text>
-                </TouchableOpacity>
+                <View style={styles.navigationButtons}>
+                    <TouchableOpacity
+                        style={styles.buttonRetour}
+                        onPress={() => navigation.goBack()}
+                    >
+                        <Text style={styles.buttonText}>Retour</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={styles.buttonSuivant}
+                        onPress={handleNextQuiz}
+                        disabled={!answered}  // Activer le bouton seulement si une réponse a été donnée
+                    >
+                        <Text style={styles.buttonText}>Suivant</Text>
+                    </TouchableOpacity>
+                </View>
             </ScrollView>
         </View>
     );
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#EBE5DA',
-    },
-    scoreContainer: {
-        alignSelf: 'flex-end',  // Positionner le score en haut à droite
-        marginRight: 10,
-        marginTop: 10,
-    },
-    scoreText: {
-        fontSize: 24,
-        fontWeight: 'bold',
-        color: 'black',
-    },
-    scrollContainer: {
-        flexGrow: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        padding: 20,
-    },
-    buttonSuivant: {
-        backgroundColor: 'black',
-        paddingHorizontal: 20,
-        paddingVertical: 20,
-        borderRadius: 5,
-        marginTop: 20,
-        width: 150,
-        justifyContent: 'center', 
-        alignItems: 'center',
-    },buttonRetour: {
-        backgroundColor: 'black',
-        paddingHorizontal: 40,
-        paddingVertical: 20,
-        borderRadius: 5,
-        alignItems: 'flex-start',
-        marginRight: 200
-    },
-    button: {
-        backgroundColor: 'black',
-        paddingHorizontal: 25,
-        paddingVertical: 20,
-        borderRadius: 50,
-        marginVertical: 20,
-        marginHorizontal: 5,
-        width: 150,
-    },
-    buttonText: {
-        color: '#fff',
-        fontSize: 24,
-        textAlign: 'center',
-    },
-    title: {
-        color: 'black',
-        fontSize: 32,
-        marginTop: 20,
-        marginBottom: 20,
-        textAlign: 'center',
-    },
-    image: {
-        width: 100,
-        height: 100,
-        resizeMode: 'contain',
-    },
-    errorText: {
-        fontSize: 20,
-        color: 'red',
-        textAlign: 'center',
-        marginTop: 20,
-    }
-});
+    // Adjustments in styles
+    const styles = StyleSheet.create({
+        container: {
+            flex: 1,
+            backgroundColor: '#EBE5DA',
+        },
+        scoreContainer: {
+            alignSelf: 'flex-end',
+            marginRight: 10,
+            marginTop: 10,
+        },
+        scoreText: {
+            fontSize: 24,
+            fontWeight: 'bold',
+            color: 'black',
+        },
+        scrollContainer: {
+            flexGrow: 1,
+            justifyContent: 'center',
+            alignItems: 'center',
+            padding: 20,
+        },
+        navigationButtons: {
+            flexDirection: 'row',
+            justifyContent: 'space-between',  // Ensures space between buttons
+            width: '100%',  // Full width to allow space distribution
+            paddingHorizontal: 0,  // Padding on sides for aesthetic spacing
+        },
+        buttonSuivant: {
+            backgroundColor: 'black',
+            paddingHorizontal: 20,
+            paddingVertical: 20,
+            borderRadius: 5,
+            width: 150,
+            justifyContent: 'center', 
+            alignItems: 'center',
+        },
+        buttonRetour: {
+            backgroundColor: 'black',
+            paddingHorizontal: 20,
+            paddingVertical: 20,
+            borderRadius: 5,
+            width: 150,
+            marginRight: 20
+        },
+        button: {
+            backgroundColor: 'black',
+            paddingHorizontal: 25,
+            paddingVertical: 20,
+            borderRadius: 50,
+            marginVertical: 20,
+            marginHorizontal: 5,
+            width: 300,
+        },
+        buttonText: {
+            color: '#fff',
+            fontSize: 24,
+            textAlign: 'center',
+        },
+        title: {
+            color: 'black',
+            fontSize: 32,
+            marginTop: 20,
+            marginBottom: 20,
+            textAlign: 'center',
+        },
+        image: {
+            width: 100,
+            height: 100,
+            resizeMode: 'contain',
+        },
+        errorText: {
+            fontSize: 20,
+            color: 'red',
+            textAlign: 'center',
+            marginTop: 20,
+        }
+    });
+    
 
 export default QuizzPage;
