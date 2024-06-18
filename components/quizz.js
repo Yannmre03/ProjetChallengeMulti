@@ -184,6 +184,9 @@ function QuizzPage({ navigation, route }) {
                 >
                     <Text style={styles.buttonText}>Suivant</Text>
                 </TouchableOpacity>
+                <TouchableOpacity style={styles.buttonRetour} onPress={() => navigation.goBack()}>
+                    <Text style={styles.buttonText}>Retour</Text>
+                </TouchableOpacity>
             </ScrollView>
         </View>
     );
@@ -219,6 +222,13 @@ const styles = StyleSheet.create({
         width: 150,
         justifyContent: 'center', 
         alignItems: 'center',
+    },buttonRetour: {
+        backgroundColor: 'black',
+        paddingHorizontal: 40,
+        paddingVertical: 20,
+        borderRadius: 5,
+        alignItems: 'flex-start',
+        marginRight: 200
     },
     button: {
         backgroundColor: 'black',

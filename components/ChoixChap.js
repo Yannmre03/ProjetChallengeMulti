@@ -8,6 +8,9 @@ function ChoixChapPage ({route, navigation}) {
         return (
             <ScrollView contentContainerStyle={styles.container}>
                 <View style={styles.container}>
+                <TouchableOpacity style={styles.button3} onPress={() => navigation.goBack()}>
+                    <Text style={styles.TextRetour}>BACK</Text>
+                </TouchableOpacity>
                     <Text style={styles.title}>Choisissez le chapitre</Text>
                     <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavChoixCoursExercices', { Matière: "MA", Chap :0 })}>
                         <Text style={styles.buttonText}>Chapitre 0</Text>
@@ -31,6 +34,9 @@ function ChoixChapPage ({route, navigation}) {
         return (
             <ScrollView contentContainerStyle={styles.container}>
                 <View style={styles.container}>
+                <TouchableOpacity style={styles.button3} onPress={() => navigation.goBack()}>
+                    <Text style={styles.TextRetour}>BACK</Text>
+                </TouchableOpacity>
                     <Text style={styles.title}>Choisissez le chapitre</Text>
                     <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavChoixCoursExercices', { Matière: "TH", Chap:1 })}>
                         <Text style={styles.buttonText}>Chapitre 1</Text>
@@ -51,6 +57,9 @@ function ChoixChapPage ({route, navigation}) {
         return (
             <ScrollView contentContainerStyle={styles.container}>
                 <View style={styles.container}>
+                <TouchableOpacity style={styles.button3} onPress={() => navigation.goBack()}>
+                    <Text style={styles.TextRetour}>BACK</Text>
+                </TouchableOpacity>
                     <Text style={styles.title}>Choisissez le chapitre</Text>
                     <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavChoixCoursExercices', { Matière: "EL", Chap:1 })}>
                         <Text style={styles.buttonText}>Chapitre 1</Text>
@@ -71,6 +80,9 @@ function ChoixChapPage ({route, navigation}) {
         return (
             <ScrollView contentContainerStyle={styles.container}>
                 <View style={styles.container}>
+                <TouchableOpacity style={styles.button3} onPress={() => navigation.goBack()}>
+                    <Text style={styles.TextRetour}>BACK</Text>
+                </TouchableOpacity>
                     <Text style={styles.title}>Choisissez le chapitre</Text>
                     <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavChoixCoursExercices', { Matière: "CH", Chap:1 })}>
                         <Text style={styles.buttonText}>Chapitre 1</Text>
@@ -94,6 +106,9 @@ function ChoixChapPage ({route, navigation}) {
         return (
             <ScrollView contentContainerStyle={styles.container}>
                 <View style={styles.container}>
+                <TouchableOpacity style={styles.button3} onPress={() => navigation.goBack()}>
+                    <Text style={styles.TextRetour}>BACK</Text>
+                </TouchableOpacity>
                     <Text style={styles.title}>Choisissez le chapitre</Text>
                     <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavChoixCoursExercices', { Matière: "SI", Chap:1 })}>
                         <Text style={styles.buttonText}>Chapitre 1</Text>
@@ -114,6 +129,9 @@ function ChoixChapPage ({route, navigation}) {
         return (
             <ScrollView contentContainerStyle={styles.container}>
                 <View style={styles.container}>
+                <TouchableOpacity style={styles.button3} onPress={() => navigation.goBack()}>
+                    <Text style={styles.TextRetour}>BACK</Text>
+                </TouchableOpacity>
                     <Text style={styles.title}>Choisissez le chapitre</Text>
                     <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavChoixCoursExercices', { Matière: "OMI", Chap:1 })}>
                         <Text style={styles.buttonText}>Chapitre 1</Text>
@@ -137,6 +155,9 @@ function ChoixChapPage ({route, navigation}) {
         return (
             <ScrollView contentContainerStyle={styles.container}>
                 <View style={styles.container}>
+                <TouchableOpacity style={styles.button3} onPress={() => navigation.goBack()}>
+                    <Text style={styles.TextRetour}>BACK</Text>
+                </TouchableOpacity>
                     <Text style={styles.title}>Choisissez le chapitre</Text>
                     <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavChoixCoursExercices', { Matière: "CAT", Chap:1 })}>
                         <Text style={styles.buttonText}>CATIA</Text>
@@ -148,6 +169,9 @@ function ChoixChapPage ({route, navigation}) {
         return (
             <ScrollView contentContainerStyle={styles.container}>
                 <View style={styles.container}>
+                <TouchableOpacity style={styles.button3} onPress={() => navigation.goBack()}>
+                    <Text style={styles.TextRetour}>BACK</Text>
+                </TouchableOpacity>
                     <Text style={styles.title}>Choisissez le chapitre</Text>
                     <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavChoixCoursExercices', { Matière: "AM", Chap:1 })}>
                         <Text style={styles.buttonText}>CATIA</Text>
@@ -160,6 +184,9 @@ function ChoixChapPage ({route, navigation}) {
         return (
             <ScrollView contentContainerStyle={styles.container}>
                 <View style={styles.container}>
+                <TouchableOpacity style={styles.button3} onPress={() => navigation.goBack()}>
+                    <Text style={styles.TextRetour}>BACK</Text>
+                </TouchableOpacity>
                     <Text style={styles.title}>Choisissez le chapitre</Text>
                     <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavChoixCoursExercices', { Matière: "TAC", Chap:1 })}>
                         <Text style={styles.buttonText}>Chapitre 1</Text>
@@ -185,6 +212,9 @@ function ChoixChapPage ({route, navigation}) {
     }else if(Matière === "OPT") {
         return (
             <ScrollView contentContainerStyle={styles.container}>
+                <TouchableOpacity style={styles.button3} onPress={() => navigation.goBack()}>
+                    <Text style={styles.TextRetour}>BACK</Text>
+                </TouchableOpacity>
                 <View style={styles.container}>
                     <Text style={styles.title}>Choisissez le chapitre</Text>
                     <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavChoixCoursExercices', { Matière: "OPT", Chap:1 })}>
@@ -224,12 +254,27 @@ const styles = StyleSheet.create({
         fontFamily: 'LuckiestGuy',
         textAlign: 'center'
     },
+    button3: {
+        backgroundColor: 'black',
+        paddingHorizontal: 20,
+        paddingVertical: 10,
+        borderRadius: 5,
+        alignItems: 'flex-start',
+        marginRight: 200,
+        marginBottom:40
+    },
     container: {
         
         alignItems: 'center',
         padding: 20,
         backgroundColor: '#EBE5DA',
         paddingBottom: 150
+    },
+    TextRetour: {
+        color: '#fff',
+        fontSize: 24,
+        fontFamily: 'LuckiestGuy',
+        textAlign: 'center'
     },
     title: {
         color: 'black',

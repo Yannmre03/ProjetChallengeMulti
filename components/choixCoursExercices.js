@@ -5,6 +5,9 @@ function ChoixCoursExercicesPage ({route, navigation}) {
     const { Matière, Chap } = route.params;  // Récupère le nom de la matiere choisie et le chapitre
     return (
         <View style={styles.container}>
+            <TouchableOpacity style={styles.button3} onPress={() => navigation.goBack()}>
+                <Text style={styles.TextRetour}>BACK</Text>
+            </TouchableOpacity>
             <Text style={styles.title}>Veux-tu t'exercer ou apprendre?</Text>
             <TouchableOpacity style={styles.button2}>
                 <Text style={styles.buttonText}>cours</Text>
@@ -24,6 +27,13 @@ const styles = StyleSheet.create({
         paddingVertical: 20,
         borderRadius: 20,
         marginVertical: 10,
+    },buttonRetour: {
+        backgroundColor: 'black',
+        paddingHorizontal: 40,
+        paddingVertical: 20,
+        borderRadius: 5,
+        alignItems: 'flex-start',
+        marginRight: 200
     },
     button2: {
         backgroundColor: 'grey',
@@ -46,11 +56,27 @@ const styles = StyleSheet.create({
         padding: 20,
         backgroundColor: '#EBE5DA'
     },
+    button3: {
+        backgroundColor: 'black',
+        paddingHorizontal: 20,
+        paddingVertical: 10,
+        borderRadius: 5,
+        alignItems: 'flex-start',
+        marginRight: 200,
+        marginBottom:40
+    },
+    TextRetour: {
+        color: '#fff',
+        fontSize: 24,
+        fontFamily: 'LuckiestGuy',
+        textAlign: 'center'
+    },
     title: {
         color: 'black',
         fontFamily: 'LuckiestGuy',
         fontSize: 45,
-        marginBottom: 150
+        textAlign: 'center',
+        marginBottom: 50
     }
 });
 

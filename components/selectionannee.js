@@ -5,6 +5,9 @@ function SelectionAnnee ({navigation}) {
 
     return (
         <View style={styles.container}>
+            <TouchableOpacity style={styles.button3} onPress={() => navigation.goBack()}>
+                <Text style={styles.TextRetour}>BACK</Text>
+            </TouchableOpacity>
             <Text style={styles.title}>Je suis en : </Text>
             <TouchableOpacity style={styles.button2} onPress={() => navigation.navigate('NavPremAnnee')}>
                 <Text style={styles.buttonText}>1ère année</Text>
@@ -34,12 +37,29 @@ const styles = StyleSheet.create({
         borderRadius: 5,
         marginVertical: 10
     },
+    button3: {
+        backgroundColor: 'black',
+        paddingHorizontal: 20,
+        paddingVertical: 10,
+        borderRadius: 5,
+        alignItems: 'flex-start',
+        marginRight: 200,
+        marginBottom:40
+    },
     buttonText: {
         color: '#fff',
         fontSize: 48,
         fontFamily: 'LuckiestGuy',
         textAlign: 'center'
     },
+    TextRetour: {
+        color: '#fff',
+        fontSize: 24,
+        fontFamily: 'LuckiestGuy',
+        textAlign: 'center'
+    },
+    
+    
     container: {
         flex: 1,
         justifyContent: 'center',
@@ -51,7 +71,7 @@ const styles = StyleSheet.create({
         color: 'black',
         fontSize: 64,
         fontFamily: 'LuckiestGuy',
-        marginBottom: 150
+        marginBottom: 50
     }
 });
 

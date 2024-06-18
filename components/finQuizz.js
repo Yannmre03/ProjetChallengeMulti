@@ -8,6 +8,9 @@ function FinQuizzPage({ route, navigation }) {
         <View style={styles.container}>
             <Text style={styles.title}>Vous avez fini les quizz pour cette matière !</Text>
             <Text style={styles.score}>Score: {finalScore}/{totalQuestions}</Text>  
+            <TouchableOpacity style={styles.buttonRetour} onPress={() => navigation.goBack()}>
+                <Text style={styles.buttonText}>Retour</Text>
+            </TouchableOpacity>
             <TouchableOpacity style={styles.button2} onPress={() => navigation.navigate('NavAccueil')}>
                 <Text style={styles.buttonText}>Menu principal</Text>
             </TouchableOpacity>
@@ -16,13 +19,20 @@ function FinQuizzPage({ route, navigation }) {
 }
 
 const styles = StyleSheet.create({
-    
+
     container: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
         padding: 20,
         backgroundColor: '#EBE5DA'
+    },buttonRetour: {
+        backgroundColor: 'black',
+        paddingHorizontal: 40,
+        paddingVertical: 20,
+        borderRadius: 5,
+        alignItems: 'flex-start',
+        marginRight: 200
     },
     score: {
         color: 'black',

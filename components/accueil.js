@@ -39,6 +39,14 @@ const styles = StyleSheet.create({
         textAlign: 'center', 
         fontFamily: 'LuckiestGuy',
     },
+    buttonRetour: {
+        backgroundColor: 'black',
+        paddingHorizontal: 40,
+        paddingVertical: 20,
+        borderRadius: 5,
+        alignItems: 'flex-start',
+        marginRight: 200
+    },
     container: {
         flex: 1,
         padding: 20,
