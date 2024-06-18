@@ -45,7 +45,9 @@ function App() {
     <NavigationContainer>
       <View style={styles.container} onLayout={onLayoutRootView}>
         <ScrollView contentContainerStyle={styles.scrollViewContainer}>
-          <Stack.Navigator initialRouteName="NavAccueil">
+          <Stack.Navigator initialRouteName="NavAccueil" screenOptions={{
+          headerShown: false // Cela cache le header pour toutes les pages dans ce Stack
+        }}>
             <Stack.Screen name="NavAccueil" component={AccueilPage} />
             <Stack.Screen name="NavSelectionAnnee" component={SelectionAnnee} />
             <Stack.Screen name="NavReglages" component={ReglagesPage} />
