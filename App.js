@@ -12,6 +12,7 @@ import ChoixCoursExercicesPage from './components/choixCoursExercices';
 import * as Font from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 import ChoixChapPage from './components/ChoixChap';
+import VisualiserPDFPage from './components/VisualiserPdf';
 
 const Stack = createStackNavigator();
 
@@ -53,6 +54,7 @@ function App() {
             <Stack.Screen name="NavFinQuizz" component={FinQuizzPage} />
             <Stack.Screen name="NavChoixCoursExercices" component={ChoixCoursExercicesPage} />
             <Stack.Screen name="NavChoixChap" component={ChoixChapPage} />
+            <Stack.Screen name="NavVisualiserPdf" component={VisualiserPDFPage} />
           </Stack.Navigator>
         </ScrollView>
       </View>

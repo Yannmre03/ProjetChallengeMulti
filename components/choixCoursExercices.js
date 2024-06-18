@@ -6,9 +6,12 @@ function ChoixCoursExercicesPage ({route, navigation}) {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Veux-tu t'exercer ou apprendre?</Text>
-            <TouchableOpacity style={styles.button2}>
-                <Text style={styles.buttonText}>cours</Text>
-            </TouchableOpacity>
+            <TouchableOpacity
+    style={styles.button}
+    onPress={() => navigation.navigate('NavVisualiserPdf', { Matière, Chap})}
+>
+    <Text style={styles.buttonText}>Cours</Text>
+</TouchableOpacity>
             <TouchableOpacity style={styles.button}>
                 <Text style={styles.buttonText} onPress={() => navigation.navigate('NavQuizz')}>s'exercer</Text>
             </TouchableOpacity>
