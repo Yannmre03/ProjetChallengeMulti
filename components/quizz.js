@@ -1,14 +1,116 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, FlatList, TouchableOpacity, ScrollView, Image } from 'react-native';
-import quizData from '../data.json'; // Assurez-vous que le chemin vers le fichier data.json est correct
+import ChimieChap1 from '../assets/quiz/ChimieChap1.json';
+import ChimieChap2 from '../assets/quiz/ChimieChap2.json';
+import ChimieChap3 from '../assets/quiz/ChimieChap3.json';
+import ChimieChap4 from '../assets/quiz/ChimieChap4.json';
+import ChimieChap5 from '../assets/quiz/ChimieChap5.json';
+//import ElecChap1 from '../assets/quiz/ElecChap1.json';
+import ElecChap2 from '../assets/quiz/ElecChap2.json';
+import ElecChap3 from '../assets/quiz/ElecChap3.json';
+import ElecChap4 from '../assets/quiz/ElecChap4.json';
+import MathsAbsChap0 from '../assets/quiz/MathsAbsChap0.json';
+import MathsAbsChap1 from '../assets/quiz/MathsAbsChap1.json';
+import MathsAbsChap2 from '../assets/quiz/MathsAbsChap2.json';
+import MathsAbsChap3 from '../assets/quiz/MathsAbsChap3.json';
+import MathsAbsChap4 from '../assets/quiz/MathsAbsChap4.json';
+import OptiqueChap1 from '../assets/quiz/OptiqueChap1.json';
+import OptiqueChap2 from '../assets/quiz/OptiqueChap2.json';
+import OptiqueChap3 from '../assets/quiz/OptiqueChap3.json';
+import OptiqueQuizCoursEntier from '../assets/quiz/OptiqueQuizCoursEntier.json';
+import SignauxChap1 from '../assets/quiz/SignauxChap1.json';
+import SignauxChap2 from '../assets/quiz/SignauxChap2.json';
+import SignauxChap3 from '../assets/quiz/SignauxChap3.json';
+import SignauxChap4 from '../assets/quiz/SignauxChap4.json';
+import ThermoChap1 from '../assets/quiz/ThermoChap1.json';
+import ThermoChap2 from '../assets/quiz/ThermoChap2.json';
+import ThermoChap3 from '../assets/quiz/ThermoChap3.json';
+import ThermoChap4 from '../assets/quiz/ThermoChap4.json';
+import AnalyseMeca from '../assets/quiz/AnalyseMeca.json';
+import Catia from '../assets/quiz/Catia.json';
 
-function QuizzPage({ navigation }) {
+function QuizzPage({ navigation, route }) {
     const [quizIndex, setQuizIndex] = useState(0);  // État pour l'index du quiz actuel
     const [selectedId, setSelectedId] = useState(null);  // État pour la réponse sélectionnée
     const [answered, setAnswered] = useState(false);     // État pour gérer si une réponse a déjà été donnée
     const [score, setScore] = useState(0);  // État pour le score
-
+    const { Mat, Chapitre } = route.params;
     // Accéder au quiz actuel basé sur quizIndex
+    let quizData;
+    if (Mat === "CH") {
+        switch (Chapitre) {
+            case 1: quizData = ChimieChap1; break;
+            case 2: quizData = ChimieChap2; break;
+            case 3: quizData = ChimieChap3; break;
+            case 4: quizData = ChimieChap4; break;
+            case 5: quizData = ChimieChap5; break;
+            default: quizData = ChimieChap1; break;
+        }
+    } else if (Mat === "EL") {
+        switch (Chapitre) {
+            //case 1: quizData = ElecChap1; break;
+            case 2: quizData = ElecChap2; break;
+            case 3: quizData = ElecChap3; break;
+            case 4: quizData = ElecChap4; break;
+            default: quizData = ElecChap2; break;
+        }
+    } else if (Mat === "MA") {
+        switch (Chapitre) {
+            case 0: quizData = MathsAbsChap0; break;
+            case 1: quizData = MathsAbsChap1; break;
+            case 2: quizData = MathsAbsChap2; break;
+            case 3: quizData = MathsAbsChap3; break;
+            case 4: quizData = MathsAbsChap4; break;
+            default: quizData = MathsAbsChap0; break;
+        }
+    } else if (Mat === "OPT") {
+        switch (Chapitre) {
+            case 1: quizData = OptiqueChap1; break;
+            case 2: quizData = OptiqueChap2; break;
+            case 3: quizData = OptiqueChap3; break;
+            case 4: quizData = OptiqueQuizCoursEntier; break;
+            default: quizData = OptiqueChap1; break;
+        }
+    } else if (Mat === "SI") {
+        switch (Chapitre) {
+            case 1: quizData = SignauxChap1; break;
+            case 2: quizData = SignauxChap2; break;
+            case 3: quizData = SignauxChap3; break;
+            case 4: quizData = SignauxChap4; break;
+            default: quizData = SignauxChap1; break;
+        }
+    } else if (Mat === "TH") {
+        switch (Chapitre) {
+            case 1: quizData = ThermoChap1; break;
+            case 2: quizData = ThermoChap2; break;
+            case 3: quizData = ThermoChap3; break;
+            case 4: quizData = ThermoChap4; break;
+            default: quizData = ThermoChap1; break;
+        }
+    } else if (Mat === "AM") {
+        quizData = AnalyseMeca;
+    } else if (Mat === "CAT") {
+        quizData = Catia;
+    }
+
+    // Vérifier si quizData est défini
+    if (!quizData) {
+        return (
+            <View style={styles.container}>
+                <Text style={styles.errorText}>Quiz data is undefined. Please check the input parameters.</Text>
+            </View>
+        );
+    }
+
+    // Vérifier si le quizIndex est valide
+    if (!Object.values(quizData)[quizIndex]) {
+        return (
+            <View style={styles.container}>
+                <Text style={styles.errorText}>Quiz index is out of range. Please check the quiz data length.</Text>
+            </View>
+        );
+    }
+
     const { question, reponses, bonneReponse } = Object.values(quizData)[quizIndex];
 
     // Réinitialiser pour un nouveau quiz lorsque l'index change
@@ -82,6 +184,9 @@ function QuizzPage({ navigation }) {
                 >
                     <Text style={styles.buttonText}>Suivant</Text>
                 </TouchableOpacity>
+                <TouchableOpacity style={styles.buttonRetour} onPress={() => navigation.goBack()}>
+                    <Text style={styles.buttonText}>Retour</Text>
+                </TouchableOpacity>
             </ScrollView>
         </View>
     );
@@ -117,6 +222,13 @@ const styles = StyleSheet.create({
         width: 150,
         justifyContent: 'center', 
         alignItems: 'center',
+    },buttonRetour: {
+        backgroundColor: 'black',
+        paddingHorizontal: 40,
+        paddingVertical: 20,
+        borderRadius: 5,
+        alignItems: 'flex-start',
+        marginRight: 200
     },
     button: {
         backgroundColor: 'black',
@@ -143,6 +255,12 @@ const styles = StyleSheet.create({
         width: 100,
         height: 100,
         resizeMode: 'contain',
+    },
+    errorText: {
+        fontSize: 20,
+        color: 'red',
+        textAlign: 'center',
+        marginTop: 20,
     }
 });
 

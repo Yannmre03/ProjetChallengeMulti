@@ -6,7 +6,11 @@ function PremiereAnneePage ({navigation}) {
     return (
         <ScrollView contentContainerStyle={styles.container}>
             <View style={styles.container}>
+                <TouchableOpacity style={styles.button3} onPress={() => navigation.goBack()}>
+                    <Text style={styles.TextRetour}>BACK</Text>
+                </TouchableOpacity>
                 <Text style={styles.title}>Choisi la matière que tu veux étudier</Text>
+                
                 <TouchableOpacity style={styles.button2}  onPress={() => navigation.navigate('NavChoixChap', {Matière :"MA"})}>
                     <Text style={styles.buttonText}>Maths Abs </Text>
                 </TouchableOpacity>
@@ -46,6 +50,22 @@ const styles = StyleSheet.create({
         paddingVertical: 20,
         borderRadius: 5,
         marginVertical: 10,
+    },buttonRetour: {
+        backgroundColor: 'black',
+        paddingHorizontal: 40,
+        paddingVertical: 20,
+        borderRadius: 5,
+        alignItems: 'flex-start',
+        marginRight: 200
+    },
+    button3: {
+        backgroundColor: 'black',
+        paddingHorizontal: 20,
+        paddingVertical: 10,
+        borderRadius: 5,
+        alignItems: 'flex-start',
+        marginRight: 200,
+        marginBottom:40
     },
     button2: {
         backgroundColor: 'black',
@@ -57,6 +77,12 @@ const styles = StyleSheet.create({
     buttonText: {
         color: '#fff',
         fontSize: 48,
+        fontFamily: 'LuckiestGuy',
+        textAlign: 'center'
+    },
+    TextRetour: {
+        color: '#fff',
+        fontSize: 24,
         fontFamily: 'LuckiestGuy',
         textAlign: 'center'
     },

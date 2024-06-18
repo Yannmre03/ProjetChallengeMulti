@@ -4,8 +4,8 @@ import { View, Text, TouchableOpacity, StyleSheet, Button, ImageBackground, Imag
 function ReglagesPage ({navigation}){
     return (
         <View style={styles.container}>
-            <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('NavAccueil')}>
-                <Text style={styles.buttonText}>Back</Text>
+            <TouchableOpacity style={styles.buttonRetour} onPress={() => navigation.goBack()}>
+                <Text style={styles.buttonText}>Retour</Text>
             </TouchableOpacity>
             <Text style={styles.title}>Reglages</Text>
         </View>
@@ -13,7 +13,7 @@ function ReglagesPage ({navigation}){
 };
 
 const styles = StyleSheet.create({
-    button: {
+    buttonRetour: {
         backgroundColor: 'black',
         paddingHorizontal: 40,
         paddingVertical: 20,
