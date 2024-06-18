@@ -153,6 +153,13 @@ function QuizzPage({ navigation, route }) {
             return <Text style={styles.buttonText}>{content}</Text>;
         }
     };
+    const renderQuestion = (content) => {
+        if (content.startsWith('http')) {
+            return <Image source={{ uri: content }} style={styles.image} />;
+        } else {
+            return <Text style={styles.title}>{content}</Text>;
+        }
+    };
 
     const renderItem = ({ item }) => (
         <TouchableOpacity
@@ -170,7 +177,7 @@ function QuizzPage({ navigation, route }) {
                 <Text style={styles.scoreText}>Score: {score}</Text>
             </View>
             <ScrollView contentContainerStyle={styles.scrollContainer}>
-                {renderContent(question)}
+                {renderQuestion(question)}
                 <FlatList
                     data={reponses}
                     renderItem={renderItem}
