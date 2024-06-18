@@ -9,6 +9,7 @@ function VisualiserPDFPage({ route, navigation }) {
         if (Chap === 0){
             return (
                 <ScrollView contentContainerStyle={styles.container}>
+                    <ScrollView>
                     <Image
                     source={{uri: 'https://i.postimg.cc/Zn0YTCkj/MA0-page-0001.jpg'}} //require('../assets/reglages.png')
                     style={styles.image} 
@@ -32,11 +33,13 @@ function VisualiserPDFPage({ route, navigation }) {
                     <TouchableOpacity style={styles.button} onPress={() => navigation.goBack()}>
                         <Text style={styles.buttonText}>Retour</Text>
                     </TouchableOpacity>
+                    </ScrollView>
                 </ScrollView>
             ); 
         } else if (Chap === 1){
             return (
             <ScrollView contentContainerStyle={styles.container}>
+                <ScrollView>
             <View style={styles.container}>
             <Image
             source={{uri: 'https://i.postimg.cc/430d06Hw/MA1-page-0001.jpg'}} //require('../assets/reglages.png')
@@ -48,11 +51,13 @@ function VisualiserPDFPage({ route, navigation }) {
                     </TouchableOpacity>
             </View>
             </ScrollView>
+            </ScrollView>
             ); 
         }
         else if (Chap === 2){
             return (
             <ScrollView contentContainerStyle={styles.container}>
+                <ScrollView>
             <Image
             source={{uri: 'https://i.postimg.cc/3xKZBvGd/MA2-page-0001.jpg'}} //require('../assets/reglages.png')
             style={styles.image} 
@@ -61,12 +66,14 @@ function VisualiserPDFPage({ route, navigation }) {
             <TouchableOpacity style={styles.button} onPress={() => navigation.goBack()}>
                         <Text style={styles.buttonText}>Retour</Text>
                     </TouchableOpacity>
+                </ScrollView>
             </ScrollView>
             ); 
         }
         else if (Chap === 3){
             return (
             <ScrollView contentContainerStyle={styles.container}>
+                <ScrollView>
             <View style={styles.container}>
             <Image
             source={{uri: 'https://i.postimg.cc/GtnqkSry/MA3-page-0001.jpg'}} //require('../assets/reglages.png')
@@ -83,12 +90,14 @@ function VisualiserPDFPage({ route, navigation }) {
                     </TouchableOpacity>
             </View>
             </ScrollView>
+            </ScrollView>
             ); 
             
         }
         else if (Chap === 4){
             return (
             <ScrollView contentContainerStyle={styles.container}>
+                <ScrollView>
             <View style={styles.container}>
             <Image
             source={{uri: 'https://i.postimg.cc/4yrZbGy1/MA4-page-0001.jpg'}} //require('../assets/reglages.png')
@@ -104,6 +113,7 @@ function VisualiserPDFPage({ route, navigation }) {
                         <Text style={styles.buttonText}>Retour</Text>
                     </TouchableOpacity>
             </View>
+            </ScrollView>
             </ScrollView>
             ); 
             
@@ -128,6 +138,7 @@ const styles = StyleSheet.create({
         width: 310,  
         height: 439,
         alignItems:'flex-start',
+        marginTop:50
       },
     container: {
         flex: 1,
