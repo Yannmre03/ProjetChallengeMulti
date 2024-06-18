@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import React from 'react';
+import { View, Text, TouchableOpacity, StyleSheet, Alert } from 'react-native';
 
-function SelectionAnnee ({navigation}) {
+function SelectionAnnee({ navigation }) {
+    const showDevelopmentAlert = () => {
+        Alert.alert("En cours de développement", "Cette fonctionnalité sera bientôt disponible.", [{ text: "OK" }]);
+    };
 
     return (
         <View style={styles.container}>
@@ -12,10 +15,10 @@ function SelectionAnnee ({navigation}) {
             <TouchableOpacity style={styles.button2} onPress={() => navigation.navigate('NavPremAnnee')}>
                 <Text style={styles.buttonText}>1ère année</Text>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity style={styles.button} onPress={showDevelopmentAlert}>
                 <Text style={styles.buttonText}>2ème année</Text>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity style={styles.button} onPress={showDevelopmentAlert}>
                 <Text style={styles.buttonText}>3ème année</Text>
             </TouchableOpacity>
         </View>
@@ -44,7 +47,7 @@ const styles = StyleSheet.create({
         borderRadius: 5,
         alignItems: 'flex-start',
         marginRight: 200,
-        marginBottom:40,
+        marginBottom: 40,
         width: 100
     },
     buttonText: {
@@ -59,8 +62,6 @@ const styles = StyleSheet.create({
         fontFamily: 'LuckiestGuy',
         textAlign: 'center'
     },
-    
-    
     container: {
         flex: 1,
         justifyContent: 'center',

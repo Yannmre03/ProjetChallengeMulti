@@ -5,7 +5,7 @@ function ReglagesPage ({navigation}){
     return (
         <View style={styles.container}>
             <TouchableOpacity style={styles.buttonRetour} onPress={() => navigation.goBack()}>
-                <Text style={styles.buttonText}>Retour</Text>
+                <Text style={styles.TextRetour}>Retour</Text>
             </TouchableOpacity>
             <Text style={styles.title}>Reglages</Text>
         </View>
@@ -15,11 +15,19 @@ function ReglagesPage ({navigation}){
 const styles = StyleSheet.create({
     buttonRetour: {
         backgroundColor: 'black',
-        paddingHorizontal: 40,
-        paddingVertical: 20,
+        paddingHorizontal: 30,
+        paddingVertical: 10,
         borderRadius: 5,
         alignItems: 'flex-start',
-        marginRight: 200
+        marginRight: 200,
+        marginBottom:40,
+        width: 150
+    },
+    TextRetour: {
+        color: '#fff',
+        fontSize: 24,
+        fontFamily: 'LuckiestGuy',
+        textAlign: 'center'
     },
     buttonText: {
         color: '#fff',
