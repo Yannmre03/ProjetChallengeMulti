@@ -235,7 +235,7 @@
 
 const styles = StyleSheet.create({
     button: {
-        backgroundColor: 'grey',
+        backgroundColor: 'black',
         paddingHorizontal: 40,
         paddingVertical: 20,
         borderRadius: 5,
@@ -250,7 +250,7 @@ const styles = StyleSheet.create({
     },
     buttonText: {
         color: '#fff',
-        fontSize: 48,
+        fontSize: 40,
         fontFamily: 'LuckiestGuy',
         textAlign: 'center'
     },

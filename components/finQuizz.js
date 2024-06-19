@@ -6,11 +6,12 @@ function FinQuizzPage({ route, navigation }) {
 
     return (
         <View style={styles.container}>
+            <TouchableOpacity style={styles.button3} onPress={() => navigation.goBack()}>
+                <Text style={styles.TextRetour}>Retour</Text>
+            </TouchableOpacity>
             <Text style={styles.title}>Vous avez fini les quizz pour cette matière !</Text>
             <Text style={styles.score}>Score: {finalScore}/{totalQuestions}</Text>  
-            <TouchableOpacity style={styles.buttonRetour} onPress={() => navigation.goBack()}>
-                <Text style={styles.buttonText}>Retour</Text>
-            </TouchableOpacity>
+            
             <TouchableOpacity style={styles.button2} onPress={() => navigation.navigate('NavAccueil')}>
                 <Text style={styles.buttonText}>Menu principal</Text>
             </TouchableOpacity>
@@ -53,9 +54,26 @@ const styles = StyleSheet.create({
         fontFamily: 'LuckiestGuy',
         textAlign: 'center', 
     },
+    TextRetour: {
+        color: '#fff',
+        fontSize: 15,
+        fontFamily: 'LuckiestGuy',
+        textAlign: 'center'
+    },
+    button3: {
+        backgroundColor: 'black',
+        paddingHorizontal: 20,
+        paddingVertical: 10,
+        borderRadius: 5,
+        alignItems: 'flex-start',
+        marginRight: 200,
+        marginBottom:40,
+        width: 100
+    },
     title: {
         color: 'black',
         fontSize: 64,
+        textAlign: 'center', 
         fontFamily: 'LuckiestGuy',
         marginBottom: 50
         
